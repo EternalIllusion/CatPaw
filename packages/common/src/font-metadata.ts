@@ -102,6 +102,14 @@ export const FONT_METADATA: Record<number, FontMetadata> = {
     },
     private: true,
   },
+  [FONT_FAMILY.JetBrainsMapleMono]: {
+    metrics: {
+      unitsPerEm: 1000,
+      ascender: 1000,
+      descender: -250,
+      lineHeight: 1.2,
+    },
+  },
   [FONT_FAMILY.Assistant]: {
     metrics: {
       unitsPerEm: 2048,

@@ -22,23 +22,17 @@ import "./FontPicker.scss";
 
 export const DEFAULT_FONTS = [
   {
-    value: FONT_FAMILY.Excalifont,
-    icon: FreedrawIcon,
-    text: t("labels.handDrawn"),
-    testId: "font-family-hand-drawn",
+    value: FONT_FAMILY.JetBrainsMapleMono,
+    icon: FontFamilyCodeIcon,
+    text: t("labels.jetbrainsMapleMono"),
+    testId: "font-family-jetbrains-maple-mono",
   },
   {
     value: FONT_FAMILY.Nunito,
     icon: FontFamilyNormalIcon,
     text: t("labels.normal"),
     testId: "font-family-normal",
-  },
-  {
-    value: FONT_FAMILY["Comic Shanns"],
-    icon: FontFamilyCodeIcon,
-    text: t("labels.code"),
-    testId: "font-family-code",
-  },
+  }
 ];
 
 const defaultFontFamilies = new Set(DEFAULT_FONTS.map((x) => x.value));
