@@ -1,13 +1,13 @@
 import React from "react";
 import { vi } from "vitest";
 
-import { KEYS, ROUNDNESS, arrayToMap, reseed } from "@excalidraw/common";
+import { KEYS, ROUNDNESS, arrayToMap, reseed } from "@eterill/common";
 import {
   getElementBounds,
   getElementLineSegments,
   getElementsWithinSelection,
-} from "@excalidraw/element";
-import { pointFrom, pointRotateRads, type LocalPoint } from "@excalidraw/math";
+} from "@eterill/element";
+import { pointFrom, pointRotateRads, type LocalPoint } from "@eterill/math";
 
 import { SHAPES } from "../components/shapes";
 

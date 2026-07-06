@@ -6,20 +6,20 @@ import {
   arrayToMap,
   getFontString,
   getStrokeWidthByKey,
-} from "@excalidraw/common";
+} from "@eterill/common";
 import {
   getOriginalContainerHeightFromCache,
   isBoundToContainer,
   resetOriginalContainerCache,
   updateOriginalContainerCache,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
 import {
   computeBoundTextPosition,
   computeContainerDimensionForBoundText,
   getBoundTextElement,
   redrawTextBoundingBox,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
 import {
   hasBoundTextElement,
@@ -27,26 +27,26 @@ import {
   isTextBindableContainer,
   isTextElement,
   isUsingAdaptiveRadius,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
-import { measureText } from "@excalidraw/element";
+import { measureText } from "@eterill/element";
 
-import { syncMovedIndices } from "@excalidraw/element";
+import { syncMovedIndices } from "@eterill/element";
 
-import { newElement } from "@excalidraw/element";
+import { newElement } from "@eterill/element";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@eterill/element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawLinearElement,
   ExcalidrawTextContainer,
   ExcalidrawTextElement,
-} from "@excalidraw/element/types";
+} from "@eterill/element/types";
 
-import type { Mutable } from "@excalidraw/common/utility-types";
+import type { Mutable } from "@eterill/common/utility-types";
 
-import type { Radians } from "@excalidraw/math";
+import type { Radians } from "@eterill/math";
 
 import { register } from "./register";
 

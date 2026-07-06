@@ -1,8 +1,8 @@
-import { decodePngMetadata } from "@excalidraw/excalidraw/data/image";
-import { decodeSvgBase64Payload } from "@excalidraw/excalidraw/scene/export";
-import { API } from "@excalidraw/excalidraw/tests/helpers/api";
+import { decodePngMetadata } from "@eterill/excalidraw/data/image";
+import { decodeSvgBase64Payload } from "@eterill/excalidraw/scene/export";
+import { API } from "@eterill/excalidraw/tests/helpers/api";
 
-import type { ImportedDataState } from "@excalidraw/excalidraw/data/types";
+import type { ImportedDataState } from "@eterill/excalidraw/data/types";
 
 import * as utils from "../src";
 

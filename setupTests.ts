@@ -32,8 +32,8 @@ if (!debugDom) {
   });
 }
 
-vi.mock("@excalidraw/common", async (importOriginal) => {
-  const module = await importOriginal<typeof import("@excalidraw/common")>();
+vi.mock("@eterill/common", async (importOriginal) => {
+  const module = await importOriginal<typeof import("@eterill/common")>();
 
   return {
     ...module,

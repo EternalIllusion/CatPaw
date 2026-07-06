@@ -1,6 +1,6 @@
-import type { MaybePromise } from "@excalidraw/common/utility-types";
+import type { MaybePromise } from "@eterill/common/utility-types";
 
-import type { ExcalidrawElement } from "@excalidraw/element/types";
+import type { ExcalidrawElement } from "@eterill/element/types";
 
 import { getFileHandleType, isImageFileHandleType } from "./blob";
 

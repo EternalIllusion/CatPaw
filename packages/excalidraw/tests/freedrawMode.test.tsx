@@ -1,4 +1,4 @@
-import type { ExcalidrawFreeDrawElement } from "@excalidraw/element/types";
+import type { ExcalidrawFreeDrawElement } from "@eterill/element/types";
 
 import { Excalidraw } from "../index";
 

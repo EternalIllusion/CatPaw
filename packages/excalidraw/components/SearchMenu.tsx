@@ -8,31 +8,31 @@ import {
   FONT_FAMILY,
   FRAME_STYLE,
   getLineHeight,
-} from "@excalidraw/common";
+} from "@eterill/common";
 
 import {
   getCommonBounds,
   isElementCompletelyInViewport,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
-import { measureText } from "@excalidraw/element";
+import { measureText } from "@eterill/element";
 
 import {
   KEYS,
   randomInteger,
   addEventListener,
   getFontString,
-} from "@excalidraw/common";
+} from "@eterill/common";
 
-import { newTextElement } from "@excalidraw/element";
-import { isTextElement, isFrameLikeElement } from "@excalidraw/element";
+import { newTextElement } from "@eterill/element";
+import { isTextElement, isFrameLikeElement } from "@eterill/element";
 
-import { getDefaultFrameName } from "@excalidraw/element/frame";
+import { getDefaultFrameName } from "@eterill/element/frame";
 
 import type {
   ExcalidrawFrameLikeElement,
   ExcalidrawTextElement,
-} from "@excalidraw/element/types";
+} from "@eterill/element/types";
 
 import { atom, useAtom } from "../editor-jotai";
 

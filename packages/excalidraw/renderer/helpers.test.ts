@@ -1,4 +1,4 @@
-import { COLOR_WHITE } from "@excalidraw/common";
+import { COLOR_WHITE } from "@eterill/common";
 
 import { bootstrapCanvas } from "./helpers";
 

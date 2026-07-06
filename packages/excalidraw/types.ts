@@ -5,11 +5,11 @@ import type {
   MIME_TYPES,
   EditorInterface,
   StrokeWidthKey,
-} from "@excalidraw/common";
+} from "@eterill/common";
 
-import type { LinearElementEditor } from "@excalidraw/element";
+import type { LinearElementEditor } from "@eterill/element";
 
-import type { MaybeTransformHandleType } from "@excalidraw/element";
+import type { MaybeTransformHandleType } from "@eterill/element";
 
 import type {
   PointerType,
@@ -35,21 +35,21 @@ import type {
   BindMode,
   ExcalidrawTextElement,
   StrokeVariability,
-} from "@excalidraw/element/types";
+} from "@eterill/element/types";
 
 import type {
   Merge,
   MaybePromise,
   ValueOf,
   MakeBrand,
-} from "@excalidraw/common/utility-types";
+} from "@eterill/common/utility-types";
 
 import type {
   CaptureUpdateActionType,
   DurableIncrement,
   EphemeralIncrement,
-} from "@excalidraw/element";
-import type { GlobalPoint } from "@excalidraw/math";
+} from "@eterill/element";
+import type { GlobalPoint } from "@eterill/math";
 
 import type { Action } from "./actions/types";
 import type { Spreadsheet } from "./charts";

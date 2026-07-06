@@ -2,11 +2,11 @@ import {
   getSizeFromPoints,
   randomInteger,
   getUpdatedTimestamp,
-} from "@excalidraw/common";
+} from "@eterill/common";
 
-import type { Radians } from "@excalidraw/math";
+import type { Radians } from "@eterill/math";
 
-import type { Mutable } from "@excalidraw/common/utility-types";
+import type { Mutable } from "@eterill/common/utility-types";
 
 import { ShapeCache } from "./shape";
 

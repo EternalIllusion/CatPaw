@@ -5,9 +5,9 @@ import {
   getLinearElementSubType,
   mutateElement,
   updateElbowArrowPoints,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
-import { pointFrom, pointRotateRads, type LocalPoint } from "@excalidraw/math";
+import { pointFrom, pointRotateRads, type LocalPoint } from "@eterill/math";
 
 import {
   hasBoundTextElement,
@@ -16,21 +16,21 @@ import {
   isElbowArrow,
   isLinearElement,
   isUsingAdaptiveRadius,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
 import {
   getCommonBoundingBox,
   getElementAbsoluteCoords,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
 import {
   getBoundTextElement,
   getBoundTextMaxHeight,
   getBoundTextMaxWidth,
   redrawTextBoundingBox,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
-import { wrapText } from "@excalidraw/element";
+import { wrapText } from "@eterill/element";
 
 import {
   assertNever,
@@ -42,21 +42,21 @@ import {
   ROUNDNESS,
   sceneCoordsToViewportCoords,
   updateActiveTool,
-} from "@excalidraw/common";
+} from "@eterill/common";
 
-import { measureText } from "@excalidraw/element";
+import { measureText } from "@eterill/element";
 
-import { LinearElementEditor } from "@excalidraw/element";
+import { LinearElementEditor } from "@eterill/element";
 
 import {
   newArrowElement,
   newElement,
   newLinearElement,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
-import { ShapeCache } from "@excalidraw/element";
+import { ShapeCache } from "@eterill/element";
 
-import { updateBindings } from "@excalidraw/element";
+import { updateBindings } from "@eterill/element";
 
 import type {
   ConvertibleGenericTypes,
@@ -71,9 +71,9 @@ import type {
   ExcalidrawTextContainer,
   ExcalidrawTextElementWithContainer,
   FixedSegment,
-} from "@excalidraw/element/types";
+} from "@eterill/element/types";
 
-import type { Scene } from "@excalidraw/element";
+import type { Scene } from "@eterill/element";
 
 import { trackEvent } from "../analytics";
 import { atom } from "../editor-jotai";

@@ -11,18 +11,18 @@ import {
   MIME_TYPES,
   applyDarkModeFilter,
   isRTL,
-} from "@excalidraw/common";
-import { pointFrom, pointRotateRads, type Radians } from "@excalidraw/math";
+} from "@eterill/common";
+import { pointFrom, pointRotateRads, type Radians } from "@eterill/math";
 
 import {
   getTextFromElements,
   originalContainerCache,
   updateBoundElements,
   updateOriginalContainerCache,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
-import { LinearElementEditor } from "@excalidraw/element";
-import { bumpVersion } from "@excalidraw/element";
+import { LinearElementEditor } from "@eterill/element";
+import { bumpVersion } from "@eterill/element";
 import {
   getBoundTextElementId,
   getContainerElement,
@@ -33,25 +33,25 @@ import {
   computeContainerDimensionForBoundText,
   computeBoundTextPosition,
   getBoundTextElement,
-} from "@excalidraw/element";
-import { getTextWidth } from "@excalidraw/element";
-import { getLineHeightInPx } from "@excalidraw/element";
-import { getLineWidth } from "@excalidraw/element";
-import { normalizeText } from "@excalidraw/element";
-import { wrapText } from "@excalidraw/element";
-import { getWrappedTextLines } from "@excalidraw/element";
+} from "@eterill/element";
+import { getTextWidth } from "@eterill/element";
+import { getLineHeightInPx } from "@eterill/element";
+import { getLineWidth } from "@eterill/element";
+import { normalizeText } from "@eterill/element";
+import { wrapText } from "@eterill/element";
+import { getWrappedTextLines } from "@eterill/element";
 import {
   isArrowElement,
   isBoundToContainer,
   isTextElement,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawLinearElement,
   ExcalidrawTextElementWithContainer,
   ExcalidrawTextElement,
-} from "@excalidraw/element/types";
+} from "@eterill/element/types";
 
 import { actionSaveToActiveFile } from "../actions";
 

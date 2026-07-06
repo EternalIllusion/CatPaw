@@ -1,8 +1,8 @@
-import { getNonDeletedElements } from "@excalidraw/element";
+import { getNonDeletedElements } from "@eterill/element";
 
-import { newElementWith } from "@excalidraw/element";
+import { newElementWith } from "@eterill/element";
 
-import { isBoundToContainer } from "@excalidraw/element";
+import { isBoundToContainer } from "@eterill/element";
 
 import {
   frameAndChildrenSelectedTogether,
@@ -12,9 +12,9 @@ import {
   groupByFrameLikes,
   removeElementsFromFrame,
   replaceAllElementsInFrame,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
-import { KEYS, randomId, arrayToMap } from "@excalidraw/common";
+import { KEYS, randomId, arrayToMap } from "@eterill/common";
 
 import {
   getSelectedGroupIds,
@@ -24,17 +24,17 @@ import {
   addToGroup,
   removeFromSelectedGroups,
   isElementInGroup,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
-import { syncMovedIndices } from "@excalidraw/element";
+import { syncMovedIndices } from "@eterill/element";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@eterill/element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawTextElement,
   OrderedExcalidrawElement,
-} from "@excalidraw/element/types";
+} from "@eterill/element/types";
 
 import { ToolButton } from "../components/ToolButton";
 import { UngroupIcon, GroupIcon } from "../components/icons";

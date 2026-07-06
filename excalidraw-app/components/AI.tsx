@@ -5,11 +5,11 @@ import {
   MIME_TYPES,
   TTDDialog,
   TTDStreamFetch,
-} from "@excalidraw/excalidraw";
-import { getDataURL } from "@excalidraw/excalidraw/data/blob";
-import { safelyParseJSON } from "@excalidraw/common";
+} from "@eterill/excalidraw";
+import { getDataURL } from "@eterill/excalidraw/data/blob";
+import { safelyParseJSON } from "@eterill/common";
 
-import type { ExcalidrawImperativeAPI } from "@excalidraw/excalidraw/types";
+import type { ExcalidrawImperativeAPI } from "@eterill/excalidraw/types";
 
 import { TTDIndexedDBAdapter } from "../data/TTDStorage";
 

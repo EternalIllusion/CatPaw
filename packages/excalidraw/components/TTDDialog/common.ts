@@ -2,16 +2,16 @@ import {
   DEFAULT_EXPORT_PADDING,
   EDITOR_LS_KEYS,
   THEME,
-} from "@excalidraw/common";
+} from "@eterill/common";
 
-import { convertToExcalidrawElements } from "@excalidraw/element";
+import { convertToExcalidrawElements } from "@eterill/element";
 
-import { exportToCanvas } from "@excalidraw/utils";
+import { exportToCanvas } from "@eterill/utils";
 
 import type {
   NonDeletedExcalidrawElement,
   Theme,
-} from "@excalidraw/element/types";
+} from "@eterill/element/types";
 
 import { EditorLocalStorage } from "../../data/EditorLocalStorage";
 

@@ -1,4 +1,4 @@
-import { pointFrom } from "@excalidraw/math";
+import { pointFrom } from "@eterill/math";
 
 import { useEffect, useMemo, useRef, useState } from "react";
 
@@ -25,25 +25,25 @@ import {
   invariant,
   FONT_SIZES,
   type StrokeWidthKey,
-} from "@excalidraw/common";
+} from "@eterill/common";
 
-import { canBecomePolygon, getNonDeletedElements } from "@excalidraw/element";
+import { canBecomePolygon, getNonDeletedElements } from "@eterill/element";
 
 import {
   bindBindingElement,
   calculateFixedPointForElbowArrowBinding,
   updateBoundElements,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
-import { LinearElementEditor } from "@excalidraw/element";
+import { LinearElementEditor } from "@eterill/element";
 
-import { newElementWith } from "@excalidraw/element";
-import { getArrowheadForPicker } from "@excalidraw/element";
+import { newElementWith } from "@eterill/element";
+import { getArrowheadForPicker } from "@eterill/element";
 
 import {
   getBoundTextElement,
   redrawTextBoundingBox,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
 import {
   isArrowElement,
@@ -53,19 +53,19 @@ import {
   isLineElement,
   isTextElement,
   isUsingAdaptiveRadius,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
-import { hasStrokeColor } from "@excalidraw/element";
+import { hasStrokeColor } from "@eterill/element";
 
 import {
   updateElbowArrowPoints,
   CaptureUpdateAction,
   toggleLinePolygonState,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
-import { deriveStylesPanelMode } from "@excalidraw/common";
+import { deriveStylesPanelMode } from "@eterill/common";
 
-import type { LocalPoint, Radians } from "@excalidraw/math";
+import type { LocalPoint, Radians } from "@eterill/math";
 
 import type {
   Arrowhead,
@@ -79,11 +79,11 @@ import type {
   StrokeVariability,
   TextAlign,
   VerticalAlign,
-} from "@excalidraw/element/types";
+} from "@eterill/element/types";
 
-import type { Scene } from "@excalidraw/element";
+import type { Scene } from "@eterill/element";
 
-import type { CaptureUpdateActionType } from "@excalidraw/element";
+import type { CaptureUpdateActionType } from "@eterill/element";
 
 import { trackEvent } from "../analytics";
 import { RadioSelection } from "../components/RadioSelection";

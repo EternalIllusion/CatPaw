@@ -2,9 +2,9 @@ import {
   getCommonFrameId,
   getFrameChildrenInsertionIndex,
   isElementInViewport,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
-import { arrayToMap, memoize, toBrandedType } from "@excalidraw/common";
+import { arrayToMap, memoize, toBrandedType } from "@eterill/common";
 
 import type {
   ExcalidrawElement,
@@ -12,9 +12,9 @@ import type {
   NonDeleted,
   NonDeletedElementsMap,
   NonDeletedExcalidrawElement,
-} from "@excalidraw/element/types";
+} from "@eterill/element/types";
 
-import type { Scene } from "@excalidraw/element";
+import type { Scene } from "@eterill/element";
 
 import { renderStaticSceneThrottled } from "../renderer/staticScene";
 

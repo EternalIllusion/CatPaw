@@ -8,13 +8,13 @@ import {
   updateActiveTool,
   CODES,
   KEYS,
-} from "@excalidraw/common";
+} from "@eterill/common";
 
-import { getNonDeletedElements } from "@excalidraw/element";
-import { newElementWith } from "@excalidraw/element";
-import { getCommonBounds } from "@excalidraw/element";
+import { getNonDeletedElements } from "@eterill/element";
+import { newElementWith } from "@eterill/element";
+import { getCommonBounds } from "@eterill/element";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@eterill/element";
 
 import {
   getDefaultAppState,

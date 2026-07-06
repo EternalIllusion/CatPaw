@@ -1,11 +1,11 @@
-import { LaserPointer } from "@excalidraw/laser-pointer";
+import { LaserPointer } from "@eterill/laser-pointer";
 import {
   SVG_NS,
   getSvgPathFromStroke,
   sceneCoordsToViewportCoords,
-} from "@excalidraw/common";
+} from "@eterill/common";
 
-import type { LaserPointerOptions } from "@excalidraw/laser-pointer";
+import type { LaserPointerOptions } from "@eterill/laser-pointer";
 
 import { AnimationController } from "./renderer/animation";
 

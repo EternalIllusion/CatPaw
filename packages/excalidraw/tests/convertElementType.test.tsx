@@ -1,4 +1,4 @@
-import { ROUNDNESS } from "@excalidraw/common";
+import { ROUNDNESS } from "@eterill/common";
 
 import { convertElementTypes } from "../components/ConvertElementTypePopup";
 import { Excalidraw } from "../index";

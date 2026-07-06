@@ -1,10 +1,10 @@
-import { pointFrom } from "@excalidraw/math";
+import { pointFrom } from "@eterill/math";
 
-import { isDevEnv } from "@excalidraw/common";
+import { isDevEnv } from "@eterill/common";
 
-import { newElement, newLinearElement } from "@excalidraw/element";
+import { newElement, newLinearElement } from "@eterill/element";
 
-import type { LocalPoint } from "@excalidraw/math";
+import type { LocalPoint } from "@eterill/math";
 
 import { GRID_OPACITY, commonProps } from "./charts.constants";
 import {

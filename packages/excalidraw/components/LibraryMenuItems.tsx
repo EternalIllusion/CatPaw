@@ -6,9 +6,9 @@ import React, {
   useState,
 } from "react";
 
-import { MIME_TYPES, arrayToMap, nextAnimationFrame } from "@excalidraw/common";
+import { MIME_TYPES, arrayToMap, nextAnimationFrame } from "@eterill/common";
 
-import { duplicateElements } from "@excalidraw/element";
+import { duplicateElements } from "@eterill/element";
 
 import clsx from "clsx";
 

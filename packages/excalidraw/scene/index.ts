@@ -3,7 +3,7 @@ export {
   getElementsWithinSelection,
   getSelectedElements,
   getTargetElements,
-} from "@excalidraw/element";
+} from "@eterill/element";
 export { getScrollToContentState } from "../viewport";
 export {
   hasBackground,
@@ -12,7 +12,7 @@ export {
   hasFreedrawMode,
   canHaveArrowheads,
   canChangeRoundness,
-} from "@excalidraw/element";
+} from "@eterill/element";
 export {
   getNormalizedZoom,
   getNormalizedGridSize,

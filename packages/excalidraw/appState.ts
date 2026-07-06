@@ -12,7 +12,7 @@ import {
   THEME,
   DEFAULT_GRID_STEP,
   isTestEnv,
-} from "@excalidraw/common";
+} from "@eterill/common";
 
 import type { AppState, NormalizedZoomValue } from "./types";
 

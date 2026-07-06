@@ -11,13 +11,13 @@ const getConfig = (outdir) => ({
   entryNames: "[name]",
   assetNames: "[dir]/[name]",
   alias: {
-    "@excalidraw/utils": path.resolve(__dirname, "../packages/utils/src"),
+    "@eterill/utils": path.resolve(__dirname, "../packages/utils/src"),
   },
   external: [
-    "@excalidraw/common",
-    "@excalidraw/element",
-    "@excalidraw/math",
-    "@excalidraw/fractional-indexing",
+    "@eterill/common",
+    "@eterill/element",
+    "@eterill/math",
+    "@eterill/fractional-indexing",
   ],
 });
 

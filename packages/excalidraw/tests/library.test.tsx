@@ -2,11 +2,11 @@ import { act, queryByTestId } from "@testing-library/react";
 import React from "react";
 import { vi } from "vitest";
 
-import { MIME_TYPES, ORIG_ID } from "@excalidraw/common";
+import { MIME_TYPES, ORIG_ID } from "@eterill/common";
 
-import { getCommonBoundingBox } from "@excalidraw/element";
+import { getCommonBoundingBox } from "@eterill/element";
 
-import type { ExcalidrawGenericElement } from "@excalidraw/element/types";
+import type { ExcalidrawGenericElement } from "@eterill/element/types";
 
 import { parseLibraryJSON } from "../data/blob";
 import { serializeLibraryAsJSON } from "../data/json";

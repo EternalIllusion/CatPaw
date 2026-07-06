@@ -1,4 +1,4 @@
-import { isFiniteNumber, isValidPoint, pointFrom } from "@excalidraw/math";
+import { isFiniteNumber, isValidPoint, pointFrom } from "@eterill/math";
 
 import {
   type CombineBrandsIfNeeded,
@@ -22,7 +22,7 @@ import {
   STROKE_WIDTH,
   STROKE_WIDTH_KEYS,
   type StrokeWidthKey,
-} from "@excalidraw/common";
+} from "@eterill/common";
 import {
   calculateFixedPointForNonElbowArrowBinding,
   getNonDeletedElements,
@@ -30,16 +30,16 @@ import {
   isPointInElement,
   isValidPolygon,
   projectFixedPointOntoDiagonal,
-} from "@excalidraw/element";
-import { normalizeFixedPoint } from "@excalidraw/element";
+} from "@eterill/element";
+import { normalizeFixedPoint } from "@eterill/element";
 import {
   updateElbowArrowPoints,
   validateElbowPoints,
-} from "@excalidraw/element";
-import { LinearElementEditor } from "@excalidraw/element";
-import { bumpVersion } from "@excalidraw/element";
-import { getContainerElement } from "@excalidraw/element";
-import { detectLineHeight } from "@excalidraw/element";
+} from "@eterill/element";
+import { LinearElementEditor } from "@eterill/element";
+import { bumpVersion } from "@eterill/element";
+import { getContainerElement } from "@eterill/element";
+import { detectLineHeight } from "@eterill/element";
 import {
   isArrowBoundToElement,
   isArrowElement,
@@ -48,17 +48,17 @@ import {
   isLineElement,
   isTextElement,
   isUsingAdaptiveRadius,
-} from "@excalidraw/element";
+} from "@eterill/element";
 
-import { syncInvalidIndices } from "@excalidraw/element";
+import { syncInvalidIndices } from "@eterill/element";
 
-import { refreshTextDimensions } from "@excalidraw/element";
+import { refreshTextDimensions } from "@eterill/element";
 
-import { getNormalizedDimensions } from "@excalidraw/element";
+import { getNormalizedDimensions } from "@eterill/element";
 
-import { isInvisiblySmallElement } from "@excalidraw/element";
+import { isInvisiblySmallElement } from "@eterill/element";
 
-import type { LocalPoint, Radians } from "@excalidraw/math";
+import type { LocalPoint, Radians } from "@eterill/math";
 
 import type {
   ElementsMap,
@@ -76,9 +76,9 @@ import type {
   OrderedExcalidrawElement,
   StrokeVariability,
   StrokeRoundness,
-} from "@excalidraw/element/types";
+} from "@eterill/element/types";
 
-import type { MarkOptional, Mutable } from "@excalidraw/common/utility-types";
+import type { MarkOptional, Mutable } from "@eterill/common/utility-types";
 
 import { getDefaultAppState } from "../appState";
 

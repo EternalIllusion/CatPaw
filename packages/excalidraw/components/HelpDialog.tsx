@@ -1,8 +1,8 @@
 import React from "react";
 
-import { isDarwin, isFirefox, isWindows } from "@excalidraw/common";
+import { isDarwin, isFirefox, isWindows } from "@eterill/common";
 
-import { KEYS } from "@excalidraw/common";
+import { KEYS } from "@eterill/common";
 
 import { actionToggleTheme } from "../actions";
 import { getShortcutFromShortcutName } from "../actions/shortcuts";

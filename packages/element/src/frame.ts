@@ -1,17 +1,17 @@
-import { arrayToMap } from "@excalidraw/common";
+import { arrayToMap } from "@eterill/common";
 import {
   isPointWithinBounds,
   pointFrom,
   segmentsIntersectAt,
-} from "@excalidraw/math";
+} from "@eterill/math";
 
 import type {
   AppClassProperties,
   AppState,
   StaticCanvasAppState,
-} from "@excalidraw/excalidraw/types";
+} from "@eterill/excalidraw/types";
 
-import type { ReadonlySetLike } from "@excalidraw/common/utility-types";
+import type { ReadonlySetLike } from "@eterill/common/utility-types";
 
 import { getElementsWithinSelection, getSelectedElements } from "./selection";
 import { getElementsInGroup, selectGroupsFromGivenElements } from "./groups";

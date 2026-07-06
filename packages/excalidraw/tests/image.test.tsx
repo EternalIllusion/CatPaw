@@ -1,6 +1,6 @@
-import { MIME_TYPES, randomId, reseed } from "@excalidraw/common";
+import { MIME_TYPES, randomId, reseed } from "@eterill/common";
 
-import type { FileId } from "@excalidraw/element/types";
+import type { FileId } from "@eterill/element/types";
 
 import * as blobModule from "../data/blob";
 import * as filesystemModule from "../data/filesystem";

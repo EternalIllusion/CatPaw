@@ -14,15 +14,15 @@ const getConfig = (outdir) => ({
   entryNames: "[name]",
   assetNames: "[dir]/[name]",
   alias: {
-    "@excalidraw/common": path.resolve(__dirname, "../packages/common/src"),
-    "@excalidraw/element": path.resolve(__dirname, "../packages/element/src"),
-    "@excalidraw/excalidraw": path.resolve(__dirname, "../packages/excalidraw"),
-    "@excalidraw/math": path.resolve(__dirname, "../packages/math/src"),
-    "@excalidraw/fractional-indexing": path.resolve(
+    "@eterill/common": path.resolve(__dirname, "../packages/common/src"),
+    "@eterill/element": path.resolve(__dirname, "../packages/element/src"),
+    "@eterill/excalidraw": path.resolve(__dirname, "../packages/excalidraw"),
+    "@eterill/math": path.resolve(__dirname, "../packages/math/src"),
+    "@eterill/fractional-indexing": path.resolve(
       __dirname,
       "../packages/fractional-indexing/src",
     ),
-    "@excalidraw/utils": path.resolve(__dirname, "../packages/utils/src"),
+    "@eterill/utils": path.resolve(__dirname, "../packages/utils/src"),
   },
 });
 
