@@ -2,28 +2,19 @@ import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
 import "@excalidraw/excalidraw/index.css";
-
-import type * as TExcalidraw from "@excalidraw/excalidraw";
-
-import App from "./components/ExampleApp";
-
-declare global {
-  interface Window {
-    ExcalidrawLib: typeof TExcalidraw;
-  }
-}
+import { Excalidraw } from "@excalidraw/excalidraw";
 
 const rootElement = document.getElementById("root")!;
 const root = createRoot(rootElement);
-const { Excalidraw } = window.ExcalidrawLib;
+
+// 移除默认边距，防止滚动条
+document.body.style.margin = "0";
+document.body.style.overflow = "hidden";
+
 root.render(
   <StrictMode>
-    <App
-      appTitle={"Excalidraw Example"}
-      useCustom={(api: any, args?: any[]) => {}}
-      excalidrawLib={window.ExcalidrawLib}
-    >
+    <div style={{ height: "100vh", width: "100vw" }}>
       <Excalidraw />
-    </App>
+    </div>
   </StrictMode>,
 );
