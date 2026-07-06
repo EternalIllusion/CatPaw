@@ -1,4 +1,4 @@
-import React, {
+﻿import React, {
   useState,
   useCallback,
   useMemo,
@@ -16,12 +16,12 @@ import {
   addEventListener,
   EVENT,
   CLASSES,
-} from "@eterill/common";
+} from "eterill-common";
 
 import type {
   ExcalidrawElement,
   NonDeletedExcalidrawElement,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { trackEvent } from "../analytics";
 import { useUIAppState } from "../context/ui-appState";

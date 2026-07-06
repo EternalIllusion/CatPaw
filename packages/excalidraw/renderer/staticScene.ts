@@ -1,33 +1,33 @@
-import {
+﻿import {
   applyDarkModeFilter,
   COLOR_WHITE,
   FRAME_STYLE,
   THEME,
   throttleRAF,
-} from "@eterill/common";
-import { isElementLink } from "@eterill/element";
-import { createPlaceholderEmbeddableLabel } from "@eterill/element";
-import { getBoundTextElement } from "@eterill/element";
+} from "eterill-common";
+import { isElementLink } from "eterill-element";
+import { createPlaceholderEmbeddableLabel } from "eterill-element";
+import { getBoundTextElement } from "eterill-element";
 import {
   isEmbeddableElement,
   isIframeLikeElement,
   isTextElement,
-} from "@eterill/element";
+} from "eterill-element";
 import {
   elementOverlapsWithFrame,
   getTargetFrame,
   shouldApplyFrameClip,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { renderElement } from "@eterill/element";
+import { renderElement } from "eterill-element";
 
-import { getElementAbsoluteCoords } from "@eterill/element";
+import { getElementAbsoluteCoords } from "eterill-element";
 
 import type {
   ElementsMap,
   ExcalidrawFrameLikeElement,
   NonDeletedExcalidrawElement,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import {
   EXTERNAL_LINK_IMG,

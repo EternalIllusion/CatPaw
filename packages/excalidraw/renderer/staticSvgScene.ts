@@ -1,4 +1,4 @@
-import {
+﻿import {
   FRAME_STYLE,
   MAX_DECIMALS_FOR_SVG_EXPORT,
   SVG_NS,
@@ -10,37 +10,37 @@ import {
   getVerticalOffset,
   applyDarkModeFilter,
   MIME_TYPES,
-} from "@eterill/common";
-import { normalizeLink, toValidURL } from "@eterill/common";
-import { hashString } from "@eterill/element";
-import { getUncroppedWidthAndHeight } from "@eterill/element";
+} from "eterill-common";
+import { normalizeLink, toValidURL } from "eterill-common";
+import { hashString } from "eterill-element";
+import { getUncroppedWidthAndHeight } from "eterill-element";
 import {
   createPlaceholderEmbeddableLabel,
   getEmbedLink,
-} from "@eterill/element";
-import { LinearElementEditor } from "@eterill/element";
-import { getBoundTextElement, getContainerElement } from "@eterill/element";
-import { getLineHeightInPx } from "@eterill/element";
+} from "eterill-element";
+import { LinearElementEditor } from "eterill-element";
+import { getBoundTextElement, getContainerElement } from "eterill-element";
+import { getLineHeightInPx } from "eterill-element";
 import {
   isArrowElement,
   isIframeLikeElement,
   isInitializedImageElement,
   isTextElement,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { getContainingFrame } from "@eterill/element";
+import { getContainingFrame } from "eterill-element";
 
-import { getCornerRadius, isPathALoop } from "@eterill/element";
+import { getCornerRadius, isPathALoop } from "eterill-element";
 
-import { ShapeCache } from "@eterill/element";
+import { ShapeCache } from "eterill-element";
 
-import { getElementAbsoluteCoords } from "@eterill/element";
+import { getElementAbsoluteCoords } from "eterill-element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawTextElementWithContainer,
   NonDeletedExcalidrawElement,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import type { RenderableElementsMap, SVGRenderConfig } from "../scene/types";
 import type { AppState, BinaryFiles } from "../types";

@@ -1,4 +1,4 @@
-import {
+﻿import {
   COLOR_PALETTE,
   ARROW_TYPE,
   DEFAULT_ELEMENT_PROPS,
@@ -12,7 +12,7 @@ import {
   THEME,
   DEFAULT_GRID_STEP,
   isTestEnv,
-} from "@eterill/common";
+} from "eterill-common";
 
 import type { AppState, NormalizedZoomValue } from "./types";
 

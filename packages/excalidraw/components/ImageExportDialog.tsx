@@ -1,4 +1,4 @@
-import { exportToCanvas } from "@eterill/utils/export";
+﻿import { exportToCanvas } from "eterill-utils/export";
 import React, { useEffect, useRef, useState } from "react";
 
 import {
@@ -7,9 +7,9 @@ import {
   isFirefox,
   EXPORT_SCALES,
   cloneJSON,
-} from "@eterill/common";
+} from "eterill-common";
 
-import type { NonDeletedExcalidrawElement } from "@eterill/element/types";
+import type { NonDeletedExcalidrawElement } from "eterill-element/types";
 
 import {
   actionExportWithDarkMode,

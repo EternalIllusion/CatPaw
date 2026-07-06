@@ -1,43 +1,43 @@
-import {
+﻿import {
   ArrowheadArrowIcon,
   CloseIcon,
   TrashIcon,
-} from "@eterill/excalidraw/components/icons";
+} from "eterill-excalidraw/components/icons";
 import {
   bootstrapCanvas,
   getNormalizedCanvasDimensions,
-} from "@eterill/excalidraw/renderer/helpers";
-import { type AppState } from "@eterill/excalidraw/types";
-import { arrayToMap, throttleRAF } from "@eterill/common";
+} from "eterill-excalidraw/renderer/helpers";
+import { type AppState } from "eterill-excalidraw/types";
+import { arrayToMap, throttleRAF } from "eterill-common";
 import { useCallback } from "react";
 
 import {
   getGlobalFixedPointForBindableElement,
   isArrowElement,
   isBindableElement,
-} from "@eterill/element";
+} from "eterill-element";
 
 import {
   isLineSegment,
   type GlobalPoint,
   type LineSegment,
-} from "@eterill/math";
-import { isCurve } from "@eterill/math/curve";
+} from "eterill-math";
+import { isCurve } from "eterill-math/curve";
 
 import React from "react";
 
-import type { Curve } from "@eterill/math";
+import type { Curve } from "eterill-math";
 import type {
   DebugElement,
   DebugPolygon,
-} from "@eterill/element/visualdebug";
+} from "eterill-element/visualdebug";
 import type {
   ElementsMap,
   ExcalidrawArrowElement,
   ExcalidrawBindableElement,
   FixedPointBinding,
   OrderedExcalidrawElement,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { STORAGE_KEYS } from "../app_constants";
 

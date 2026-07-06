@@ -1,24 +1,24 @@
-import {
+﻿import {
   pointCenter,
   normalizeRadians,
   pointFrom,
   pointRotateRads,
   type Radians,
   type LocalPoint,
-} from "@eterill/math";
+} from "eterill-math";
 
 import {
   MIN_FONT_SIZE,
   SHIFT_LOCKING_ANGLE,
   rescalePoints,
   getFontString,
-} from "@eterill/common";
+} from "eterill-common";
 
-import type { GlobalPoint } from "@eterill/math";
+import type { GlobalPoint } from "eterill-math";
 
-import type { PointerDownState } from "@eterill/excalidraw/types";
+import type { PointerDownState } from "eterill-excalidraw/types";
 
-import type { Mutable } from "@eterill/common/utility-types";
+import type { Mutable } from "eterill-common/utility-types";
 
 import {
   getArrowLocalFixedPoints,

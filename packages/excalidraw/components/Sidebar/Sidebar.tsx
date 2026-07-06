@@ -1,4 +1,4 @@
-import clsx from "clsx";
+﻿import clsx from "clsx";
 import React, {
   useEffect,
   useLayoutEffect,
@@ -15,7 +15,7 @@ import {
   isDevEnv,
   KEYS,
   updateObject,
-} from "@eterill/common";
+} from "eterill-common";
 
 import { useUIAppState } from "../../context/ui-appState";
 import { atom, useSetAtom } from "../../editor-jotai";

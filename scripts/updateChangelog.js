@@ -1,4 +1,4 @@
-const fs = require("fs");
+﻿const fs = require("fs");
 const util = require("util");
 const exec = util.promisify(require("child_process").exec);
 
@@ -24,7 +24,7 @@ const headerForType = {
 const badCommits = [];
 const getCommitHashForLastVersion = async () => {
   try {
-    const commitMessage = `"release @eterill/excalidraw"`;
+    const commitMessage = `"release eterill-excalidraw"`;
     const { stdout } = await exec(
       `git log --format=format:"%H" --grep=${commitMessage}`,
     );

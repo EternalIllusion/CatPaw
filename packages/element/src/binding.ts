@@ -1,9 +1,9 @@
-import {
+﻿import {
   arrayToMap,
   getFeatureFlag,
   invariant,
   isTransparent,
-} from "@eterill/common";
+} from "eterill-common";
 
 import {
   PRECISION,
@@ -19,12 +19,12 @@ import {
   vectorNormalize,
   vectorScale,
   type GlobalPoint,
-} from "@eterill/math";
+} from "eterill-math";
 
-import type { LineSegment, LocalPoint, Radians } from "@eterill/math";
-import type { AppState } from "@eterill/excalidraw/types";
-import type { MapEntry, Mutable } from "@eterill/common/utility-types";
-import type { Bounds } from "@eterill/common";
+import type { LineSegment, LocalPoint, Radians } from "eterill-math";
+import type { AppState } from "eterill-excalidraw/types";
+import type { MapEntry, Mutable } from "eterill-common/utility-types";
+import type { Bounds } from "eterill-common";
 
 import { getCenterForBounds } from "./bounds";
 import {

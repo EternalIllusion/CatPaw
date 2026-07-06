@@ -1,14 +1,14 @@
-// -----------------------------------------------------------------------------
+﻿// -----------------------------------------------------------------------------
 // ExcalidrawImageElement & related helpers
 // -----------------------------------------------------------------------------
 
-import { MIME_TYPES, SVG_NS } from "@eterill/common";
+import { MIME_TYPES, SVG_NS } from "eterill-common";
 
 import type {
   AppClassProperties,
   DataURL,
   BinaryFiles,
-} from "@eterill/excalidraw/types";
+} from "eterill-excalidraw/types";
 
 import { isInitializedImageElement } from "./typeChecks";
 

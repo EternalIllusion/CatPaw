@@ -1,8 +1,8 @@
-import { isImageElement } from "@eterill/element";
+﻿import { isImageElement } from "eterill-element";
 
-import { CaptureUpdateAction } from "@eterill/element";
+import { CaptureUpdateAction } from "eterill-element";
 
-import type { ExcalidrawImageElement } from "@eterill/element/types";
+import type { ExcalidrawImageElement } from "eterill-element/types";
 
 import { ToolButton } from "../components/ToolButton";
 import { cropIcon } from "../components/icons";

@@ -1,20 +1,20 @@
-import { getNonDeletedElements } from "@eterill/element";
+﻿import { getNonDeletedElements } from "eterill-element";
 
-import { isFrameLikeElement } from "@eterill/element";
+import { isFrameLikeElement } from "eterill-element";
 
-import { CODES, KEYS, arrayToMap } from "@eterill/common";
+import { CODES, KEYS, arrayToMap } from "eterill-common";
 
-import { updateFrameMembershipOfSelectedElements } from "@eterill/element";
+import { updateFrameMembershipOfSelectedElements } from "eterill-element";
 
-import { distributeElements } from "@eterill/element";
+import { distributeElements } from "eterill-element";
 
-import { CaptureUpdateAction } from "@eterill/element";
+import { CaptureUpdateAction } from "eterill-element";
 
-import { getSelectedElementsByGroup } from "@eterill/element";
+import { getSelectedElementsByGroup } from "eterill-element";
 
-import type { ExcalidrawElement } from "@eterill/element/types";
+import type { ExcalidrawElement } from "eterill-element/types";
 
-import type { Distribution } from "@eterill/element";
+import type { Distribution } from "eterill-element";
 
 import { ToolButton } from "../components/ToolButton";
 import {

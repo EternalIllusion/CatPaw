@@ -1,10 +1,10 @@
-import { arrayToMap, reseed } from "@eterill/common";
-import { type GlobalPoint, type LocalPoint, pointFrom } from "@eterill/math";
-import { Excalidraw } from "@eterill/excalidraw";
-import { API } from "@eterill/excalidraw/tests/helpers/api";
-import { UI } from "@eterill/excalidraw/tests/helpers/ui";
-import "@eterill/utils/test-utils";
-import { render } from "@eterill/excalidraw/tests/test-utils";
+﻿import { arrayToMap, reseed } from "eterill-common";
+import { type GlobalPoint, type LocalPoint, pointFrom } from "eterill-math";
+import { Excalidraw } from "eterill-excalidraw";
+import { API } from "eterill-excalidraw/tests/helpers/api";
+import { UI } from "eterill-excalidraw/tests/helpers/ui";
+import "eterill-utils/test-utils";
+import { render } from "eterill-excalidraw/tests/test-utils";
 
 import * as distance from "../src/distance";
 import { hitElementItself } from "../src/collision";

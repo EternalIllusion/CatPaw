@@ -1,4 +1,4 @@
-import {
+﻿import {
   arrayToMap,
   arrayToObject,
   assertNever,
@@ -6,7 +6,7 @@ import {
   isShallowEqual,
   isTestEnv,
   randomInteger,
-} from "@eterill/common";
+} from "eterill-common";
 
 import type {
   ExcalidrawElement,
@@ -17,21 +17,21 @@ import type {
   Ordered,
   OrderedExcalidrawElement,
   SceneElementsMap,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import type {
   DTO,
   Mutable,
   SubtypeOf,
   ValueOf,
-} from "@eterill/common/utility-types";
+} from "eterill-common/utility-types";
 
 import type {
   AppState,
   ObservedAppState,
   ObservedElementsAppState,
   ObservedStandaloneAppState,
-} from "@eterill/excalidraw/types";
+} from "eterill-excalidraw/types";
 
 import { getObservedAppState } from "./store";
 

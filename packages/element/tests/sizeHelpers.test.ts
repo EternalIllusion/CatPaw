@@ -1,4 +1,4 @@
-import { vi } from "vitest";
+﻿import { vi } from "vitest";
 
 import { getPerfectElementSize } from "../src/sizeHelpers";
 
@@ -7,7 +7,7 @@ const EPSILON_DIGITS = 3;
 // below tests. In Jest this wasn't needed as global override was possible
 // but vite doesn't allow that hence we need to mock
 vi.mock(
-  "@eterill/common",
+  "eterill-common",
   //@ts-ignore
   async (importOriginal) => {
     const module: any = await importOriginal();

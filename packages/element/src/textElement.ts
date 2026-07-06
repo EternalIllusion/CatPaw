@@ -1,4 +1,4 @@
-import {
+﻿import {
   ARROW_LABEL_FONT_SIZE_TO_MIN_WIDTH_RATIO,
   ARROW_LABEL_WIDTH_FRACTION,
   BOUND_TEXT_PADDING,
@@ -8,13 +8,13 @@ import {
   getFontString,
   isProdEnv,
   invariant,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { pointFrom, pointRotateRads, type Radians } from "@eterill/math";
+import { pointFrom, pointRotateRads, type Radians } from "eterill-math";
 
-import type { AppState } from "@eterill/excalidraw/types";
+import type { AppState } from "eterill-excalidraw/types";
 
-import type { ExtractSetType } from "@eterill/common/utility-types";
+import type { ExtractSetType } from "eterill-common/utility-types";
 
 import {
   resetOriginalContainerCache,

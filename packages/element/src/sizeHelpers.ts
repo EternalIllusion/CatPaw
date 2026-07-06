@@ -1,17 +1,17 @@
-import {
+﻿import {
   SHIFT_LOCKING_ANGLE,
   viewportCoordsToSceneCoords,
-} from "@eterill/common";
+} from "eterill-common";
 import {
   normalizeRadians,
   radiansBetweenAngles,
   radiansDifference,
   type Radians,
-} from "@eterill/math";
+} from "eterill-math";
 
-import { pointsEqual } from "@eterill/math";
+import { pointsEqual } from "eterill-math";
 
-import type { AppState, Offsets, Zoom } from "@eterill/excalidraw/types";
+import type { AppState, Offsets, Zoom } from "eterill-excalidraw/types";
 
 import { getCommonBounds, getElementBounds } from "./bounds";
 import {

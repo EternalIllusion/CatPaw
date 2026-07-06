@@ -1,4 +1,4 @@
-import {
+﻿import {
   DEFAULT_ELEMENT_PROPS,
   DEFAULT_FONT_FAMILY,
   DEFAULT_FONT_SIZE,
@@ -11,11 +11,11 @@ import {
   getFontString,
   getUpdatedTimestamp,
   getLineHeight,
-} from "@eterill/common";
+} from "eterill-common";
 
-import type { Radians } from "@eterill/math";
+import type { Radians } from "eterill-math";
 
-import type { MarkOptional, Merge } from "@eterill/common/utility-types";
+import type { MarkOptional, Merge } from "eterill-common/utility-types";
 
 import {
   getElementAbsoluteCoords,

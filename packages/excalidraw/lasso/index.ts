@@ -1,29 +1,29 @@
-import {
+﻿import {
   type GlobalPoint,
   type LineSegment,
   pointFrom,
-} from "@eterill/math";
+} from "eterill-math";
 
-import { getElementLineSegments } from "@eterill/element";
-import { LinearElementEditor } from "@eterill/element";
+import { getElementLineSegments } from "eterill-element";
+import { LinearElementEditor } from "eterill-element";
 import {
   isFrameLikeElement,
   isLinearElement,
   isTextElement,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { getFrameChildren } from "@eterill/element";
-import { selectGroupsForSelectedElements } from "@eterill/element";
+import { getFrameChildren } from "eterill-element";
+import { selectGroupsForSelectedElements } from "eterill-element";
 
-import { getContainerElement } from "@eterill/element";
+import { getContainerElement } from "eterill-element";
 
-import { arrayToMap, easeOut, isShallowEqual } from "@eterill/common";
+import { arrayToMap, easeOut, isShallowEqual } from "eterill-common";
 
 import type {
   ExcalidrawElement,
   ExcalidrawLinearElement,
   NonDeleted,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { AnimatedTrail } from "../animatedTrail";
 

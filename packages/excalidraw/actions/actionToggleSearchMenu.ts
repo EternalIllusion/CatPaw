@@ -1,11 +1,11 @@
-import {
+﻿import {
   KEYS,
   CANVAS_SEARCH_TAB,
   CLASSES,
   DEFAULT_SIDEBAR,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { CaptureUpdateAction } from "@eterill/element";
+import { CaptureUpdateAction } from "eterill-element";
 
 import { searchIcon } from "../components/icons";
 

@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import Spinner from "@eterill/excalidraw/components/Spinner";
+﻿import { useEffect, useState } from "react";
+import Spinner from "eterill-excalidraw/components/Spinner";
 
 interface QRCodeProps {
   value: string;

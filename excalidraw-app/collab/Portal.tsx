@@ -1,15 +1,15 @@
-import { CaptureUpdateAction } from "@eterill/excalidraw";
-import { trackEvent } from "@eterill/excalidraw/analytics";
-import { encryptData } from "@eterill/excalidraw/data/encryption";
-import { newElementWith } from "@eterill/element";
+﻿import { CaptureUpdateAction } from "eterill-excalidraw";
+import { trackEvent } from "eterill-excalidraw/analytics";
+import { encryptData } from "eterill-excalidraw/data/encryption";
+import { newElementWith } from "eterill-element";
 import throttle from "lodash.throttle";
 
-import type { UserIdleState } from "@eterill/common";
-import type { OrderedExcalidrawElement } from "@eterill/element/types";
+import type { UserIdleState } from "eterill-common";
+import type { OrderedExcalidrawElement } from "eterill-element/types";
 import type {
   OnUserFollowedPayload,
   SocketId,
-} from "@eterill/excalidraw/types";
+} from "eterill-excalidraw/types";
 
 import { WS_EVENTS, FILE_UPLOAD_TIMEOUT, WS_SUBTYPES } from "../app_constants";
 import { isSyncableElement } from "../data";

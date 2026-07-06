@@ -1,4 +1,4 @@
-import { CURSOR_TYPE, MIME_TYPES, THEME } from "@eterill/common";
+﻿import { CURSOR_TYPE, MIME_TYPES, THEME } from "eterill-common";
 
 import { isHandToolActive, isEraserActive } from "./appState";
 

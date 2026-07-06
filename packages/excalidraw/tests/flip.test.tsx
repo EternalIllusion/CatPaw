@@ -1,14 +1,14 @@
-import { vi } from "vitest";
+﻿import { vi } from "vitest";
 
-import { ROUNDNESS, KEYS, arrayToMap, cloneJSON } from "@eterill/common";
+import { ROUNDNESS, KEYS, arrayToMap, cloneJSON } from "eterill-common";
 
-import { pointFrom, type Radians } from "@eterill/math";
+import { pointFrom, type Radians } from "eterill-math";
 
-import { getBoundTextElementPosition } from "@eterill/element";
-import { getElementAbsoluteCoords } from "@eterill/element";
-import { newLinearElement } from "@eterill/element";
+import { getBoundTextElementPosition } from "eterill-element";
+import { getElementAbsoluteCoords } from "eterill-element";
+import { newLinearElement } from "eterill-element";
 
-import type { LocalPoint } from "@eterill/math";
+import type { LocalPoint } from "eterill-math";
 
 import type {
   ExcalidrawElement,
@@ -16,7 +16,7 @@ import type {
   ExcalidrawLinearElement,
   ExcalidrawTextElementWithContainer,
   FileId,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { actionFlipHorizontal, actionFlipVertical } from "../actions";
 import { createPasteEvent } from "../clipboard";

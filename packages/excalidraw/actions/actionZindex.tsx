@@ -1,13 +1,13 @@
-import { KEYS, CODES, isDarwin } from "@eterill/common";
+﻿import { KEYS, CODES, isDarwin } from "eterill-common";
 
 import {
   moveOneLeft,
   moveOneRight,
   moveAllLeft,
   moveAllRight,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { CaptureUpdateAction } from "@eterill/element";
+import { CaptureUpdateAction } from "eterill-element";
 
 import {
   BringForwardIcon,

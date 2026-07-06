@@ -1,6 +1,6 @@
-import { useState, useLayoutEffect } from "react";
+﻿import { useState, useLayoutEffect } from "react";
 
-import { THEME } from "@eterill/common";
+import { THEME } from "eterill-common";
 
 import { useEditorInterface, useExcalidrawContainer } from "../components/App";
 import { useUIAppState } from "../context/ui-appState";

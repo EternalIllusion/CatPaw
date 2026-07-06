@@ -1,4 +1,4 @@
-# Changelog
+﻿# Changelog
 
 <!--
 Guidelines for changelog:
@@ -56,7 +56,7 @@ Please add the latest change on the top under the correct section.
 - `UIAppState` no longer includes `zoom`, `shouldCacheIgnoreZoom`, and the canvas-interaction transients `snapLines`, `originSnapOffset`, `suggestedBinding`, `frameToHighlight`, and `elementsToHighlight`. These update per pointermove or per animation frame and no longer re-render the editor UI, so UI render props receiving `UIAppState` (`renderCustomStats`, custom `<Footer/>` content, etc.) don't receive them anymore and would render stale values if they read them off the full `AppState`. Subscribe through `useExcalidrawStateValue` instead — the component re-renders only when the selected value changes:
 
   ```tsx
-  import { useExcalidrawStateValue } from "@eterill/excalidraw";
+  import { useExcalidrawStateValue } from "eterill-excalidraw";
 
   const ZoomReadout = () => {
     // `undefined` on initial render, before the editor API initializes
@@ -163,7 +163,7 @@ Please add the latest change on the top under the correct section.
 
 ### Breaking changes
 
-- `getClosestElementBounds` is no longer exported from `@eterill/element`. Use `getCommonBounds` / `getElementBounds` from `@eterill/element`, or reimplement the closest-target distance check with `getElementBounds` if you need the same behavior [#11554](https://github.com/excalidraw/excalidraw/pull/11554).
+- `getClosestElementBounds` is no longer exported from `eterill-element`. Use `getCommonBounds` / `getElementBounds` from `eterill-element`, or reimplement the closest-target distance check with `getElementBounds` if you need the same behavior [#11554](https://github.com/excalidraw/excalidraw/pull/11554).
 
 ## 0.18.0 (2025-03-11)
 
@@ -197,12 +197,12 @@ Please add the latest change on the top under the correct section.
 
 #### Deprecated UMD bundle in favor of ES modules [#7441](https://github.com/excalidraw/excalidraw/pull/7441), [#9127](https://github.com/excalidraw/excalidraw/pull/9127)
 
-We've transitioned from `UMD` to `ESM` bundle format. Our new `dist` folder inside `@eterill/excalidraw` package now contains only bundled source files, making any dependencies tree-shakable. The package comes with the following structure:
+We've transitioned from `UMD` to `ESM` bundle format. Our new `dist` folder inside `eterill-excalidraw` package now contains only bundled source files, making any dependencies tree-shakable. The package comes with the following structure:
 
 > **Note**: The structure is simplified for the sake of brevity, omitting lazy-loadable modules, including locales (previously treated as JSON assets) and source maps in the development bundle.
 
 ```
-@eterill/excalidraw/
+eterill-excalidraw/
 ├── dist/
 │   ├── dev/
 │   │   ├── fonts/
@@ -238,13 +238,13 @@ Depending on the environment, this is how imports should look like with the `ESM
 
 ```ts
 // excalidraw library with public API
-import * as excalidrawLib from "@eterill/excalidraw";
+import * as excalidrawLib from "eterill-excalidraw";
 // excalidraw react component
-import { Excalidraw } from "@eterill/excalidraw";
+import { Excalidraw } from "eterill-excalidraw";
 // excalidraw styles, usually auto-processed by the build tool (i.e. vite, next, etc.)
-import "@eterill/excalidraw/index.css";
+import "eterill-excalidraw/index.css";
 // excalidraw types (optional)
-import type { ExcalidrawImperativeAPI } from "@eterill/excalidraw/types";
+import type { ExcalidrawImperativeAPI } from "eterill-excalidraw/types";
 ```
 
 **Without bundler (Browser)**
@@ -255,7 +255,7 @@ import type { ExcalidrawImperativeAPI } from "@eterill/excalidraw/types";
 <!-- excalidraw styles -->
 <link
   rel="stylesheet"
-  href="https://esm.sh/@eterill/excalidraw@0.18.0/dist/dev/index.css"
+  href="https://esm.sh/eterill-excalidraw@0.18.0/dist/dev/index.css"
 />
 <!-- import maps used for deduplicating react & react-dom versions -->
 <script type="importmap">
@@ -270,7 +270,7 @@ import type { ExcalidrawImperativeAPI } from "@eterill/excalidraw/types";
 <script type="module">
   import React from "https://esm.sh/react@19.0.0";
   import ReactDOM from "https://esm.sh/react-dom@19.0.0";
-  import * as ExcalidrawLib from "https://esm.sh/@eterill/excalidraw@0.18.0/dist/dev/index.js?external=react,react-dom";
+  import * as ExcalidrawLib from "https://esm.sh/eterill-excalidraw@0.18.0/dist/dev/index.js?external=react,react-dom";
 </script>
 ```
 
@@ -297,7 +297,7 @@ optimizeDeps: {
 
 ##### Fonts
 
-All fonts are automatically loaded from the [esm.run](https://esm.run/) CDN. For self-hosting purposes, you'll have to copy the content of the folder `node_modules/@eterill/excalidraw/dist/prod/fonts` to the path where your assets should be served from (i.e. `public/` directory in your project). In that case, you should also set `window.EXCALIDRAW_ASSET_PATH` to the very same path, i.e. `/` in case it's in the root:
+All fonts are automatically loaded from the [esm.run](https://esm.run/) CDN. For self-hosting purposes, you'll have to copy the content of the folder `node_modules/eterill-excalidraw/dist/prod/fonts` to the path where your assets should be served from (i.e. `public/` directory in your project). In that case, you should also set `window.EXCALIDRAW_ASSET_PATH` to the very same path, i.e. `/` in case it's in the root:
 
 ```js
 <script>window.EXCALIDRAW_ASSET_PATH = "/";</script>
@@ -328,7 +328,7 @@ updateScene({ elements, appState, commitToHistory: true }); // A
 updateScene({ elements, appState, commitToHistory: false }); // B
 
 // after
-import { CaptureUpdateAction } from "@eterill/excalidraw";
+import { CaptureUpdateAction } from "eterill-excalidraw";
 updateScene({
   elements,
   appState,
@@ -355,7 +355,7 @@ The `updateScene` API has changed due to the added `Store` component, as part of
 
 - `ExcalidrawTextElement.baseline` was removed and replaced with a vertical offset computation based on font metrics, performed on each text element re-render. In case of custom font usage, extend the `FONT_METRICS` object with the related properties. [#7693](https://github.com/excalidraw/excalidraw/pull/7693)
 
-- `ExcalidrawEmbeddableElement.validated` was removed and moved to the private editor state. This should largely not affect your apps unless you were reading from this attribute. We keep validating embeddable urls internally, and the public [`props.validateEmbeddable`](https://docs.excalidraw.com/docs/@eterill/excalidraw/api/props#validateembeddable) still applies. [#7539](https://github.com/excalidraw/excalidraw/pull/7539)
+- `ExcalidrawEmbeddableElement.validated` was removed and moved to the private editor state. This should largely not affect your apps unless you were reading from this attribute. We keep validating embeddable urls internally, and the public [`props.validateEmbeddable`](https://docs.excalidraw.com/docs/eterill-excalidraw/api/props#validateembeddable) still applies. [#7539](https://github.com/excalidraw/excalidraw/pull/7539)
 
 - Stats container CSS has changed, so if you're using `renderCustomStats`, you may need to adjust your styles to retain the same layout. [#8361](https://github.com/excalidraw/excalidraw/pull/8361)
 
@@ -363,7 +363,7 @@ The `updateScene` API has changed due to the added `Store` component, as part of
 
 ### Features
 
-- Prefer user defined coordinates and dimensions when creating a frame using [`convertToExcalidrawElements`](https://docs.excalidraw.com/docs/@eterill/excalidraw/api/excalidraw-element-skeleton#converttoexcalidrawelements) [#8517](https://github.com/excalidraw/excalidraw/pull/8517)
+- Prefer user defined coordinates and dimensions when creating a frame using [`convertToExcalidrawElements`](https://docs.excalidraw.com/docs/eterill-excalidraw/api/excalidraw-element-skeleton#converttoexcalidrawelements) [#8517](https://github.com/excalidraw/excalidraw/pull/8517)
 
 - `props.initialData` can now be a function that returns `ExcalidrawInitialDataState` or `Promise<ExcalidrawInitialDataState>` [#8107](https://github.com/excalidraw/excalidraw/pull/8135)
 
@@ -893,7 +893,7 @@ The `updateScene` API has changed due to the added `Store` component, as part of
 
 - Enable consistent type imports eslint rule [#7992](https://github.com/excalidraw/excalidraw/pull/7992)
 
-- Export types for @eterill/utils [#7736](https://github.com/excalidraw/excalidraw/pull/7736)
+- Export types for eterill-utils [#7736](https://github.com/excalidraw/excalidraw/pull/7736)
 
 - Create ESM build for utils package 🥳 [#7500](https://github.com/excalidraw/excalidraw/pull/7500)
 
@@ -939,7 +939,7 @@ define: {
 
 - Support `excalidrawAPI` prop for accessing the Excalidraw API [#7251](https://github.com/excalidraw/excalidraw/pull/7251).
 
-- Export [`getCommonBounds`](https://docs.excalidraw.com/docs/@eterill/excalidraw/api/utils#getcommonbounds) helper from the package [#7247](https://github.com/excalidraw/excalidraw/pull/7247).
+- Export [`getCommonBounds`](https://docs.excalidraw.com/docs/eterill-excalidraw/api/utils#getcommonbounds) helper from the package [#7247](https://github.com/excalidraw/excalidraw/pull/7247).
 
 - Support frames via programmatic API [#7205](https://github.com/excalidraw/excalidraw/pull/7205).
 
@@ -959,11 +959,11 @@ define: {
 
 ### Breaking Changes
 
-- The `Ref` support has been removed in v0.17.0 so if you are using refs, please update the integration to use the [`excalidrawAPI`](http://localhost:3003/docs/@eterill/excalidraw/api/props/excalidraw-api) [#7251](https://github.com/excalidraw/excalidraw/pull/7251).
+- The `Ref` support has been removed in v0.17.0 so if you are using refs, please update the integration to use the [`excalidrawAPI`](http://localhost:3003/docs/eterill-excalidraw/api/props/excalidraw-api) [#7251](https://github.com/excalidraw/excalidraw/pull/7251).
 
 - Additionally `ready` and `readyPromise` from the API have been discontinued. These APIs were found to be superfluous, and as part of the effort to streamline the APIs and maintain simplicity, they were removed in version v0.17.0 [#7251](https://github.com/excalidraw/excalidraw/pull/7251).
 
-- [`useDevice`](https://docs.excalidraw.com/docs/@eterill/excalidraw/api/utils#usedevice) hook's return value was changed to differentiate between `editor` and `viewport` breakpoints. [#7243](https://github.com/excalidraw/excalidraw/pull/7243)
+- [`useDevice`](https://docs.excalidraw.com/docs/eterill-excalidraw/api/utils#usedevice) hook's return value was changed to differentiate between `editor` and `viewport` breakpoints. [#7243](https://github.com/excalidraw/excalidraw/pull/7243)
 
 ### Build
 
@@ -1119,8 +1119,8 @@ define: {
 
 - Support creating containers, linear elements, text containers, labelled arrows and arrow bindings programatically [#6546](https://github.com/excalidraw/excalidraw/pull/6546)
 - Introducing Web-Embeds (alias iframe element)[#6691](https://github.com/excalidraw/excalidraw/pull/6691)
-- Added [`props.validateEmbeddable`](https://docs.excalidraw.com/docs/@eterill/excalidraw/api/props#validateembeddable) to customize embeddable src url validation. [#6691](https://github.com/excalidraw/excalidraw/pull/6691)
-- Add support for `opts.fitToViewport` and `opts.viewportZoomFactor` in the [`ExcalidrawAPI.scrollToContent`](https://docs.excalidraw.com/docs/@eterill/excalidraw/api/props/excalidraw-api#scrolltocontent) API. [#6581](https://github.com/excalidraw/excalidraw/pull/6581).
+- Added [`props.validateEmbeddable`](https://docs.excalidraw.com/docs/eterill-excalidraw/api/props#validateembeddable) to customize embeddable src url validation. [#6691](https://github.com/excalidraw/excalidraw/pull/6691)
+- Add support for `opts.fitToViewport` and `opts.viewportZoomFactor` in the [`ExcalidrawAPI.scrollToContent`](https://docs.excalidraw.com/docs/eterill-excalidraw/api/props/excalidraw-api#scrolltocontent) API. [#6581](https://github.com/excalidraw/excalidraw/pull/6581).
 - Properly sanitize element `link` urls. [#6728](https://github.com/excalidraw/excalidraw/pull/6728).
 - Sidebar component now supports tabs — for more detailed description of new behavior and breaking changes, see the linked PR. [#6213](https://github.com/excalidraw/excalidraw/pull/6213)
 - Exposed `DefaultSidebar` component to allow modifying the default sidebar, such as adding custom tabs to it. [#6213](https://github.com/excalidraw/excalidraw/pull/6213)
@@ -1263,7 +1263,7 @@ define: {
 
 - Don't show `canvasBackground` label when `UIOptions.canvasActions.changeViewBackgroundColor` is false [#6781](https://github.com/excalidraw/excalidraw/pull/6781)
 
-- Use subdirectory for @eterill/excalidraw size limit [#6787](https://github.com/excalidraw/excalidraw/pull/6787)
+- Use subdirectory for eterill-excalidraw size limit [#6787](https://github.com/excalidraw/excalidraw/pull/6787)
 
 - Use actual dock state to not close docked library on insert [#6766](https://github.com/excalidraw/excalidraw/pull/6766)
 
@@ -1399,23 +1399,23 @@ define: {
 
 ### Features
 
-- [`ExcalidrawAPI.scrollToContent`](https://docs.excalidraw.com/docs/@eterill/excalidraw/api/props/excalidraw-api#scrolltocontent) has new opts object allowing you to fit viewport to content, and animate the scrolling. [#6319](https://github.com/excalidraw/excalidraw/pull/6319)
+- [`ExcalidrawAPI.scrollToContent`](https://docs.excalidraw.com/docs/eterill-excalidraw/api/props/excalidraw-api#scrolltocontent) has new opts object allowing you to fit viewport to content, and animate the scrolling. [#6319](https://github.com/excalidraw/excalidraw/pull/6319)
 
 - Expose `useI18n()` hook return an object containing `t()` i18n helper and current `langCode`. You can use this in components you render as `<Excalidraw>` children to render any of our i18n locale strings. [#6224](https://github.com/excalidraw/excalidraw/pull/6224)
 
-- [`restoreElements`](https://docs.excalidraw.com/docs/@eterill/excalidraw/api/utils/restore#restoreelements) API now takes an optional parameter `opts` which currently supports the below attributes
+- [`restoreElements`](https://docs.excalidraw.com/docs/eterill-excalidraw/api/utils/restore#restoreelements) API now takes an optional parameter `opts` which currently supports the below attributes
 
 ```js
 { refreshDimensions?: boolean, repairBindings?: boolean }
 ```
 
-The same `opts` param has been added to [`restore`](https://docs.excalidraw.com/docs/@eterill/excalidraw/api/utils/restore#restore) API as well.
+The same `opts` param has been added to [`restore`](https://docs.excalidraw.com/docs/eterill-excalidraw/api/utils/restore#restore) API as well.
 
 For more details refer to the [docs](https://docs.excalidraw.com)
 
 #### BREAKING CHANGE
 
-- The optional parameter `refreshDimensions` in [`restoreElements`](https://docs.excalidraw.com/docs/@eterill/excalidraw/api/utils/restore#restoreelements) has been removed and can be enabled via `opts`
+- The optional parameter `refreshDimensions` in [`restoreElements`](https://docs.excalidraw.com/docs/eterill-excalidraw/api/utils/restore#restoreelements) has been removed and can be enabled via `opts`
 
 ### Fixes
 
@@ -1839,7 +1839,7 @@ For more details refer to the [docs](https://docs.excalidraw.com)
 
 - Support segment midpoints in line editor [#5641](https://github.com/excalidraw/excalidraw/pull/5641)
 
-- Added exportPadding to PNG (blob) export in @eterill/utils [#5626](https://github.com/excalidraw/excalidraw/pull/5626)
+- Added exportPadding to PNG (blob) export in eterill-utils [#5626](https://github.com/excalidraw/excalidraw/pull/5626)
 
 - Introduce ExcalidrawElements and ExcalidrawAppState provider [#5463](https://github.com/excalidraw/excalidraw/pull/5463)
 
@@ -2172,7 +2172,7 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
   #### BREAKING CHANGE
   - `width/height` props have been removed. Instead now it takes `100%` of `width` and `height` of the container so you need to make sure the container in which you are rendering Excalidraw has non zero dimensions (It should have non zero width and height so Excalidraw can match the dimensions of containing block)
 - Calculate offsets when excalidraw container resizes using resize observer api [#3374](https://github.com/excalidraw/excalidraw/pull/3374).
-- Export types for the package so now it can be used with typescript [#3337](https://github.com/excalidraw/excalidraw/pull/3337). The types are available at `@eterill/excalidraw/types`.
+- Export types for the package so now it can be used with typescript [#3337](https://github.com/excalidraw/excalidraw/pull/3337). The types are available at `eterill-excalidraw/types`.
 - Add `renderCustomStats` prop to render extra stats on host, and expose `setToastMessage` API via refs which can be used to show toast with custom message [#3360](https://github.com/excalidraw/excalidraw/pull/3360).
 - Support passing a CSRF token when importing libraries to prevent prompting before installation. The token is passed from [https://libraries.excalidraw.com](https://libraries.excalidraw.com/) using the `token` URL key [#3329](https://github.com/excalidraw/excalidraw/pull/3329).
 - #### BREAKING CHANGE
@@ -2328,7 +2328,7 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
 ### Features
 
-- Expose `window.EXCALIDRAW_ASSET_PATH` which host can use to load assets from a different URL. By default it will be loaded from `https://unpkg.com/@eterill/excalidraw{currentVersion}/dist/`[#3068](https://github.com/excalidraw/excalidraw/pull/3068).
+- Expose `window.EXCALIDRAW_ASSET_PATH` which host can use to load assets from a different URL. By default it will be loaded from `https://unpkg.com/eterill-excalidraw{currentVersion}/dist/`[#3068](https://github.com/excalidraw/excalidraw/pull/3068).
 
   Also now the assets will have a hash in filename so cache bursting can easily happen with version bump.
 
@@ -2534,4 +2534,4 @@ Check out the [release notes](https://github.com/excalidraw/excalidraw/releases/
 
 ## 0.1.0
 
-First release of `@eterill/excalidraw`
+First release of `eterill-excalidraw`

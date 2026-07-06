@@ -1,8 +1,8 @@
-import {
+﻿import {
   applyDarkModeFilter,
   COLOR_PALETTE,
   rgbToHex,
-} from "@eterill/common";
+} from "eterill-common";
 
 describe("COLOR_PALETTE", () => {
   it("color palette doesn't regress", () => {

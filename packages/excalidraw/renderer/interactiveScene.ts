@@ -1,4 +1,4 @@
-import {
+﻿import {
   clamp,
   pointFrom,
   pointsEqual,
@@ -8,7 +8,7 @@ import {
   bezierEquation,
   pointRotateRads,
   pointDistance,
-} from "@eterill/math";
+} from "eterill-math";
 
 import {
   arrayToMap,
@@ -18,7 +18,7 @@ import {
   getFeatureFlag,
   invariant,
   THEME,
-} from "@eterill/common";
+} from "eterill-common";
 
 import {
   deconstructDiamondElement,
@@ -42,29 +42,29 @@ import {
   isTextElement,
   LinearElementEditor,
   getActiveTextElement,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { renderSelectionElement } from "@eterill/element";
+import { renderSelectionElement } from "eterill-element";
 
 import {
   getElementsInGroup,
   getSelectedGroupIds,
   isSelectedViaGroup,
   selectGroupsFromGivenElements,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { getCommonBounds, getElementAbsoluteCoords } from "@eterill/element";
+import { getCommonBounds, getElementAbsoluteCoords } from "eterill-element";
 import {
   getGlobalFixedPointForBindableElement,
   isFocusPointVisible,
-} from "@eterill/element";
+} from "eterill-element";
 
-import type { EditorInterface } from "@eterill/common";
+import type { EditorInterface } from "eterill-common";
 
 import type {
   TransformHandles,
   TransformHandleType,
-} from "@eterill/element";
+} from "eterill-element";
 
 import type {
   ElementsMap,
@@ -78,7 +78,7 @@ import type {
   GroupId,
   NonDeleted,
   NonDeletedSceneElementsMap,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { renderSnaps } from "../renderer/renderSnaps";
 import { roundRect } from "../renderer/roundRect";

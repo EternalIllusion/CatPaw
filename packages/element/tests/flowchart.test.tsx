@@ -1,13 +1,13 @@
-import { KEYS, reseed } from "@eterill/common";
+﻿import { KEYS, reseed } from "eterill-common";
 
-import { Excalidraw } from "@eterill/excalidraw";
+import { Excalidraw } from "eterill-excalidraw";
 
-import { API } from "@eterill/excalidraw/tests/helpers/api";
-import { UI, Keyboard, Pointer } from "@eterill/excalidraw/tests/helpers/ui";
+import { API } from "eterill-excalidraw/tests/helpers/api";
+import { UI, Keyboard, Pointer } from "eterill-excalidraw/tests/helpers/ui";
 import {
   render,
   unmountComponent,
-} from "@eterill/excalidraw/tests/test-utils";
+} from "eterill-excalidraw/tests/test-utils";
 
 unmountComponent();
 

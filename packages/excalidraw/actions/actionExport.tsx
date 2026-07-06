@@ -1,15 +1,15 @@
-import {
+﻿import {
   KEYS,
   DEFAULT_EXPORT_PADDING,
   EXPORT_SCALES,
   THEME,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { getNonDeletedElements } from "@eterill/element";
+import { getNonDeletedElements } from "eterill-element";
 
-import { CaptureUpdateAction } from "@eterill/element";
+import { CaptureUpdateAction } from "eterill-element";
 
-import type { ExcalidrawElement, Theme } from "@eterill/element/types";
+import type { ExcalidrawElement, Theme } from "eterill-element/types";
 
 import { useEditorInterface } from "../components/App";
 import { CheckboxItem } from "../components/CheckboxItem";

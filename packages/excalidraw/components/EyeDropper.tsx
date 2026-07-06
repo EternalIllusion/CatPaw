@@ -1,9 +1,9 @@
-import { useEffect, useRef } from "react";
+﻿import { useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 
-import { EVENT, KEYS, rgbToHex } from "@eterill/common";
+import { EVENT, KEYS, rgbToHex } from "eterill-common";
 
-import type { ExcalidrawElement } from "@eterill/element/types";
+import type { ExcalidrawElement } from "eterill-element/types";
 
 import { useUIAppState } from "../context/ui-appState";
 import { atom } from "../editor-jotai";

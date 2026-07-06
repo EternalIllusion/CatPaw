@@ -1,4 +1,4 @@
-import clsx from "clsx";
+﻿import clsx from "clsx";
 import fuzzy from "fuzzy";
 import { useEffect, useRef, useMemo, useState } from "react";
 
@@ -8,9 +8,9 @@ import {
   KEYS,
   capitalizeString,
   isWritableElement,
-} from "@eterill/common";
+} from "eterill-common";
 
-import type { MarkRequired } from "@eterill/common/utility-types";
+import type { MarkRequired } from "eterill-common/utility-types";
 
 import { actionToggleShapeSwitch } from "../../actions/actionToggleShapeSwitch";
 import { getShortcutKey } from "../../shortcut";

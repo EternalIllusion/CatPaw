@@ -1,9 +1,9 @@
-import React from "react";
+﻿import React from "react";
 import { vi } from "vitest";
 
-import { KEYS, STROKE_WIDTH, reseed } from "@eterill/common";
+import { KEYS, STROKE_WIDTH, reseed } from "eterill-common";
 
-import { setDateTimeForTests } from "@eterill/common";
+import { setDateTimeForTests } from "eterill-common";
 
 import { copiedStyles } from "../actions/actionStyles";
 import { Excalidraw } from "../index";

@@ -1,12 +1,12 @@
-import { pointFrom, pointRotateRads } from "@eterill/math";
+﻿import { pointFrom, pointRotateRads } from "eterill-math";
 
 import {
   elementCenterPoint,
   getCommonBounds,
   getElementPointsCoords,
   getLineHeightInPx,
-} from "@eterill/element";
-import { cropElement } from "@eterill/element";
+} from "eterill-element";
+import { cropElement } from "eterill-element";
 import {
   getTransformHandles,
   getTransformHandlesFromCoords,
@@ -14,18 +14,18 @@ import {
   OMIT_SIDES_FOR_MULTIPLE_ELEMENTS,
   type TransformHandle,
   type TransformHandleDirection,
-} from "@eterill/element";
+} from "eterill-element";
 import {
   isLinearElement,
   isFreeDrawElement,
   isTextElement,
   isFrameLikeElement,
-} from "@eterill/element";
-import { KEYS, arrayToMap, getLineHeight } from "@eterill/common";
+} from "eterill-element";
+import { KEYS, arrayToMap, getLineHeight } from "eterill-common";
 
-import type { GlobalPoint, LocalPoint, Radians } from "@eterill/math";
+import type { GlobalPoint, LocalPoint, Radians } from "eterill-math";
 
-import type { TransformHandleType } from "@eterill/element";
+import type { TransformHandleType } from "eterill-element";
 import type {
   ExcalidrawElement,
   ExcalidrawLinearElement,
@@ -38,7 +38,7 @@ import type {
   ExcalidrawTextElementWithContainer,
   ExcalidrawImageElement,
   ElementsMap,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { createTestHook } from "../../components/App";
 import { getTextEditor, TEXT_EDITOR_SELECTOR } from "../queries/dom";

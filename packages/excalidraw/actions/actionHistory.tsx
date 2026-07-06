@@ -1,15 +1,15 @@
-import {
+﻿import {
   KEYS,
   matchKey,
   arrayToMap,
   MOBILE_ACTION_BUTTON_BG,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { CaptureUpdateAction } from "@eterill/element";
+import { CaptureUpdateAction } from "eterill-element";
 
-import { orderByFractionalIndex } from "@eterill/element";
+import { orderByFractionalIndex } from "eterill-element";
 
-import type { SceneElementsMap } from "@eterill/element/types";
+import type { SceneElementsMap } from "eterill-element/types";
 
 import { ToolButton } from "../components/ToolButton";
 import { UndoIcon, RedoIcon } from "../components/icons";

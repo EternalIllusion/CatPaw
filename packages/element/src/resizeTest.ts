@@ -1,19 +1,19 @@
-import {
+﻿import {
   pointFrom,
   pointOnLineSegment,
   pointRotateRads,
   type Radians,
-} from "@eterill/math";
+} from "eterill-math";
 
 import {
   SIDE_RESIZING_THRESHOLD,
   type EditorInterface,
-} from "@eterill/common";
+} from "eterill-common";
 
-import type { GlobalPoint, LineSegment, LocalPoint } from "@eterill/math";
+import type { GlobalPoint, LineSegment, LocalPoint } from "eterill-math";
 
-import type { AppState, Zoom } from "@eterill/excalidraw/types";
-import type { Bounds } from "@eterill/common";
+import type { AppState, Zoom } from "eterill-excalidraw/types";
+import type { Bounds } from "eterill-common";
 
 import { getElementAbsoluteCoords } from "./bounds";
 import {

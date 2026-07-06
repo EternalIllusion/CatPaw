@@ -1,4 +1,4 @@
-import {
+﻿import {
   assertNever,
   COLOR_PALETTE,
   isDevEnv,
@@ -6,13 +6,13 @@ import {
   randomId,
   Emitter,
   toIterable,
-} from "@eterill/common";
+} from "eterill-common";
 
-import type App from "@eterill/excalidraw/components/App";
+import type App from "eterill-excalidraw/components/App";
 
-import type { DTO, ValueOf } from "@eterill/common/utility-types";
+import type { DTO, ValueOf } from "eterill-common/utility-types";
 
-import type { AppState, ObservedAppState } from "@eterill/excalidraw/types";
+import type { AppState, ObservedAppState } from "eterill-excalidraw/types";
 
 import { deepCopyElement } from "./duplicate";
 import { newElementWith } from "./mutateElement";

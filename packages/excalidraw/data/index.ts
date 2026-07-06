@@ -1,4 +1,4 @@
-import {
+﻿import {
   DEFAULT_EXPORT_PADDING,
   DEFAULT_FILENAME,
   IMAGE_MIME_TYPES,
@@ -7,19 +7,19 @@ import {
   cloneJSON,
   SVG_DOCUMENT_PREAMBLE,
   arrayToMap,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { getNonDeletedElements } from "@eterill/element";
+import { getNonDeletedElements } from "eterill-element";
 
-import { isFrameLikeElement } from "@eterill/element";
+import { isFrameLikeElement } from "eterill-element";
 
-import { getElementsOverlappingFrame } from "@eterill/element";
+import { getElementsOverlappingFrame } from "eterill-element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawFrameLikeElement,
   NonDeletedExcalidrawElement,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import {
   copyBlobToClipboardAsPng,

@@ -1,6 +1,6 @@
-import { CODES, KEYS } from "@eterill/common";
+﻿import { CODES, KEYS } from "eterill-common";
 
-import { CaptureUpdateAction } from "@eterill/element";
+import { CaptureUpdateAction } from "eterill-element";
 
 import { coffeeIcon } from "../components/icons";
 

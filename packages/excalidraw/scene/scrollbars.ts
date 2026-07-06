@@ -1,6 +1,6 @@
-import { getGlobalCSSVariable } from "@eterill/common";
+﻿import { getGlobalCSSVariable } from "eterill-common";
 
-import { getCommonBounds } from "@eterill/element";
+import { getCommonBounds } from "eterill-element";
 
 import { getLanguage } from "../i18n";
 

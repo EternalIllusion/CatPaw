@@ -1,4 +1,4 @@
-import { GOOGLE_FONTS_RANGES } from "@eterill/common";
+﻿import { GOOGLE_FONTS_RANGES } from "eterill-common";
 
 import { type ExcalidrawFontFaceDescriptor } from "../Fonts";
 

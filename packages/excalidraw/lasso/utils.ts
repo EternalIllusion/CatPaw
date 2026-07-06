@@ -1,12 +1,12 @@
-import { simplify } from "points-on-curve";
+﻿import { simplify } from "points-on-curve";
 
 import {
   polygonFromPoints,
   lineSegment,
   polygonIncludesPointNonZero,
-} from "@eterill/math";
+} from "eterill-math";
 
-import { type Bounds } from "@eterill/common";
+import { type Bounds } from "eterill-common";
 
 import {
   computeBoundTextPosition,
@@ -14,10 +14,10 @@ import {
   getBoundTextElement,
   getElementBounds,
   intersectElementWithLineSegment,
-} from "@eterill/element";
+} from "eterill-element";
 
-import type { ElementsSegmentsMap, GlobalPoint } from "@eterill/math/types";
-import type { ElementsMap, ExcalidrawElement } from "@eterill/element/types";
+import type { ElementsSegmentsMap, GlobalPoint } from "eterill-math/types";
+import type { ElementsMap, ExcalidrawElement } from "eterill-element/types";
 
 export const getLassoSelectedElementIds = (input: {
   lassoPath: GlobalPoint[];

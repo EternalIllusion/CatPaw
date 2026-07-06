@@ -1,8 +1,8 @@
-# Laser Pointer
+﻿# Laser Pointer
 
 ## Usage
 
-    import { LaserPointer } from '@eterill/laser-pointer'
+    import { LaserPointer } from 'eterill-laser-pointer'
 
     const stroke = new LaserPointer(options)
 

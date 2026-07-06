@@ -1,15 +1,15 @@
-import type {
+﻿import type {
   IMAGE_MIME_TYPES,
   UserIdleState,
   throttleRAF,
   MIME_TYPES,
   EditorInterface,
   StrokeWidthKey,
-} from "@eterill/common";
+} from "eterill-common";
 
-import type { LinearElementEditor } from "@eterill/element";
+import type { LinearElementEditor } from "eterill-element";
 
-import type { MaybeTransformHandleType } from "@eterill/element";
+import type { MaybeTransformHandleType } from "eterill-element";
 
 import type {
   PointerType,
@@ -35,21 +35,21 @@ import type {
   BindMode,
   ExcalidrawTextElement,
   StrokeVariability,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import type {
   Merge,
   MaybePromise,
   ValueOf,
   MakeBrand,
-} from "@eterill/common/utility-types";
+} from "eterill-common/utility-types";
 
 import type {
   CaptureUpdateActionType,
   DurableIncrement,
   EphemeralIncrement,
-} from "@eterill/element";
-import type { GlobalPoint } from "@eterill/math";
+} from "eterill-element";
+import type { GlobalPoint } from "eterill-math";
 
 import type { Action } from "./actions/types";
 import type { Spreadsheet } from "./charts";

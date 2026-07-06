@@ -1,14 +1,14 @@
-import { getNonDeletedElements } from "@eterill/element";
-import { LinearElementEditor } from "@eterill/element";
-import { isLinearElement, isTextElement } from "@eterill/element";
+﻿import { getNonDeletedElements } from "eterill-element";
+import { LinearElementEditor } from "eterill-element";
+import { isLinearElement, isTextElement } from "eterill-element";
 
-import { arrayToMap, KEYS } from "@eterill/common";
+import { arrayToMap, KEYS } from "eterill-common";
 
-import { selectGroupsForSelectedElements } from "@eterill/element";
+import { selectGroupsForSelectedElements } from "eterill-element";
 
-import { CaptureUpdateAction } from "@eterill/element";
+import { CaptureUpdateAction } from "eterill-element";
 
-import type { ExcalidrawElement } from "@eterill/element/types";
+import type { ExcalidrawElement } from "eterill-element/types";
 
 import { selectAllIcon } from "../components/icons";
 

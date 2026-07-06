@@ -1,4 +1,4 @@
-{
+﻿{
   "extends": ["@excalidraw/eslint-config", "react-app"],
   "rules": {
     "import/order": [
@@ -50,7 +50,7 @@
           {
             "patterns": [
               {
-                "group": ["@eterill/excalidraw"],
+                "group": ["eterill-excalidraw"],
                 "message": "Do not import from the barrel 'index.tsx' files. Use direct relative imports to the specific module instead.",
                 "allowTypeImports": true
               }

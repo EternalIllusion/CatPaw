@@ -1,13 +1,13 @@
-import {
+﻿import {
   getElementsInGroup,
   isSomeElementSelected,
   makeNextSelectedElementIds,
   selectGroupsForSelectedElements,
-} from "@eterill/element";
-import { CaptureUpdateAction } from "@eterill/element";
-import { KEYS, isWritableElement, updateActiveTool } from "@eterill/common";
+} from "eterill-element";
+import { CaptureUpdateAction } from "eterill-element";
+import { KEYS, isWritableElement, updateActiveTool } from "eterill-common";
 
-import type { GroupId } from "@eterill/element/types";
+import type { GroupId } from "eterill-element/types";
 
 import { register } from "./register";
 

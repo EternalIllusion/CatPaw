@@ -1,24 +1,24 @@
-import {
+﻿import {
   DEFAULT_GRID_SIZE,
   KEYS,
   MOBILE_ACTION_BUTTON_BG,
   arrayToMap,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { getNonDeletedElements } from "@eterill/element";
+import { getNonDeletedElements } from "eterill-element";
 
-import { LinearElementEditor } from "@eterill/element";
+import { LinearElementEditor } from "eterill-element";
 
 import {
   getSelectedElements,
   getSelectionStateForElements,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { syncMovedIndices } from "@eterill/element";
+import { syncMovedIndices } from "eterill-element";
 
-import { duplicateElements } from "@eterill/element";
+import { duplicateElements } from "eterill-element";
 
-import { CaptureUpdateAction } from "@eterill/element";
+import { CaptureUpdateAction } from "eterill-element";
 
 import { ToolButton } from "../components/ToolButton";
 import { DuplicateIcon } from "../components/icons";

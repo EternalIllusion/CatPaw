@@ -1,11 +1,11 @@
-import React from "react";
+﻿import React from "react";
 
-import { isPromiseLike } from "@eterill/common";
+import { isPromiseLike } from "eterill-common";
 
 import type {
   ExcalidrawElement,
   OrderedExcalidrawElement,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { trackEvent } from "../analytics";
 

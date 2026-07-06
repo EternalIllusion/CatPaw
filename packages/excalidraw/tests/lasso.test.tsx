@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Test case:
  *
  * create a few random elements on canvas
@@ -20,11 +20,11 @@ import {
   pointFrom,
   type Radians,
   type ElementsSegmentsMap,
-} from "@eterill/math";
+} from "eterill-math";
 
-import { getElementLineSegments } from "@eterill/element";
+import { getElementLineSegments } from "eterill-element";
 
-import type { ExcalidrawElement } from "@eterill/element/types";
+import type { ExcalidrawElement } from "eterill-element/types";
 
 import { Excalidraw } from "../index";
 

@@ -1,8 +1,8 @@
-import React from "react";
+﻿import React from "react";
 
 import { DropdownMenu as DropdownMenuPrimitive } from "radix-ui";
 
-import { CLASSES } from "@eterill/common";
+import { CLASSES } from "eterill-common";
 
 import DropdownMenuContent from "./DropdownMenuContent";
 import DropdownMenuGroup from "./DropdownMenuGroup";

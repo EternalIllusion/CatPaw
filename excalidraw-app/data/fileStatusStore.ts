@@ -1,6 +1,6 @@
-import { VersionedSnapshotStore } from "@eterill/common";
+﻿import { VersionedSnapshotStore } from "eterill-common";
 
-import type { FileId } from "@eterill/element/types";
+import type { FileId } from "eterill-element/types";
 
 export type FileLoadingStatus = "loading" | "loaded" | "error";
 

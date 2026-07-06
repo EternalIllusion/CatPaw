@@ -1,4 +1,4 @@
-import Trans from "./Trans";
+﻿import Trans from "./Trans";
 
 const BraveMeasureTextError = () => {
   return (
@@ -19,7 +19,7 @@ const BraveMeasureTextError = () => {
         <Trans
           i18nKey="errors.brave_measure_text_error.line3"
           link={(el) => (
-            <a href="http://docs.excalidraw.com/docs/@eterill/excalidraw/faq#turning-off-aggresive-block-fingerprinting-in-brave-browser">
+            <a href="http://docs.excalidraw.com/docs/eterill-excalidraw/faq#turning-off-aggresive-block-fingerprinting-in-brave-browser">
               {el}
             </a>
           )}

@@ -1,4 +1,4 @@
-import {
+﻿import {
   arrayToMap,
   easeOut,
   isBounds,
@@ -6,8 +6,8 @@ import {
   MIN_ZOOM,
   viewportCoordsToSceneCoords,
   ZOOM_STEP,
-} from "@eterill/common";
-import { clamp, pointDistance, pointFrom, roundToStep } from "@eterill/math";
+} from "eterill-common";
+import { clamp, pointDistance, pointFrom, roundToStep } from "eterill-math";
 
 import {
   CaptureUpdateAction,
@@ -18,16 +18,16 @@ import {
   isElementLink,
   isExcalidrawElement,
   parseElementLinkFromURL,
-} from "@eterill/element";
+} from "eterill-element";
 
-import type { SceneBounds } from "@eterill/element";
+import type { SceneBounds } from "eterill-element";
 
-import type { Bounds } from "@eterill/common";
+import type { Bounds } from "eterill-common";
 import type {
   ExcalidrawElement,
   NonDeleted,
   NonDeletedSceneElementsMap,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { AnimationController } from "./renderer/animation";
 import { getNormalizedZoom } from "./scene";

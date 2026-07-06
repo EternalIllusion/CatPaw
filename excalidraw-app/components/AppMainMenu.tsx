@@ -1,14 +1,14 @@
-import {
+﻿import {
   loginIcon,
   ExcalLogo,
   eyeIcon,
-} from "@eterill/excalidraw/components/icons";
-import { MainMenu } from "@eterill/excalidraw/index";
+} from "eterill-excalidraw/components/icons";
+import { MainMenu } from "eterill-excalidraw/index";
 import React from "react";
 
-import { isDevEnv } from "@eterill/common";
+import { isDevEnv } from "eterill-common";
 
-import type { Theme } from "@eterill/element/types";
+import type { Theme } from "eterill-element/types";
 
 import { LanguageList } from "../app-language/LanguageList";
 import { isExcalidrawPlusSignedUser } from "../app_constants";

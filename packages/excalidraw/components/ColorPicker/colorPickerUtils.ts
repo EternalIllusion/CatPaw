@@ -1,8 +1,8 @@
-import { MAX_CUSTOM_COLORS_USED_IN_CANVAS } from "@eterill/common";
+﻿import { MAX_CUSTOM_COLORS_USED_IN_CANVAS } from "eterill-common";
 
-import type { ExcalidrawElement } from "@eterill/element/types";
+import type { ExcalidrawElement } from "eterill-element/types";
 
-import type { ColorPickerColor, ColorPaletteCustom } from "@eterill/common";
+import type { ColorPickerColor, ColorPaletteCustom } from "eterill-common";
 
 import { atom } from "../../editor-jotai";
 

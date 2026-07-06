@@ -1,4 +1,4 @@
-import {
+﻿import {
   DEFAULT_CANVAS_BACKGROUND_PICKS,
   CURSOR_TYPE,
   MAX_ZOOM,
@@ -8,13 +8,13 @@ import {
   updateActiveTool,
   CODES,
   KEYS,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { getNonDeletedElements } from "@eterill/element";
-import { newElementWith } from "@eterill/element";
-import { getCommonBounds } from "@eterill/element";
+import { getNonDeletedElements } from "eterill-element";
+import { newElementWith } from "eterill-element";
+import { getCommonBounds } from "eterill-element";
 
-import { CaptureUpdateAction } from "@eterill/element";
+import { CaptureUpdateAction } from "eterill-element";
 
 import {
   getDefaultAppState,

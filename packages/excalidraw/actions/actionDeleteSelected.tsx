@@ -1,29 +1,29 @@
-import {
+﻿import {
   KEYS,
   MOBILE_ACTION_BUTTON_BG,
   updateActiveTool,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { getNonDeletedElements } from "@eterill/element";
-import { fixBindingsAfterDeletion } from "@eterill/element";
-import { LinearElementEditor } from "@eterill/element";
-import { newElementWith } from "@eterill/element";
-import { getContainerElement } from "@eterill/element";
+import { getNonDeletedElements } from "eterill-element";
+import { fixBindingsAfterDeletion } from "eterill-element";
+import { LinearElementEditor } from "eterill-element";
+import { newElementWith } from "eterill-element";
+import { getContainerElement } from "eterill-element";
 import {
   isBoundToContainer,
   isElbowArrow,
   isFrameLikeElement,
-} from "@eterill/element";
-import { getFrameChildren } from "@eterill/element";
+} from "eterill-element";
+import { getFrameChildren } from "eterill-element";
 
 import {
   getElementsInGroup,
   selectGroupsForSelectedElements,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { CaptureUpdateAction } from "@eterill/element";
+import { CaptureUpdateAction } from "eterill-element";
 
-import type { ExcalidrawElement } from "@eterill/element/types";
+import type { ExcalidrawElement } from "eterill-element/types";
 
 import { t } from "../i18n";
 import { getSelectedElements, isSomeElementSelected } from "../scene";

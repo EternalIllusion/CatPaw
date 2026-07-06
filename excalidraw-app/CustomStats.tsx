@@ -1,16 +1,16 @@
-import { Stats } from "@eterill/excalidraw";
-import { copyTextToSystemClipboard } from "@eterill/excalidraw/clipboard";
+﻿import { Stats } from "eterill-excalidraw";
+import { copyTextToSystemClipboard } from "eterill-excalidraw/clipboard";
 import {
   DEFAULT_VERSION,
   debounce,
   getVersion,
   nFormatter,
-} from "@eterill/common";
-import { t } from "@eterill/excalidraw/i18n";
+} from "eterill-common";
+import { t } from "eterill-excalidraw/i18n";
 import { useEffect, useState } from "react";
 
-import type { NonDeletedExcalidrawElement } from "@eterill/element/types";
-import type { UIAppState } from "@eterill/excalidraw/types";
+import type { NonDeletedExcalidrawElement } from "eterill-element/types";
+import type { UIAppState } from "eterill-excalidraw/types";
 
 import {
   getElementsStorageSize,

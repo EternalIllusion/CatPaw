@@ -1,4 +1,4 @@
-import rough from "roughjs/bin/rough";
+﻿import rough from "roughjs/bin/rough";
 
 import {
   DEFAULT_EXPORT_PADDING,
@@ -13,33 +13,33 @@ import {
   getFontString,
   toBrandedType,
   applyDarkModeFilter,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { getCommonBounds, getElementAbsoluteCoords } from "@eterill/element";
+import { getCommonBounds, getElementAbsoluteCoords } from "eterill-element";
 
 import {
   getInitializedImageElements,
   updateImageCache,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { newElementWith } from "@eterill/element";
+import { newElementWith } from "eterill-element";
 
-import { isFrameLikeElement } from "@eterill/element";
+import { isFrameLikeElement } from "eterill-element";
 
 import {
   getElementsOverlappingFrame,
   getFrameLikeElements,
   getFrameLikeTitle,
   getRootElements,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { syncInvalidIndices } from "@eterill/element";
+import { syncInvalidIndices } from "eterill-element";
 
-import { type Mutable } from "@eterill/common/utility-types";
+import { type Mutable } from "eterill-common/utility-types";
 
-import { newTextElement } from "@eterill/element";
+import { newTextElement } from "eterill-element";
 
-import type { Bounds } from "@eterill/common";
+import type { Bounds } from "eterill-common";
 
 import type {
   ExcalidrawElement,
@@ -47,7 +47,7 @@ import type {
   ExcalidrawTextElement,
   NonDeletedExcalidrawElement,
   NonDeletedSceneElementsMap,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { getDefaultAppState } from "../appState";
 import { base64ToString, decode, encode, stringToBase64 } from "../data/encode";

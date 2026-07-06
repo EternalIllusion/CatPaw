@@ -1,4 +1,4 @@
-import { debounce } from "@eterill/common";
+﻿import { debounce } from "eterill-common";
 
 import { WorkerInTheMainChunkError, WorkerUrlNotDefinedError } from "./errors";
 

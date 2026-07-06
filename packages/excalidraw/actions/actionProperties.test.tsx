@@ -1,4 +1,4 @@
-import { fireEvent, queryByTestId } from "@testing-library/react";
+﻿import { fireEvent, queryByTestId } from "@testing-library/react";
 
 import {
   COLOR_PALETTE,
@@ -6,7 +6,7 @@ import {
   FREEDRAW_STROKE_WIDTH,
   FONT_FAMILY,
   STROKE_WIDTH,
-} from "@eterill/common";
+} from "eterill-common";
 
 import { Excalidraw } from "../index";
 import { API } from "../tests/helpers/api";

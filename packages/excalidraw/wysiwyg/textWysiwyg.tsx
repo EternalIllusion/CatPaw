@@ -1,4 +1,4 @@
-import {
+﻿import {
   CODES,
   KEYS,
   CLASSES,
@@ -11,18 +11,18 @@ import {
   MIME_TYPES,
   applyDarkModeFilter,
   isRTL,
-} from "@eterill/common";
-import { pointFrom, pointRotateRads, type Radians } from "@eterill/math";
+} from "eterill-common";
+import { pointFrom, pointRotateRads, type Radians } from "eterill-math";
 
 import {
   getTextFromElements,
   originalContainerCache,
   updateBoundElements,
   updateOriginalContainerCache,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { LinearElementEditor } from "@eterill/element";
-import { bumpVersion } from "@eterill/element";
+import { LinearElementEditor } from "eterill-element";
+import { bumpVersion } from "eterill-element";
 import {
   getBoundTextElementId,
   getContainerElement,
@@ -33,25 +33,25 @@ import {
   computeContainerDimensionForBoundText,
   computeBoundTextPosition,
   getBoundTextElement,
-} from "@eterill/element";
-import { getTextWidth } from "@eterill/element";
-import { getLineHeightInPx } from "@eterill/element";
-import { getLineWidth } from "@eterill/element";
-import { normalizeText } from "@eterill/element";
-import { wrapText } from "@eterill/element";
-import { getWrappedTextLines } from "@eterill/element";
+} from "eterill-element";
+import { getTextWidth } from "eterill-element";
+import { getLineHeightInPx } from "eterill-element";
+import { getLineWidth } from "eterill-element";
+import { normalizeText } from "eterill-element";
+import { wrapText } from "eterill-element";
+import { getWrappedTextLines } from "eterill-element";
 import {
   isArrowElement,
   isBoundToContainer,
   isTextElement,
-} from "@eterill/element";
+} from "eterill-element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawLinearElement,
   ExcalidrawTextElementWithContainer,
   ExcalidrawTextElement,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { actionSaveToActiveFile } from "../actions";
 

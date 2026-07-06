@@ -1,16 +1,16 @@
-import React from "react";
+﻿import React from "react";
 
 import {
   CANVAS_SEARCH_TAB,
   CLASSES,
   DEFAULT_SIDEBAR,
   KEYS,
-} from "@eterill/common";
+} from "eterill-common";
 
 import type {
   ExcalidrawFrameLikeElement,
   ExcalidrawTextElement,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { Excalidraw } from "../index";
 

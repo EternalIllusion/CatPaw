@@ -1,4 +1,4 @@
-import {
+﻿import {
   pointFrom,
   lineSegment,
   polygon,
@@ -6,14 +6,14 @@ import {
   pointOnPolygon,
   polygonIncludesPoint,
   segmentsIntersectAt,
-} from "@eterill/math";
+} from "eterill-math";
 
 import type {
   GlobalPoint,
   LineSegment,
   Polygon,
   Radians,
-} from "@eterill/math";
+} from "eterill-math";
 
 import { pointInEllipse, pointOnEllipse, type Ellipse } from "../src/shape";
 

@@ -1,36 +1,36 @@
-import {
+﻿import {
   pointFrom,
   pointRotateRads,
   rangeInclusive,
   rangeIntersection,
   rangesOverlap,
   type GlobalPoint,
-} from "@eterill/math";
+} from "eterill-math";
 
-import { TOOL_TYPE, KEYS } from "@eterill/common";
+import { TOOL_TYPE, KEYS } from "eterill-common";
 import {
   getCommonBounds,
   getDraggedElementsBounds,
   getElementAbsoluteCoords,
-} from "@eterill/element";
-import { isBoundToContainer } from "@eterill/element";
+} from "eterill-element";
+import { isBoundToContainer } from "eterill-element";
 
-import { getMaximumGroups } from "@eterill/element";
+import { getMaximumGroups } from "eterill-element";
 
 import {
   getSelectedElements,
   getVisibleAndNonSelectedElements,
-} from "@eterill/element";
+} from "eterill-element";
 
-import type { InclusiveRange } from "@eterill/math";
+import type { InclusiveRange } from "eterill-math";
 
-import type { Bounds } from "@eterill/common";
-import type { MaybeTransformHandleType } from "@eterill/element";
+import type { Bounds } from "eterill-common";
+import type { MaybeTransformHandleType } from "eterill-element";
 import type {
   ElementsMap,
   ExcalidrawElement,
   NonDeletedExcalidrawElement,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import type {
   AppClassProperties,

@@ -1,18 +1,18 @@
-import {
+﻿import {
   convertToExcalidrawElements,
   Excalidraw,
-} from "@eterill/excalidraw";
-import { arrayToMap } from "@eterill/common";
+} from "eterill-excalidraw";
+import { arrayToMap } from "eterill-common";
 
-import { API } from "@eterill/excalidraw/tests/helpers/api";
-import { Keyboard, Pointer, UI } from "@eterill/excalidraw/tests/helpers/ui";
-import { getTextEditor } from "@eterill/excalidraw/tests/queries/dom";
+import { API } from "eterill-excalidraw/tests/helpers/api";
+import { Keyboard, Pointer, UI } from "eterill-excalidraw/tests/helpers/ui";
+import { getTextEditor } from "eterill-excalidraw/tests/queries/dom";
 import {
   getCloneByOrigId,
   render,
-} from "@eterill/excalidraw/tests/test-utils";
+} from "eterill-excalidraw/tests/test-utils";
 
-import { getSelectedElements } from "@eterill/excalidraw/scene";
+import { getSelectedElements } from "eterill-excalidraw/scene";
 
 import { elementOverlapsWithFrame } from "../src/frame";
 

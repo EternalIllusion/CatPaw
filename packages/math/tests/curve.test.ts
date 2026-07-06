@@ -1,4 +1,4 @@
-import "@eterill/utils/test-utils";
+﻿import "eterill-utils/test-utils";
 
 import {
   curve,

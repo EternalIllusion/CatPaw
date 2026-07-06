@@ -1,4 +1,4 @@
-//
+﻿//
 // All icons are imported from https://fontawesome.com/icons?d=gallery
 // Icons are under the license https://fontawesome.com/license
 //
@@ -9,9 +9,9 @@
 import clsx from "clsx";
 import React from "react";
 
-import { THEME } from "@eterill/common";
+import { THEME } from "eterill-common";
 
-import type { Theme } from "@eterill/element/types";
+import type { Theme } from "eterill-element/types";
 
 export const iconFillColor = (theme: Theme) => "var(--icon-fill-color)";
 

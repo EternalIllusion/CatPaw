@@ -1,10 +1,10 @@
-import {
+﻿import {
   DEFAULT_ADAPTIVE_RADIUS,
   DEFAULT_PROPORTIONAL_RADIUS,
   invariant,
   LINE_CONFIRM_THRESHOLD,
   ROUNDNESS,
-} from "@eterill/common";
+} from "eterill-common";
 
 import {
   bezierEquation,
@@ -24,15 +24,15 @@ import {
   vectorNormalize,
   vectorScale,
   type GlobalPoint,
-} from "@eterill/math";
+} from "eterill-math";
 
-import type { Curve, LineSegment, LocalPoint } from "@eterill/math";
+import type { Curve, LineSegment, LocalPoint } from "eterill-math";
 
 import type {
   AppState,
   NormalizedZoomValue,
   Zoom,
-} from "@eterill/excalidraw/types";
+} from "eterill-excalidraw/types";
 
 import { elementCenterPoint, getDiamondPoints } from "./bounds";
 

@@ -1,8 +1,8 @@
-import clsx from "clsx";
+﻿import clsx from "clsx";
 
-import { CaptureUpdateAction } from "@eterill/element";
+import { CaptureUpdateAction } from "eterill-element";
 
-import { invariant } from "@eterill/common";
+import { invariant } from "eterill-common";
 
 import { getClientColor } from "../clients";
 import { Avatar } from "../components/Avatar";

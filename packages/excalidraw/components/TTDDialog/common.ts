@@ -1,17 +1,17 @@
-import {
+﻿import {
   DEFAULT_EXPORT_PADDING,
   EDITOR_LS_KEYS,
   THEME,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { convertToExcalidrawElements } from "@eterill/element";
+import { convertToExcalidrawElements } from "eterill-element";
 
-import { exportToCanvas } from "@eterill/utils";
+import { exportToCanvas } from "eterill-utils";
 
 import type {
   NonDeletedExcalidrawElement,
   Theme,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { EditorLocalStorage } from "../../data/EditorLocalStorage";
 

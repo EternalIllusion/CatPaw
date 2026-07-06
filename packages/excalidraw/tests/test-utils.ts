@@ -1,4 +1,4 @@
-import "pepjs";
+﻿import "pepjs";
 import { act } from "@testing-library/react";
 import {
   render,
@@ -9,13 +9,13 @@ import {
 } from "@testing-library/react";
 import ansi from "ansicolor";
 
-import { ORIG_ID, arrayToMap } from "@eterill/common";
+import { ORIG_ID, arrayToMap } from "eterill-common";
 
-import { getSelectedElements } from "@eterill/element";
+import { getSelectedElements } from "eterill-element";
 
-import type { ExcalidrawElement } from "@eterill/element/types";
+import type { ExcalidrawElement } from "eterill-element/types";
 
-import type { AllPossibleKeys } from "@eterill/common/utility-types";
+import type { AllPossibleKeys } from "eterill-common/utility-types";
 
 import { STORAGE_KEYS } from "../../../excalidraw-app/app_constants";
 

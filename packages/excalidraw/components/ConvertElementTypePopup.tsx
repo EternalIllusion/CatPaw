@@ -1,13 +1,13 @@
-import { type ReactNode, useEffect, useMemo, useRef, useState } from "react";
+﻿import { type ReactNode, useEffect, useMemo, useRef, useState } from "react";
 
 import {
   bumpVersion,
   getLinearElementSubType,
   mutateElement,
   updateElbowArrowPoints,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { pointFrom, pointRotateRads, type LocalPoint } from "@eterill/math";
+import { pointFrom, pointRotateRads, type LocalPoint } from "eterill-math";
 
 import {
   hasBoundTextElement,
@@ -16,21 +16,21 @@ import {
   isElbowArrow,
   isLinearElement,
   isUsingAdaptiveRadius,
-} from "@eterill/element";
+} from "eterill-element";
 
 import {
   getCommonBoundingBox,
   getElementAbsoluteCoords,
-} from "@eterill/element";
+} from "eterill-element";
 
 import {
   getBoundTextElement,
   getBoundTextMaxHeight,
   getBoundTextMaxWidth,
   redrawTextBoundingBox,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { wrapText } from "@eterill/element";
+import { wrapText } from "eterill-element";
 
 import {
   assertNever,
@@ -42,21 +42,21 @@ import {
   ROUNDNESS,
   sceneCoordsToViewportCoords,
   updateActiveTool,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { measureText } from "@eterill/element";
+import { measureText } from "eterill-element";
 
-import { LinearElementEditor } from "@eterill/element";
+import { LinearElementEditor } from "eterill-element";
 
 import {
   newArrowElement,
   newElement,
   newLinearElement,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { ShapeCache } from "@eterill/element";
+import { ShapeCache } from "eterill-element";
 
-import { updateBindings } from "@eterill/element";
+import { updateBindings } from "eterill-element";
 
 import type {
   ConvertibleGenericTypes,
@@ -71,9 +71,9 @@ import type {
   ExcalidrawTextContainer,
   ExcalidrawTextElementWithContainer,
   FixedSegment,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
-import type { Scene } from "@eterill/element";
+import type { Scene } from "eterill-element";
 
 import { trackEvent } from "../analytics";
 import { atom } from "../editor-jotai";

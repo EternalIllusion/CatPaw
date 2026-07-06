@@ -1,4 +1,4 @@
-import { arrayToMap } from "@eterill/common";
+﻿import { arrayToMap } from "eterill-common";
 
 import type { ExcalidrawElement } from "./types";
 

@@ -1,12 +1,12 @@
-import {
+﻿import {
   FONT_FAMILY,
   VERTICAL_ALIGN,
   escapeDoubleQuotes,
   getFontString,
-} from "@eterill/common";
+} from "eterill-common";
 
-import type { ExcalidrawProps } from "@eterill/excalidraw/types";
-import type { MarkRequired } from "@eterill/common/utility-types";
+import type { ExcalidrawProps } from "eterill-excalidraw/types";
+import type { MarkRequired } from "eterill-common/utility-types";
 
 import { newTextElement } from "./newElement";
 import { wrapText } from "./textWrapping";

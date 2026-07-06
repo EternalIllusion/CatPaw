@@ -1,6 +1,6 @@
-import React, { memo, useEffect, useState } from "react";
+﻿import React, { memo, useEffect, useState } from "react";
 
-import type { ExcalidrawElement, NonDeleted } from "@eterill/element/types";
+import type { ExcalidrawElement, NonDeleted } from "eterill-element/types";
 
 import { useTransition } from "../hooks/useTransition";
 

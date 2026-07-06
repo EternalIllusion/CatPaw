@@ -1,6 +1,6 @@
-import { useCallback, useEffect, useMemo, useRef } from "react";
+﻿import { useCallback, useEffect, useMemo, useRef } from "react";
 
-import type { NonDeletedExcalidrawElement } from "@eterill/element/types";
+import type { NonDeletedExcalidrawElement } from "eterill-element/types";
 
 import { useAtom } from "../../../editor-jotai";
 

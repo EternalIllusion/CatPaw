@@ -1,6 +1,6 @@
-import { useRef } from "react";
+﻿import { useRef } from "react";
 
-import type { NonDeletedExcalidrawElement } from "@eterill/element/types";
+import type { NonDeletedExcalidrawElement } from "eterill-element/types";
 
 import { useAtom, useAtomValue } from "../../editor-jotai";
 

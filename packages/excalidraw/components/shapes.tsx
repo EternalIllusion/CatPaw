@@ -1,4 +1,4 @@
-import { KEYS } from "@eterill/common";
+﻿import { KEYS } from "eterill-common";
 
 import {
   SelectionIcon,

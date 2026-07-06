@@ -1,9 +1,9 @@
-import clsx from "clsx";
+﻿import clsx from "clsx";
 import React, { useEffect, useRef, useState } from "react";
 
-import { isPromiseLike } from "@eterill/common";
+import { isPromiseLike } from "eterill-common";
 
-import type { PointerType } from "@eterill/element/types";
+import type { PointerType } from "eterill-element/types";
 
 import { AbortError } from "../errors";
 

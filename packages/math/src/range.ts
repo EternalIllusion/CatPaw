@@ -1,4 +1,4 @@
-import { toBrandedType } from "@eterill/common";
+﻿import { toBrandedType } from "eterill-common";
 
 import type { InclusiveRange } from "./types";
 

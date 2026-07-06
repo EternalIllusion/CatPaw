@@ -1,6 +1,6 @@
-import { KEYS } from "@eterill/common";
+﻿import { KEYS } from "eterill-common";
 
-import type { Node } from "@eterill/common";
+import type { Node } from "eterill-common";
 
 import { type FontDescriptor } from "./FontPickerList";
 

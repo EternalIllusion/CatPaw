@@ -1,14 +1,14 @@
-import { getNonDeletedElements } from "@eterill/element";
-import { bindOrUnbindBindingElements } from "@eterill/element";
-import { getCommonBoundingBox } from "@eterill/element";
-import { newElementWith } from "@eterill/element";
-import { deepCopyElement } from "@eterill/element";
-import { resizeMultipleElements } from "@eterill/element";
-import { isArrowElement, isElbowArrow } from "@eterill/element";
-import { updateFrameMembershipOfSelectedElements } from "@eterill/element";
-import { CODES, KEYS, arrayToMap } from "@eterill/common";
+﻿import { getNonDeletedElements } from "eterill-element";
+import { bindOrUnbindBindingElements } from "eterill-element";
+import { getCommonBoundingBox } from "eterill-element";
+import { newElementWith } from "eterill-element";
+import { deepCopyElement } from "eterill-element";
+import { resizeMultipleElements } from "eterill-element";
+import { isArrowElement, isElbowArrow } from "eterill-element";
+import { updateFrameMembershipOfSelectedElements } from "eterill-element";
+import { CODES, KEYS, arrayToMap } from "eterill-common";
 
-import { CaptureUpdateAction } from "@eterill/element";
+import { CaptureUpdateAction } from "eterill-element";
 
 import type {
   ExcalidrawArrowElement,
@@ -16,7 +16,7 @@ import type {
   ExcalidrawElement,
   NonDeleted,
   NonDeletedSceneElementsMap,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { getSelectedElements } from "../scene";
 

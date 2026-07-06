@@ -1,4 +1,4 @@
-import throttle from "lodash.throttle";
+﻿import throttle from "lodash.throttle";
 
 import {
   randomInteger,
@@ -7,20 +7,20 @@ import {
   isDevEnv,
   isTestEnv,
   toArray,
-} from "@eterill/common";
-import { isNonDeletedElement } from "@eterill/element";
-import { isFrameLikeElement } from "@eterill/element";
-import { getElementsInGroup } from "@eterill/element";
+} from "eterill-common";
+import { isNonDeletedElement } from "eterill-element";
+import { isFrameLikeElement } from "eterill-element";
+import { getElementsInGroup } from "eterill-element";
 
 import {
   syncInvalidIndices,
   syncMovedIndices,
   validateFractionalIndices,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { getSelectedElements } from "@eterill/element";
+import { getSelectedElements } from "eterill-element";
 
-import { mutateElement, type ElementUpdate } from "@eterill/element";
+import { mutateElement, type ElementUpdate } from "eterill-element";
 
 import type {
   ExcalidrawElement,
@@ -32,13 +32,13 @@ import type {
   NonDeletedSceneElementsMap,
   OrderedExcalidrawElement,
   Ordered,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import type {
   Assert,
   Mutable,
   SameType,
-} from "@eterill/common/utility-types";
+} from "eterill-common/utility-types";
 
 import type { AppState } from "../../excalidraw/types";
 

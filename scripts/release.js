@@ -1,4 +1,4 @@
-const fs = require("fs");
+﻿const fs = require("fs");
 const path = require("path");
 
 const { execSync } = require("child_process");
@@ -157,7 +157,7 @@ const askToCommit = (tag, nextVersion) => {
         if (answer.toLowerCase() === "y") {
           execSync(`git add -u`);
           execSync(
-            `git commit -m "chore: release @eterill/excalidraw@${nextVersion} 🎉"`,
+            `git commit -m "chore: release eterill-excalidraw@${nextVersion} 🎉"`,
           );
         } else {
           console.warn(

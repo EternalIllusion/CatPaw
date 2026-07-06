@@ -1,7 +1,7 @@
-import clsx from "clsx";
+﻿import clsx from "clsx";
 import React, { forwardRef, useState } from "react";
 
-import { isPromiseLike } from "@eterill/common";
+import { isPromiseLike } from "eterill-common";
 
 import { AbortError } from "../errors";
 

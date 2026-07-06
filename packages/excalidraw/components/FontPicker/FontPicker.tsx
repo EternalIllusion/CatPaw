@@ -1,10 +1,10 @@
-import { Popover } from "radix-ui";
+﻿import { Popover } from "radix-ui";
 import clsx from "clsx";
 import React, { useCallback, useMemo } from "react";
 
-import { FONT_FAMILY } from "@eterill/common";
+import { FONT_FAMILY } from "eterill-common";
 
-import type { FontFamilyValues } from "@eterill/element/types";
+import type { FontFamilyValues } from "eterill-element/types";
 
 import { t } from "../../i18n";
 import { RadioSelection } from "../RadioSelection";

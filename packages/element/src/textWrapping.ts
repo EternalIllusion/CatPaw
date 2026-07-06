@@ -1,4 +1,4 @@
-import { isDevEnv, isTestEnv } from "@eterill/common";
+﻿import { isDevEnv, isTestEnv } from "eterill-common";
 
 import { charWidth, getLineWidth } from "./textMeasurements";
 

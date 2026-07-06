@@ -1,7 +1,7 @@
-import clsx from "clsx";
+﻿import clsx from "clsx";
 import { useEffect, useRef } from "react";
 
-import type { ColorPaletteCustom } from "@eterill/common";
+import type { ColorPaletteCustom } from "eterill-common";
 
 import { useAtom } from "../../editor-jotai";
 import { t } from "../../i18n";

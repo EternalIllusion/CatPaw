@@ -1,4 +1,4 @@
-import type { UIAppState } from "@eterill/excalidraw/types";
+﻿import type { UIAppState } from "eterill-excalidraw/types";
 
 import { getSelectedElements } from "./selection";
 

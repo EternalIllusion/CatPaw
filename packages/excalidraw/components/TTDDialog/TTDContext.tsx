@@ -1,4 +1,4 @@
-import { randomId } from "@eterill/common";
+﻿import { randomId } from "eterill-common";
 
 import { atom } from "../../editor-jotai";
 

@@ -1,11 +1,11 @@
-import {
+﻿import {
   BOUND_TEXT_PADDING,
   DEFAULT_FONT_SIZE,
   DEFAULT_FONT_FAMILY,
   getFontString,
   isTestEnv,
   normalizeEOL,
-} from "@eterill/common";
+} from "eterill-common";
 
 import type { FontString, ExcalidrawTextElement } from "./types";
 

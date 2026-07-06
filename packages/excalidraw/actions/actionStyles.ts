@@ -1,13 +1,13 @@
-import {
+﻿import {
   DEFAULT_FONT_SIZE,
   DEFAULT_FONT_FAMILY,
   DEFAULT_TEXT_ALIGN,
   CODES,
   KEYS,
   getLineHeight,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { newElementWith } from "@eterill/element";
+import { newElementWith } from "eterill-element";
 
 import {
   hasBoundTextElement,
@@ -17,16 +17,16 @@ import {
   isArrowElement,
   isExcalidrawElement,
   isTextElement,
-} from "@eterill/element";
+} from "eterill-element";
 
 import {
   getBoundTextElement,
   redrawTextBoundingBox,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { CaptureUpdateAction } from "@eterill/element";
+import { CaptureUpdateAction } from "eterill-element";
 
-import type { ExcalidrawTextElement } from "@eterill/element/types";
+import type { ExcalidrawTextElement } from "eterill-element/types";
 
 import { paintIcon } from "../components/icons";
 

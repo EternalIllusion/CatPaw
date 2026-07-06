@@ -1,19 +1,19 @@
-import {
+﻿import {
   isElbowArrow,
   isLinearElement,
   isLineElement,
-} from "@eterill/element";
-import { arrayToMap, invariant } from "@eterill/common";
+} from "eterill-element";
+import { arrayToMap, invariant } from "eterill-common";
 
 import {
   toggleLinePolygonState,
   CaptureUpdateAction,
-} from "@eterill/element";
+} from "eterill-element";
 
 import type {
   ExcalidrawLinearElement,
   ExcalidrawLineElement,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { DEFAULT_CATEGORIES } from "../components/CommandPalette/CommandPalette";
 import { ToolButton } from "../components/ToolButton";

@@ -1,14 +1,14 @@
-import {
+﻿import {
   FONT_FAMILY,
   FONT_FAMILY_FALLBACKS,
   CJK_HAND_DRAWN_FALLBACK_FONT,
   WINDOWS_EMOJI_FALLBACK_FONT,
   getFontFamilyFallbacks,
   FONT_SIZES,
-} from "@eterill/common";
-import { getContainerElement } from "@eterill/element";
-import { charWidth } from "@eterill/element";
-import { containsCJK } from "@eterill/element";
+} from "eterill-common";
+import { getContainerElement } from "eterill-element";
+import { charWidth } from "eterill-element";
+import { containsCJK } from "eterill-element";
 
 import {
   FONT_METADATA,
@@ -16,20 +16,20 @@ import {
   getFontString,
   PromisePool,
   promiseTry,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { ShapeCache } from "@eterill/element";
+import { ShapeCache } from "eterill-element";
 
-import { isTextElement } from "@eterill/element";
+import { isTextElement } from "eterill-element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawTextElement,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
-import type { ValueOf } from "@eterill/common/utility-types";
+import type { ValueOf } from "eterill-common/utility-types";
 
-import type { Scene } from "@eterill/element";
+import type { Scene } from "eterill-element";
 
 import { CascadiaFontFaces } from "./Cascadia";
 import { ComicShannsFontFaces } from "./ComicShanns";

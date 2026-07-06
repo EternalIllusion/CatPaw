@@ -1,9 +1,9 @@
-import type {
+﻿import type {
   AppClassProperties,
   AppState,
   InteractiveCanvasAppState,
-} from "@eterill/excalidraw/types";
-import type { Mutable } from "@eterill/common/utility-types";
+} from "eterill-excalidraw/types";
+import type { Mutable } from "eterill-common/utility-types";
 
 import { getBoundTextElement } from "./textElement";
 

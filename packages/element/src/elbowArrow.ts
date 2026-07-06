@@ -1,4 +1,4 @@
-import {
+﻿import {
   clamp,
   pointDistance,
   pointFrom,
@@ -11,7 +11,7 @@ import {
   vectorScale,
   type GlobalPoint,
   type LocalPoint,
-} from "@eterill/math";
+} from "eterill-math";
 
 import {
   type Bounds,
@@ -21,9 +21,9 @@ import {
   getSizeFromPoints,
   isDevEnv,
   arrayToMap,
-} from "@eterill/common";
+} from "eterill-common";
 
-import type { AppState } from "@eterill/excalidraw/types";
+import type { AppState } from "eterill-excalidraw/types";
 
 import {
   bindPointToSnapToElementOutline,

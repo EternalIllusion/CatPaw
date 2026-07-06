@@ -1,4 +1,4 @@
-import {
+﻿import {
   type Radians,
   pointFrom,
   pointCenter,
@@ -11,7 +11,7 @@ import {
   pointFromVector,
   clamp,
   isCloseTo,
-} from "@eterill/math";
+} from "eterill-math";
 import { type Point } from "points-on-curve";
 
 import {

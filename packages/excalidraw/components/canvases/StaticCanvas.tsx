@@ -1,11 +1,11 @@
-import React, { useEffect, useRef } from "react";
+﻿import React, { useEffect, useRef } from "react";
 
-import { isShallowEqual } from "@eterill/common";
+import { isShallowEqual } from "eterill-common";
 
 import type {
   NonDeletedExcalidrawElement,
   NonDeletedSceneElementsMap,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { isRenderThrottlingEnabled } from "../../reactUtils";
 import { renderStaticScene } from "../../renderer/staticScene";

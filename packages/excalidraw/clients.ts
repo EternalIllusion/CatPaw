@@ -1,10 +1,10 @@
-import {
+﻿import {
   COLOR_CHARCOAL_BLACK,
   COLOR_VOICE_CALL,
   COLOR_WHITE,
   THEME,
   UserIdleState,
-} from "@eterill/common";
+} from "eterill-common";
 
 import { roundRect } from "./renderer/roundRect";
 

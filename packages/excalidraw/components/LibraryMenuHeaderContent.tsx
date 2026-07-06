@@ -1,7 +1,7 @@
-import clsx from "clsx";
+﻿import clsx from "clsx";
 import { useCallback, useState } from "react";
 
-import { muteFSAbortError } from "@eterill/common";
+import { muteFSAbortError } from "eterill-common";
 
 import { useUIAppState } from "../context/ui-appState";
 import { fileOpen } from "../data/filesystem";

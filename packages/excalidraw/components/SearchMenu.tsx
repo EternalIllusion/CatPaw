@@ -1,4 +1,4 @@
-import clsx from "clsx";
+﻿import clsx from "clsx";
 import debounce from "lodash.debounce";
 import { Fragment, memo, useEffect, useMemo, useRef, useState } from "react";
 
@@ -8,31 +8,31 @@ import {
   FONT_FAMILY,
   FRAME_STYLE,
   getLineHeight,
-} from "@eterill/common";
+} from "eterill-common";
 
 import {
   getCommonBounds,
   isElementCompletelyInViewport,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { measureText } from "@eterill/element";
+import { measureText } from "eterill-element";
 
 import {
   KEYS,
   randomInteger,
   addEventListener,
   getFontString,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { newTextElement } from "@eterill/element";
-import { isTextElement, isFrameLikeElement } from "@eterill/element";
+import { newTextElement } from "eterill-element";
+import { isTextElement, isFrameLikeElement } from "eterill-element";
 
-import { getDefaultFrameName } from "@eterill/element/frame";
+import { getDefaultFrameName } from "eterill-element/frame";
 
 import type {
   ExcalidrawFrameLikeElement,
   ExcalidrawTextElement,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { atom, useAtom } from "../editor-jotai";
 

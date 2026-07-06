@@ -1,4 +1,4 @@
-{
+﻿{
   "compilerOptions": {
     "rootDir": "./",
     "target": "ESNext",
@@ -19,20 +19,20 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@eterill/common": ["./packages/common/src/index.ts"],
-      "@eterill/common/*": ["./packages/common/src/*"],
-      "@eterill/excalidraw": ["./packages/excalidraw/index.tsx"],
-      "@eterill/excalidraw/*": ["./packages/excalidraw/*"],
-      "@eterill/element": ["./packages/element/src/index.ts"],
-      "@eterill/element/*": ["./packages/element/src/*"],
-      "@eterill/fractional-indexing": ["./packages/fractional-indexing/src/index.ts"],
-      "@eterill/fractional-indexing/*": ["./packages/fractional-indexing/src/*"],
-      "@eterill/laser-pointer": ["./packages/laser-pointer/src/index.ts"],
-      "@eterill/laser-pointer/*": ["./packages/laser-pointer/src/*"],
-      "@eterill/math": ["./packages/math/src/index.ts"],
-      "@eterill/math/*": ["./packages/math/src/*"],
-      "@eterill/utils": ["./packages/utils/src/index.ts"],
-      "@eterill/utils/*": ["./packages/utils/src/*"]
+      "eterill-common": ["./packages/common/src/index.ts"],
+      "eterill-common/*": ["./packages/common/src/*"],
+      "eterill-excalidraw": ["./packages/excalidraw/index.tsx"],
+      "eterill-excalidraw/*": ["./packages/excalidraw/*"],
+      "eterill-element": ["./packages/element/src/index.ts"],
+      "eterill-element/*": ["./packages/element/src/*"],
+      "eterill-fractional-indexing": ["./packages/fractional-indexing/src/index.ts"],
+      "eterill-fractional-indexing/*": ["./packages/fractional-indexing/src/*"],
+      "eterill-laser-pointer": ["./packages/laser-pointer/src/index.ts"],
+      "eterill-laser-pointer/*": ["./packages/laser-pointer/src/*"],
+      "eterill-math": ["./packages/math/src/index.ts"],
+      "eterill-math/*": ["./packages/math/src/*"],
+      "eterill-utils": ["./packages/utils/src/index.ts"],
+      "eterill-utils/*": ["./packages/utils/src/*"]
     }
   },
   "include": ["packages", "excalidraw-app"],

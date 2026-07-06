@@ -1,4 +1,4 @@
-import fs from "fs";
+﻿import fs from "fs";
 
 // vitest.setup.ts
 import "vitest-canvas-mock";
@@ -32,8 +32,8 @@ if (!debugDom) {
   });
 }
 
-vi.mock("@eterill/common", async (importOriginal) => {
-  const module = await importOriginal<typeof import("@eterill/common")>();
+vi.mock("eterill-common", async (importOriginal) => {
+  const module = await importOriginal<typeof import("eterill-common")>();
 
   return {
     ...module,

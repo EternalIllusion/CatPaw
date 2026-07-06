@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+﻿import { useEffect, useRef } from "react";
 
 import {
   URL_HASH_KEYS,
@@ -15,15 +15,15 @@ import {
   toValidURL,
   Queue,
   Emitter,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { hashElementsVersion, hashString } from "@eterill/element";
+import { hashElementsVersion, hashString } from "eterill-element";
 
-import { getCommonBoundingBox } from "@eterill/element";
+import { getCommonBoundingBox } from "eterill-element";
 
-import type { ExcalidrawElement } from "@eterill/element/types";
+import type { ExcalidrawElement } from "eterill-element/types";
 
-import type { MaybePromise } from "@eterill/common/utility-types";
+import type { MaybePromise } from "eterill-common/utility-types";
 
 import { atom, editorJotaiStore } from "../editor-jotai";
 

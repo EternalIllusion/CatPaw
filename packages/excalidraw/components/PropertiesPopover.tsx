@@ -1,8 +1,8 @@
-import { Popover } from "radix-ui";
+﻿import { Popover } from "radix-ui";
 import clsx from "clsx";
 import React, { type ReactNode } from "react";
 
-import { isInteractive } from "@eterill/common";
+import { isInteractive } from "eterill-common";
 
 import { useEditorInterface } from "./App";
 import { Island } from "./Island";

@@ -1,15 +1,15 @@
-import fs from "fs";
+﻿import fs from "fs";
 import path from "path";
 import util from "util";
 
-import { pointFrom, type LocalPoint, type Radians } from "@eterill/math";
+import { pointFrom, type LocalPoint, type Radians } from "eterill-math";
 
 import {
   DEFAULT_VERTICAL_ALIGN,
   ROUNDNESS,
   assertNever,
   getStrokeWidthByKey,
-} from "@eterill/common";
+} from "eterill-common";
 
 import {
   newArrowElement,
@@ -22,12 +22,12 @@ import {
   newLinearElement,
   newMagicFrameElement,
   newTextElement,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { isUsingAdaptiveRadius, getSelectedElements } from "@eterill/element";
-import { selectGroupsForSelectedElements } from "@eterill/element";
+import { isUsingAdaptiveRadius, getSelectedElements } from "eterill-element";
+import { selectGroupsForSelectedElements } from "eterill-element";
 
-import { FONT_SIZES } from "@eterill/common";
+import { FONT_SIZES } from "eterill-common";
 
 import type {
   ExcalidrawElement,
@@ -43,9 +43,9 @@ import type {
   ExcalidrawElbowArrowElement,
   ExcalidrawArrowElement,
   FixedSegment,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
-import type { Mutable } from "@eterill/common/utility-types";
+import type { Mutable } from "eterill-common/utility-types";
 
 import { getMimeType } from "../../data/blob";
 import { createTestHook } from "../../components/App";

@@ -1,14 +1,14 @@
-import { clamp, pointFrom, pointRotateRads, round } from "@eterill/math";
+﻿import { clamp, pointFrom, pointRotateRads, round } from "eterill-math";
 
 import {
   getFlipAdjustedCropPosition,
   getUncroppedWidthAndHeight,
-} from "@eterill/element";
-import { isImageElement } from "@eterill/element";
+} from "eterill-element";
+import { isImageElement } from "eterill-element";
 
-import type { ElementsMap, ExcalidrawElement } from "@eterill/element/types";
+import type { ElementsMap, ExcalidrawElement } from "eterill-element/types";
 
-import type { Scene } from "@eterill/element";
+import type { Scene } from "eterill-element";
 
 import StatsDragInput from "./DragInput";
 import { getStepSizedValue, moveElement, STEP_SIZE } from "./utils";

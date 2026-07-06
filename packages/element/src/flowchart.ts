@@ -1,11 +1,11 @@
-import { KEYS, invariant, toBrandedType } from "@eterill/common";
+﻿import { KEYS, invariant, toBrandedType } from "eterill-common";
 
-import { type GlobalPoint, pointFrom, type LocalPoint } from "@eterill/math";
+import { type GlobalPoint, pointFrom, type LocalPoint } from "eterill-math";
 
 import type {
   AppState,
   PendingExcalidrawElements,
-} from "@eterill/excalidraw/types";
+} from "eterill-excalidraw/types";
 
 import { bindBindingElement } from "./binding";
 import { updateElbowArrowPoints } from "./elbowArrow";

@@ -1,12 +1,12 @@
-import type { UserIdleState, EditorInterface } from "@eterill/common";
+﻿import type { UserIdleState, EditorInterface } from "eterill-common";
 import type {
   ExcalidrawElement,
   NonDeletedElementsMap,
   NonDeletedExcalidrawElement,
   NonDeletedSceneElementsMap,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
-import type { MakeBrand } from "@eterill/common/utility-types";
+import type { MakeBrand } from "eterill-common/utility-types";
 
 import type {
   AppClassProperties,

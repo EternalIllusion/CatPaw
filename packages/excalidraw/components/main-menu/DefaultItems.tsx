@@ -1,8 +1,8 @@
-import clsx from "clsx";
+﻿import clsx from "clsx";
 
-import { THEME } from "@eterill/common";
+import { THEME } from "eterill-common";
 
-import type { Theme } from "@eterill/element/types";
+import type { Theme } from "eterill-element/types";
 
 import {
   actionClearCanvas,

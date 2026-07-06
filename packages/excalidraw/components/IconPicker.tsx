@@ -1,8 +1,8 @@
-import { Popover } from "radix-ui";
+﻿import { Popover } from "radix-ui";
 import clsx from "clsx";
 import React, { useEffect, useMemo } from "react";
 
-import { isArrowKey, KEYS } from "@eterill/common";
+import { isArrowKey, KEYS } from "eterill-common";
 
 import { atom, useAtom } from "../editor-jotai";
 import { getLanguage, t } from "../i18n";

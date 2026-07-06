@@ -1,10 +1,10 @@
-/**
+﻿/**
  * Create and link between shapes.
  */
 
-import { ELEMENT_LINK_KEY, normalizeLink } from "@eterill/common";
+import { ELEMENT_LINK_KEY, normalizeLink } from "eterill-common";
 
-import type { AppProps, AppState } from "@eterill/excalidraw/types";
+import type { AppProps, AppState } from "eterill-excalidraw/types";
 
 import { elementsAreInSameGroup } from "./groups";
 

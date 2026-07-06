@@ -1,9 +1,9 @@
-import type {
+﻿import type {
   ExcalidrawElement,
   OrderedExcalidrawElement,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
-import type { CaptureUpdateActionType } from "@eterill/element";
+import type { CaptureUpdateActionType } from "eterill-element";
 
 import type {
   AppClassProperties,

@@ -1,8 +1,8 @@
-import { queries, buildQueries } from "@testing-library/react";
+﻿import { queries, buildQueries } from "@testing-library/react";
 
-import { TOOL_TYPE } from "@eterill/common";
+import { TOOL_TYPE } from "eterill-common";
 
-import type { ToolType } from "@eterill/excalidraw/types";
+import type { ToolType } from "eterill-excalidraw/types";
 
 const _getAllByToolName = (container: HTMLElement, tool: ToolType | "lock") => {
   const toolTitle = tool === "lock" ? "lock" : TOOL_TYPE[tool];

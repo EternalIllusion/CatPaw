@@ -1,8 +1,8 @@
-import React from "react";
+﻿import React from "react";
 
-import { EXPORT_DATA_TYPES, MIME_TYPES } from "@eterill/common";
+import { EXPORT_DATA_TYPES, MIME_TYPES } from "eterill-common";
 
-import type { ExcalidrawTextElement } from "@eterill/element/types";
+import type { ExcalidrawTextElement } from "eterill-element/types";
 
 import { getDefaultAppState } from "../appState";
 import { Excalidraw } from "../index";

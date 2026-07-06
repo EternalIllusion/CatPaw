@@ -1,7 +1,7 @@
-import { LIBRARY_DISABLED_TYPES, randomId } from "@eterill/common";
-import { deepCopyElement } from "@eterill/element";
+﻿import { LIBRARY_DISABLED_TYPES, randomId } from "eterill-common";
+import { deepCopyElement } from "eterill-element";
 
-import { CaptureUpdateAction } from "@eterill/element";
+import { CaptureUpdateAction } from "eterill-element";
 
 import { t } from "../i18n";
 

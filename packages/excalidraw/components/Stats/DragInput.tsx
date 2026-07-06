@@ -1,15 +1,15 @@
-import clsx from "clsx";
+﻿import clsx from "clsx";
 import { useEffect, useRef, useState } from "react";
 
-import { EVENT, KEYS, cloneJSON } from "@eterill/common";
+import { EVENT, KEYS, cloneJSON } from "eterill-common";
 
-import { deepCopyElement } from "@eterill/element";
+import { deepCopyElement } from "eterill-element";
 
-import { CaptureUpdateAction } from "@eterill/element";
+import { CaptureUpdateAction } from "eterill-element";
 
-import type { ElementsMap, ExcalidrawElement } from "@eterill/element/types";
+import type { ElementsMap, ExcalidrawElement } from "eterill-element/types";
 
-import type { Scene } from "@eterill/element";
+import type { Scene } from "eterill-element";
 
 import { useApp, useExcalidrawSetAppState } from "../App";
 import { InlineIcon } from "../InlineIcon";

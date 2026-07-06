@@ -1,6 +1,6 @@
-import { MIME_TYPES } from "@eterill/common";
-import * as mockedSceneExportUtils from "@eterill/excalidraw/scene/export";
-import { diagramFactory } from "@eterill/excalidraw/tests/fixtures/diagramFixture";
+﻿import { MIME_TYPES } from "eterill-common";
+import * as mockedSceneExportUtils from "eterill-excalidraw/scene/export";
+import { diagramFactory } from "eterill-excalidraw/tests/fixtures/diagramFixture";
 import { vi } from "vitest";
 
 import * as utils from "../src";

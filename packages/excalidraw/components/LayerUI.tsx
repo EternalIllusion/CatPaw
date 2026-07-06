@@ -1,4 +1,4 @@
-import clsx from "clsx";
+﻿import clsx from "clsx";
 import React from "react";
 
 import {
@@ -8,15 +8,15 @@ import {
   arrayToMap,
   capitalizeString,
   isShallowEqual,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { mutateElement } from "@eterill/element";
+import { mutateElement } from "eterill-element";
 
-import { showSelectedShapeActions } from "@eterill/element";
+import { showSelectedShapeActions } from "eterill-element";
 
-import { ShapeCache } from "@eterill/element";
+import { ShapeCache } from "eterill-element";
 
-import type { NonDeletedExcalidrawElement } from "@eterill/element/types";
+import type { NonDeletedExcalidrawElement } from "eterill-element/types";
 
 import { actionToggleStats } from "../actions";
 import { trackEvent } from "../analytics";

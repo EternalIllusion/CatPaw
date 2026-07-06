@@ -1,4 +1,4 @@
-import { pointFrom } from "@eterill/math";
+﻿import { pointFrom } from "eterill-math";
 import { vi } from "vitest";
 
 import {

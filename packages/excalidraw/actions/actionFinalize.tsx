@@ -1,18 +1,18 @@
-import { pointFrom } from "@eterill/math";
+﻿import { pointFrom } from "eterill-math";
 
-import { bindOrUnbindBindingElement } from "@eterill/element/binding";
+import { bindOrUnbindBindingElement } from "eterill-element/binding";
 import {
   isValidPolygon,
   LinearElementEditor,
   newElementWith,
-} from "@eterill/element";
+} from "eterill-element";
 
 import {
   isBindingElement,
   isFreeDrawElement,
   isLinearElement,
   isLineElement,
-} from "@eterill/element";
+} from "eterill-element";
 
 import {
   KEYS,
@@ -20,20 +20,20 @@ import {
   invariant,
   shouldRotateWithDiscreteAngle,
   updateActiveTool,
-} from "@eterill/common";
-import { isPathALoop } from "@eterill/element";
+} from "eterill-common";
+import { isPathALoop } from "eterill-element";
 
-import { isInvisiblySmallElement } from "@eterill/element";
+import { isInvisiblySmallElement } from "eterill-element";
 
-import { CaptureUpdateAction } from "@eterill/element";
+import { CaptureUpdateAction } from "eterill-element";
 
-import type { GlobalPoint, LocalPoint } from "@eterill/math";
+import type { GlobalPoint, LocalPoint } from "eterill-math";
 import type {
   ExcalidrawElement,
   ExcalidrawLinearElement,
   NonDeleted,
   PointsPositionUpdates,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { t } from "../i18n";
 import { resetCursor } from "../cursor";

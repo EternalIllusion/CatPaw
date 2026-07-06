@@ -1,4 +1,4 @@
-import { Popover } from "radix-ui";
+﻿import { Popover } from "radix-ui";
 import clsx from "clsx";
 import { useRef, useEffect } from "react";
 
@@ -7,11 +7,11 @@ import {
   COLOR_PALETTE,
   isColorDark,
   isWritableElement,
-} from "@eterill/common";
+} from "eterill-common";
 
-import type { ColorTuple, ColorPaletteCustom } from "@eterill/common";
+import type { ColorTuple, ColorPaletteCustom } from "eterill-common";
 
-import type { ExcalidrawElement } from "@eterill/element/types";
+import type { ExcalidrawElement } from "eterill-element/types";
 
 import { useAtom } from "../../editor-jotai";
 import { t } from "../../i18n";

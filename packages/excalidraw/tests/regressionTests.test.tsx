@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { vi } from "vitest";
 
 import {
@@ -7,11 +7,11 @@ import {
   KEYS,
   reseed,
   MQ_MIN_WIDTH_DESKTOP,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { setDateTimeForTests } from "@eterill/common";
+import { setDateTimeForTests } from "eterill-common";
 
-import type { ExcalidrawElement } from "@eterill/element/types";
+import type { ExcalidrawElement } from "eterill-element/types";
 
 import { Excalidraw } from "../index";
 import * as StaticScene from "../renderer/staticScene";

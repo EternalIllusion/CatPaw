@@ -1,4 +1,4 @@
-import type { LocalPoint, Radians } from "@eterill/math";
+﻿import type { LocalPoint, Radians } from "eterill-math";
 
 import type {
   FONT_FAMILY,
@@ -6,14 +6,14 @@ import type {
   TEXT_ALIGN,
   THEME,
   VERTICAL_ALIGN,
-} from "@eterill/common";
+} from "eterill-common";
 
 import type {
   MakeBrand,
   MarkNonNullable,
   Merge,
   ValueOf,
-} from "@eterill/common/utility-types";
+} from "eterill-common/utility-types";
 
 export type ChartType = "bar" | "line" | "radar";
 export type FillStyle = "hachure" | "cross-hatch" | "solid" | "zigzag";

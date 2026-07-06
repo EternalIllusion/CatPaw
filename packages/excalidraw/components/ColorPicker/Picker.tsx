@@ -1,16 +1,16 @@
-import React, { useEffect, useImperativeHandle, useState } from "react";
+﻿import React, { useEffect, useImperativeHandle, useState } from "react";
 
-import { EVENT } from "@eterill/common";
+import { EVENT } from "eterill-common";
 
 import {
   DEFAULT_ELEMENT_BACKGROUND_COLOR_INDEX,
   DEFAULT_ELEMENT_STROKE_COLOR_INDEX,
   KEYS,
-} from "@eterill/common";
+} from "eterill-common";
 
-import type { ExcalidrawElement } from "@eterill/element/types";
+import type { ExcalidrawElement } from "eterill-element/types";
 
-import type { ColorPaletteCustom } from "@eterill/common";
+import type { ColorPaletteCustom } from "eterill-common";
 
 import { useAtom } from "../../editor-jotai";
 import { t } from "../../i18n";

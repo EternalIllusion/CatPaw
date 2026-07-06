@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
+﻿import { useEffect, useState } from "react";
 
-import type { Emitter } from "@eterill/common";
+import type { Emitter } from "eterill-common";
 
 export const useEmitter = <TEvent extends unknown>(
   emitter: Emitter<[TEvent]>,

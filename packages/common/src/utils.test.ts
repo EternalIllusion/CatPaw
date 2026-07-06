@@ -1,16 +1,16 @@
-import {
+﻿import {
   isTransparent,
   mapFind,
   reduceToCommonValue,
-} from "@eterill/common";
+} from "eterill-common";
 import { vi } from "vitest";
 
-// Import directly to avoid the @eterill/common throttleRAF mock from setupTests.ts.
+// Import directly to avoid the eterill-common throttleRAF mock from setupTests.ts.
 import { throttleRAF } from "./utils";
 
 type RafCallback = FrameRequestCallback;
 
-describe("@eterill/common/utils", () => {
+describe("eterill-common/utils", () => {
   describe("isTransparent()", () => {
     it("should return true when color is rgb transparent", () => {
       expect(isTransparent("#ff00")).toEqual(true);

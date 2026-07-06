@@ -1,4 +1,4 @@
-import { pointCenter, pointFrom } from "@eterill/math";
+﻿import { pointCenter, pointFrom } from "eterill-math";
 import { act, queryByTestId, queryByText } from "@testing-library/react";
 import { vi } from "vitest";
 
@@ -8,23 +8,23 @@ import {
   KEYS,
   reseed,
   arrayToMap,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { Excalidraw } from "@eterill/excalidraw";
-import * as InteractiveCanvas from "@eterill/excalidraw/renderer/interactiveScene";
-import * as StaticScene from "@eterill/excalidraw/renderer/staticScene";
-import { API } from "@eterill/excalidraw/tests/helpers/api";
+import { Excalidraw } from "eterill-excalidraw";
+import * as InteractiveCanvas from "eterill-excalidraw/renderer/interactiveScene";
+import * as StaticScene from "eterill-excalidraw/renderer/staticScene";
+import { API } from "eterill-excalidraw/tests/helpers/api";
 
-import { Keyboard, Pointer, UI } from "@eterill/excalidraw/tests/helpers/ui";
+import { Keyboard, Pointer, UI } from "eterill-excalidraw/tests/helpers/ui";
 import {
   screen,
   render,
   fireEvent,
   GlobalTestState,
   unmountComponent,
-} from "@eterill/excalidraw/tests/test-utils";
+} from "eterill-excalidraw/tests/test-utils";
 
-import type { GlobalPoint, LocalPoint } from "@eterill/math";
+import type { GlobalPoint, LocalPoint } from "eterill-math";
 
 import { wrapText } from "../src";
 import * as textElementUtils from "../src/textElement";

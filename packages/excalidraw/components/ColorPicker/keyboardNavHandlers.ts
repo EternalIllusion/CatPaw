@@ -1,12 +1,12 @@
-import { COLORS_PER_ROW, COLOR_PALETTE, KEYS } from "@eterill/common";
+﻿import { COLORS_PER_ROW, COLOR_PALETTE, KEYS } from "eterill-common";
 
 import type {
   ColorPickerColor,
   ColorPalette,
   ColorPaletteCustom,
-} from "@eterill/common";
+} from "eterill-common";
 
-import type { ValueOf } from "@eterill/common/utility-types";
+import type { ValueOf } from "eterill-common/utility-types";
 
 import {
   colorPickerHotkeyBindings,

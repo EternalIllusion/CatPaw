@@ -1,9 +1,9 @@
-import {
+﻿import {
   invariant,
   isDevEnv,
   isTestEnv,
   type Bounds,
-} from "@eterill/common";
+} from "eterill-common";
 
 import {
   pointFrom,
@@ -15,14 +15,14 @@ import {
   vectorCross,
   vectorFromPoint,
   vectorScale,
-} from "@eterill/math";
+} from "eterill-math";
 
 import type {
   LocalPoint,
   GlobalPoint,
   Triangle,
   Vector,
-} from "@eterill/math";
+} from "eterill-math";
 
 import { getCenterForBounds } from "./bounds";
 

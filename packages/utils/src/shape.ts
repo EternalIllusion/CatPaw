@@ -1,4 +1,4 @@
-/**
+﻿/**
  * this file defines pure geometric shapes
  *
  * for instance, a cubic bezier curve is specified by its four control points and
@@ -13,7 +13,7 @@
  */
 import { pointsOnBezierCurves } from "points-on-curve";
 
-import { invariant } from "@eterill/common";
+import { invariant } from "eterill-common";
 import {
   curve,
   lineSegment,
@@ -32,9 +32,9 @@ import {
   vectorScale,
   type GlobalPoint,
   type LocalPoint,
-} from "@eterill/math";
+} from "eterill-math";
 
-import { getElementAbsoluteCoords } from "@eterill/element";
+import { getElementAbsoluteCoords } from "eterill-element";
 
 import type {
   ElementsMap,
@@ -51,8 +51,8 @@ import type {
   ExcalidrawRectangleElement,
   ExcalidrawSelectionElement,
   ExcalidrawTextElement,
-} from "@eterill/element/types";
-import type { Curve, LineSegment, Polygon, Radians } from "@eterill/math";
+} from "eterill-element/types";
+import type { Curve, LineSegment, Polygon, Radians } from "eterill-math";
 
 import type { Drawable, Op } from "roughjs/bin/core";
 

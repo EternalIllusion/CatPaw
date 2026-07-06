@@ -1,4 +1,4 @@
-import { toIterable } from "@eterill/common";
+﻿import { toIterable } from "eterill-common";
 
 import { isInvisiblySmallElement } from "./sizeHelpers";
 

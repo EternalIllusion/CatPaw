@@ -1,5 +1,5 @@
-import React from "react";
-import { Excalidraw } from "@eterill/excalidraw";
+﻿import React from "react";
+import { Excalidraw } from "eterill-excalidraw";
 
 export default function SimpleTest() {
   return (

@@ -1,27 +1,27 @@
-/* eslint-disable no-lone-blocks */
-import { arrayToMap } from "@eterill/common";
+﻿/* eslint-disable no-lone-blocks */
+import { arrayToMap } from "eterill-common";
 
 import {
   InvalidFractionalIndexError,
   syncInvalidIndices,
   syncMovedIndices,
   validateFractionalIndices,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { deepCopyElement } from "@eterill/element";
+import { deepCopyElement } from "eterill-element";
 
-import { API } from "@eterill/excalidraw/tests/helpers/api";
+import { API } from "eterill-excalidraw/tests/helpers/api";
 
 import {
   generateKeyBetween,
   validateOrderKey,
-} from "@eterill/fractional-indexing";
+} from "eterill-fractional-indexing";
 
 import type {
   ElementsMap,
   ExcalidrawElement,
   FractionalIndex,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 describe("fractional index format validation", () => {
   it("should reject malformed base62 order keys", () => {

@@ -1,13 +1,13 @@
-import { pointFrom, pointRotateRads } from "@eterill/math";
+﻿import { pointFrom, pointRotateRads } from "eterill-math";
 import { useMemo } from "react";
 
-import { isTextElement } from "@eterill/element";
+import { isTextElement } from "eterill-element";
 
-import { getCommonBounds } from "@eterill/element";
+import { getCommonBounds } from "eterill-element";
 
-import type { ElementsMap, ExcalidrawElement } from "@eterill/element/types";
+import type { ElementsMap, ExcalidrawElement } from "eterill-element/types";
 
-import type { Scene } from "@eterill/element";
+import type { Scene } from "eterill-element";
 
 import StatsDragInput from "./DragInput";
 import {

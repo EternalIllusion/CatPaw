@@ -1,4 +1,4 @@
-import clsx from "clsx";
+﻿import clsx from "clsx";
 import { useRef, useState } from "react";
 import { Popover } from "radix-ui";
 
@@ -7,7 +7,7 @@ import {
   KEYS,
   capitalizeString,
   isTransparent,
-} from "@eterill/common";
+} from "eterill-common";
 
 import {
   shouldAllowVerticalAlign,
@@ -20,14 +20,14 @@ import {
   isArrowElement,
   hasStrokeColor,
   toolIsArrow,
-} from "@eterill/element";
+} from "eterill-element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawElementType,
   NonDeletedElementsMap,
   NonDeletedSceneElementsMap,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { actionToggleZenMode } from "../actions";
 

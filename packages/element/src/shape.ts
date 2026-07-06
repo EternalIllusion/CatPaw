@@ -1,6 +1,6 @@
-import { simplify } from "points-on-curve";
+﻿import { simplify } from "points-on-curve";
 import { getStroke } from "perfect-freehand";
-import { LaserPointer } from "@eterill/laser-pointer";
+import { LaserPointer } from "eterill-laser-pointer";
 
 import {
   type GeometricShape,
@@ -9,14 +9,14 @@ import {
   getEllipseShape,
   getFreedrawShape,
   getPolygonShape,
-} from "@eterill/utils/shape";
+} from "eterill-utils/shape";
 
 import {
   pointFrom,
   pointDistance,
   type LocalPoint,
   pointRotateRads,
-} from "@eterill/math";
+} from "eterill-math";
 import {
   ROUGHNESS,
   THEME,
@@ -26,23 +26,23 @@ import {
   LINE_POLYGON_POINT_MERGE_DISTANCE,
   applyDarkModeFilter,
   DEFAULT_STROKE_STREAMLINE,
-} from "@eterill/common";
+} from "eterill-common";
 
 import { RoughGenerator } from "roughjs/bin/generator";
 
-import type { GlobalPoint } from "@eterill/math";
+import type { GlobalPoint } from "eterill-math";
 
-import type { Mutable } from "@eterill/common/utility-types";
+import type { Mutable } from "eterill-common/utility-types";
 
 import type {
   AppState,
   EmbedsValidationStatus,
-} from "@eterill/excalidraw/types";
+} from "eterill-excalidraw/types";
 import type {
   ElementShape,
   ElementShapes,
   SVGPathString,
-} from "@eterill/excalidraw/scene/types";
+} from "eterill-excalidraw/scene/types";
 
 import { elementWithCanvasCache } from "./renderElement";
 

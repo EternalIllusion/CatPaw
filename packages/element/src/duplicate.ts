@@ -1,4 +1,4 @@
-import {
+﻿import {
   ORIG_ID,
   randomId,
   randomInteger,
@@ -7,11 +7,11 @@ import {
   findLastIndex,
   getUpdatedTimestamp,
   isTestEnv,
-} from "@eterill/common";
+} from "eterill-common";
 
-import type { Mutable } from "@eterill/common/utility-types";
+import type { Mutable } from "eterill-common/utility-types";
 
-import type { AppState } from "@eterill/excalidraw/types";
+import type { AppState } from "eterill-excalidraw/types";
 
 import {
   getElementsInGroup,

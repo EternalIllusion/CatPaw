@@ -1,4 +1,4 @@
-import clsx from "clsx";
+﻿import clsx from "clsx";
 
 import {
   COLOR_OUTLINE_CONTRAST_THRESHOLD,
@@ -6,7 +6,7 @@ import {
   DEFAULT_ELEMENT_BACKGROUND_PICKS,
   DEFAULT_ELEMENT_STROKE_PICKS,
   isColorDark,
-} from "@eterill/common";
+} from "eterill-common";
 
 import type { ColorPickerType } from "./colorPickerUtils";
 

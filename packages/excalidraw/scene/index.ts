@@ -1,9 +1,9 @@
-export {
+﻿export {
   isSomeElementSelected,
   getElementsWithinSelection,
   getSelectedElements,
   getTargetElements,
-} from "@eterill/element";
+} from "eterill-element";
 export { getScrollToContentState } from "../viewport";
 export {
   hasBackground,
@@ -12,7 +12,7 @@ export {
   hasFreedrawMode,
   canHaveArrowheads,
   canChangeRoundness,
-} from "@eterill/element";
+} from "eterill-element";
 export {
   getNormalizedZoom,
   getNormalizedGridSize,

@@ -1,13 +1,13 @@
-import clsx from "clsx";
+﻿import clsx from "clsx";
 
 import {
   CANVAS_SEARCH_TAB,
   DEFAULT_SIDEBAR,
   LIBRARY_SIDEBAR_TAB,
   composeEventHandlers,
-} from "@eterill/common";
+} from "eterill-common";
 
-import type { MarkOptional, Merge } from "@eterill/common/utility-types";
+import type { MarkOptional, Merge } from "eterill-common/utility-types";
 
 import { useTunnels } from "../context/tunnels";
 import { useUIAppState } from "../context/ui-appState";

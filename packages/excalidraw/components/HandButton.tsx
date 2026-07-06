@@ -1,6 +1,6 @@
-import clsx from "clsx";
+﻿import clsx from "clsx";
 
-import { KEYS } from "@eterill/common";
+import { KEYS } from "eterill-common";
 
 import { ToolButton } from "./ToolButton";
 import { handIcon } from "./icons";

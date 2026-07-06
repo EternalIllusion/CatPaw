@@ -1,10 +1,10 @@
-import { DefaultSidebar, Sidebar, THEME } from "@eterill/excalidraw";
+﻿import { DefaultSidebar, Sidebar, THEME } from "eterill-excalidraw";
 import {
   messageCircleIcon,
   presentationIcon,
-} from "@eterill/excalidraw/components/icons";
-import { LinkButton } from "@eterill/excalidraw/components/LinkButton";
-import { useUIAppState } from "@eterill/excalidraw/context/ui-appState";
+} from "eterill-excalidraw/components/icons";
+import { LinkButton } from "eterill-excalidraw/components/LinkButton";
+import { useUIAppState } from "eterill-excalidraw/context/ui-appState";
 
 import "./AppSidebar.scss";
 

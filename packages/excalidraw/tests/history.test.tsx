@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import {
   queryByText,
   fireEvent,
@@ -6,9 +6,9 @@ import {
   waitFor,
 } from "@testing-library/react";
 import { vi } from "vitest";
-import { pointFrom } from "@eterill/math";
+import { pointFrom } from "eterill-math";
 
-import { newElementWith } from "@eterill/element";
+import { newElementWith } from "eterill-element";
 
 import {
   EXPORT_DATA_TYPES,
@@ -21,15 +21,15 @@ import {
   DEFAULT_ELEMENT_STROKE_COLOR_INDEX,
   reseed,
   randomId,
-} from "@eterill/common";
+} from "eterill-common";
 
-import "@eterill/utils/test-utils";
+import "eterill-utils/test-utils";
 
-import { ElementsDelta, AppStateDelta } from "@eterill/element";
+import { ElementsDelta, AppStateDelta } from "eterill-element";
 
-import { CaptureUpdateAction, StoreDelta } from "@eterill/element";
+import { CaptureUpdateAction, StoreDelta } from "eterill-element";
 
-import type { LocalPoint, Radians } from "@eterill/math";
+import type { LocalPoint, Radians } from "eterill-math";
 
 import type {
   ExcalidrawElbowArrowElement,
@@ -41,7 +41,7 @@ import type {
   FixedPointBinding,
   FractionalIndex,
   SceneElementsMap,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import "../global.d.ts";
 

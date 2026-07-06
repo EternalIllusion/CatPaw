@@ -1,10 +1,10 @@
-import {
+﻿import {
   fileOpen as _fileOpen,
   fileSave as _fileSave,
   supported as nativeFileSystemSupported,
 } from "browser-fs-access";
 
-import { MIME_TYPES } from "@eterill/common";
+import { MIME_TYPES } from "eterill-common";
 
 import { normalizeFile } from "./blob";
 

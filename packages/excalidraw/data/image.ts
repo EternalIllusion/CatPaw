@@ -1,8 +1,8 @@
-import tEXt from "png-chunk-text";
+﻿import tEXt from "png-chunk-text";
 import encodePng from "png-chunks-encode";
 import decodePng from "png-chunks-extract";
 
-import { EXPORT_DATA_TYPES, MIME_TYPES } from "@eterill/common";
+import { EXPORT_DATA_TYPES, MIME_TYPES } from "eterill-common";
 
 import { blobToArrayBuffer } from "./blob";
 import { encode, decode } from "./encode";

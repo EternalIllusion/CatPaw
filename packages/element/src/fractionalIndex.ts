@@ -1,9 +1,9 @@
-import { arrayToMap } from "@eterill/common";
+﻿import { arrayToMap } from "eterill-common";
 
 import {
   validateOrderKey,
   generateNKeysBetween,
-} from "@eterill/fractional-indexing";
+} from "eterill-fractional-indexing";
 
 import { mutateElement, newElementWith } from "./mutateElement";
 import { getBoundTextElement } from "./textElement";

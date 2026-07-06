@@ -1,4 +1,4 @@
-import { ENCRYPTION_KEY_BITS } from "@eterill/common";
+﻿import { ENCRYPTION_KEY_BITS } from "eterill-common";
 
 import { blobToArrayBuffer } from "./blob";
 

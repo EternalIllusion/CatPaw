@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import clsx from "clsx";
 
-import { capitalizeString } from "@eterill/common";
+import { capitalizeString } from "eterill-common";
 
 import { Popover } from "radix-ui";
 

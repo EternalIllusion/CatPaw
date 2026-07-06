@@ -1,14 +1,14 @@
-import { Emitter } from "@eterill/common";
+﻿import { Emitter } from "eterill-common";
 
 import {
   CaptureUpdateAction,
   StoreChange,
   StoreDelta,
-} from "@eterill/element";
+} from "eterill-element";
 
-import type { StoreSnapshot, Store } from "@eterill/element";
+import type { StoreSnapshot, Store } from "eterill-element";
 
-import type { SceneElementsMap } from "@eterill/element/types";
+import type { SceneElementsMap } from "eterill-element/types";
 
 import type { AppState } from "./types";
 

@@ -1,10 +1,10 @@
-import { Popover } from "radix-ui";
+﻿import { Popover } from "radix-ui";
 import clsx from "clsx";
 import React, { useLayoutEffect } from "react";
 
-import { supportsResizeObserver, isShallowEqual } from "@eterill/common";
+import { supportsResizeObserver, isShallowEqual } from "eterill-common";
 
-import type { MarkRequired } from "@eterill/common/utility-types";
+import type { MarkRequired } from "eterill-common/utility-types";
 
 import { t } from "../i18n";
 

@@ -1,19 +1,19 @@
-import rough from "roughjs/bin/rough";
+﻿import rough from "roughjs/bin/rough";
 import {
   arrayToMap,
   type Bounds,
   invariant,
   rescalePoints,
   sizeOf,
-} from "@eterill/common";
+} from "eterill-common";
 import {
   degreesToRadians,
   lineSegment,
   pointFrom,
   pointFromArray,
   pointRotateRads,
-} from "@eterill/math";
-import { getCurvePathOps } from "@eterill/utils/shape";
+} from "eterill-math";
+import { getCurvePathOps } from "eterill-utils/shape";
 import { pointsOnBezierCurves } from "points-on-curve";
 
 import type {
@@ -23,9 +23,9 @@ import type {
   LineSegment,
   LocalPoint,
   Radians,
-} from "@eterill/math";
-import type { AppState } from "@eterill/excalidraw/types";
-import type { Mutable } from "@eterill/common/utility-types";
+} from "eterill-math";
+import type { AppState } from "eterill-excalidraw/types";
+import type { Mutable } from "eterill-common/utility-types";
 
 import { generateRoughOptions } from "./shape";
 import { ShapeCache } from "./shape";

@@ -1,9 +1,9 @@
-import {
+﻿import {
   getCommonBounds,
   getElementsInGroup,
   selectGroupsFromGivenElements,
-} from "@eterill/element";
-import { sceneCoordsToViewportCoords } from "@eterill/common";
+} from "eterill-element";
+import { sceneCoordsToViewportCoords } from "eterill-common";
 
 import { flushSync } from "react-dom";
 

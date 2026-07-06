@@ -1,7 +1,7 @@
-import type {
+﻿import type {
   ExcalidrawTextElement,
   FontFamilyValues,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
 import { FONT_FAMILY, FONT_FAMILY_FALLBACKS } from "./constants";
 

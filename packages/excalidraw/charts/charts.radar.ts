@@ -1,4 +1,4 @@
-import { pointFrom } from "@eterill/math";
+﻿import { pointFrom } from "eterill-math";
 
 import {
   FONT_FAMILY,
@@ -6,15 +6,15 @@ import {
   getFontString,
   getLineHeight,
   ROUGHNESS,
-} from "@eterill/common";
+} from "eterill-common";
 
 import {
   measureText,
   newLinearElement,
   newTextElement,
-} from "@eterill/element";
+} from "eterill-element";
 
-import type { LocalPoint } from "@eterill/math";
+import type { LocalPoint } from "eterill-math";
 
 import {
   BAR_GAP,

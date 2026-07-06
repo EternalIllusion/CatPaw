@@ -1,4 +1,4 @@
-import { pointFrom } from "@eterill/math";
+﻿import { pointFrom } from "eterill-math";
 
 import { useEffect, useMemo, useRef, useState } from "react";
 
@@ -25,25 +25,25 @@ import {
   invariant,
   FONT_SIZES,
   type StrokeWidthKey,
-} from "@eterill/common";
+} from "eterill-common";
 
-import { canBecomePolygon, getNonDeletedElements } from "@eterill/element";
+import { canBecomePolygon, getNonDeletedElements } from "eterill-element";
 
 import {
   bindBindingElement,
   calculateFixedPointForElbowArrowBinding,
   updateBoundElements,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { LinearElementEditor } from "@eterill/element";
+import { LinearElementEditor } from "eterill-element";
 
-import { newElementWith } from "@eterill/element";
-import { getArrowheadForPicker } from "@eterill/element";
+import { newElementWith } from "eterill-element";
+import { getArrowheadForPicker } from "eterill-element";
 
 import {
   getBoundTextElement,
   redrawTextBoundingBox,
-} from "@eterill/element";
+} from "eterill-element";
 
 import {
   isArrowElement,
@@ -53,19 +53,19 @@ import {
   isLineElement,
   isTextElement,
   isUsingAdaptiveRadius,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { hasStrokeColor } from "@eterill/element";
+import { hasStrokeColor } from "eterill-element";
 
 import {
   updateElbowArrowPoints,
   CaptureUpdateAction,
   toggleLinePolygonState,
-} from "@eterill/element";
+} from "eterill-element";
 
-import { deriveStylesPanelMode } from "@eterill/common";
+import { deriveStylesPanelMode } from "eterill-common";
 
-import type { LocalPoint, Radians } from "@eterill/math";
+import type { LocalPoint, Radians } from "eterill-math";
 
 import type {
   Arrowhead,
@@ -79,11 +79,11 @@ import type {
   StrokeVariability,
   TextAlign,
   VerticalAlign,
-} from "@eterill/element/types";
+} from "eterill-element/types";
 
-import type { Scene } from "@eterill/element";
+import type { Scene } from "eterill-element";
 
-import type { CaptureUpdateActionType } from "@eterill/element";
+import type { CaptureUpdateActionType } from "eterill-element";
 
 import { trackEvent } from "../analytics";
 import { RadioSelection } from "../components/RadioSelection";

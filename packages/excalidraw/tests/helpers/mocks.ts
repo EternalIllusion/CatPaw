@@ -1,9 +1,9 @@
-import * as MermaidToExcalidraw from "@excalidraw/mermaid-to-excalidraw";
+﻿import * as MermaidToExcalidraw from "@excalidraw/mermaid-to-excalidraw";
 import React from "react";
 import { vi } from "vitest";
 
 import type { parseMermaidToExcalidraw } from "@excalidraw/mermaid-to-excalidraw";
-import type { throttleRAF as throttleRAFType } from "@eterill/common";
+import type { throttleRAF as throttleRAFType } from "eterill-common";
 
 type ThrottledFn<T extends unknown[]> = ((...args: T) => void) & {
   flush: () => void;

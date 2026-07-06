@@ -1,19 +1,19 @@
-import {
+﻿import {
   type Bounds,
   TEXT_AUTOWRAP_THRESHOLD,
   getGridPoint,
   getFontString,
   DRAGGING_THRESHOLD,
-} from "@eterill/common";
+} from "eterill-common";
 
 import type {
   AppState,
   NormalizedZoomValue,
   NullableGridSize,
   PointerDownState,
-} from "@eterill/excalidraw/types";
+} from "eterill-excalidraw/types";
 
-import type { NonDeletedExcalidrawElement } from "@eterill/element/types";
+import type { NonDeletedExcalidrawElement } from "eterill-element/types";
 
 import { unbindBindingElement, updateBoundElements } from "./binding";
 import { getCommonBounds } from "./bounds";

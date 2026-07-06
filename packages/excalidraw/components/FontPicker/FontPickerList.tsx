@@ -1,4 +1,4 @@
-import React, {
+﻿import React, {
   useMemo,
   useState,
   useRef,
@@ -7,16 +7,16 @@ import React, {
   type KeyboardEventHandler,
 } from "react";
 
-import { type FontFamilyValues } from "@eterill/element/types";
+import { type FontFamilyValues } from "eterill-element/types";
 
 import {
   arrayToList,
   debounce,
   FONT_FAMILY,
   getFontFamilyString,
-} from "@eterill/common";
+} from "eterill-common";
 
-import type { ValueOf } from "@eterill/common/utility-types";
+import type { ValueOf } from "eterill-common/utility-types";
 
 import { Fonts } from "../../fonts";
 import { t } from "../../i18n";
