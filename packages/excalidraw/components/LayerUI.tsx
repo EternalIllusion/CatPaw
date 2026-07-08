@@ -1,4 +1,4 @@
-﻿import clsx from "clsx";
+import clsx from "clsx";
 import React from "react";
 
 import {
@@ -122,6 +122,7 @@ const DefaultMainMenu: React.FC<{
       <MainMenu.DefaultItems.ClearCanvas />
       <MainMenu.Separator />
       <MainMenu.DefaultItems.ToggleTheme allowSystemTheme={false} />
+      <MainMenu.DefaultItems.ToggleBackgroundTransparent />
       <MainMenu.DefaultItems.ChangeCanvasBackground />
     </MainMenu>
   );
@@ -380,17 +381,11 @@ const LayerUI = ({
                               title={t("toolBar.lock")}
                             />
                             <BackgroundToggleButton
-                              checked={
-                                appState.viewBackgroundColor ===
-                                COLOR_PALETTE.transparent
-                              }
+                              checked={appState.viewBackgroundTransparent}
                               onChange={() => {
                                 setAppState({
-                                  viewBackgroundColor:
-                                    appState.viewBackgroundColor ===
-                                    COLOR_PALETTE.transparent
-                                      ? COLOR_PALETTE.white
-                                      : COLOR_PALETTE.transparent,
+                                  viewBackgroundTransparent:
+                                    !appState.viewBackgroundTransparent,
                                 });
                               }}
                               title={t("toolBar.toggleBackground")}

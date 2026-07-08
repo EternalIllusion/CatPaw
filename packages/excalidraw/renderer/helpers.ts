@@ -1,4 +1,4 @@
-﻿import { COLOR_WHITE, THEME, applyDarkModeFilter } from "@eterill/catpaw-common";
+import { COLOR_WHITE, THEME, applyDarkModeFilter } from "@eterill/catpaw-common";
 
 import type { StaticCanvasRenderConfig } from "../scene/types";
 import type { AppState, StaticCanvasAppState } from "../types";
@@ -37,6 +37,7 @@ export const bootstrapCanvas = ({
   theme,
   isExporting,
   viewBackgroundColor,
+  viewBackgroundTransparent,
 }: {
   canvas: HTMLCanvasElement;
   scale: number;
@@ -45,6 +46,7 @@ export const bootstrapCanvas = ({
   theme?: AppState["theme"];
   isExporting?: StaticCanvasRenderConfig["isExporting"];
   viewBackgroundColor?: StaticCanvasAppState["viewBackgroundColor"];
+  viewBackgroundTransparent?: StaticCanvasAppState["viewBackgroundTransparent"];
 }): CanvasRenderingContext2D => {
   const context = canvas.getContext("2d")!;
 
@@ -65,7 +67,12 @@ export const bootstrapCanvas = ({
       context.clearRect(0, 0, normalizedWidth, normalizedHeight);
     }
 
-    if (viewBackgroundColor !== "transparent") {
+    // If viewBackgroundTransparent is true, or viewBackgroundColor is "transparent",
+    // don't paint the background
+    if (
+      !viewBackgroundTransparent &&
+      viewBackgroundColor !== "transparent"
+    ) {
       context.save();
       // The canvas silently ignores an invalid fillStyle, which would leave a
       // stale color from a previous draw. Seed a sane default so corrupted

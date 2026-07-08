@@ -1,4 +1,4 @@
-﻿import { throttleRAF } from "@eterill/catpaw-common";
+import { throttleRAF } from "@eterill/catpaw-common";
 
 import {
   getTargetFrame,
@@ -34,6 +34,7 @@ const _renderNewElementScene = ({
       scale,
       normalizedWidth,
       normalizedHeight,
+      viewBackgroundTransparent: appState.viewBackgroundTransparent,
     });
 
     context.save();

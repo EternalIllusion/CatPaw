@@ -1,4 +1,4 @@
-﻿import {
+import {
   clamp,
   pointFrom,
   pointsEqual,
@@ -1581,6 +1581,7 @@ const _renderInteractiveScene = ({
     scale,
     normalizedWidth,
     normalizedHeight,
+    viewBackgroundTransparent: appState.viewBackgroundTransparent,
   });
 
   // Apply zoom

@@ -1,6 +1,6 @@
 {
   "name": "@eterill/catpaw-math",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "type": "module",
   "types": "./dist/types/math/src/index.d.ts",
   "main": "./dist/prod/index.js",
@@ -61,6 +61,6 @@
     "build:esm": "rimraf dist && node ../../scripts/buildBase.js && yarn gen:types"
   },
   "dependencies": {
-    "@eterill/catpaw-common": "0.18.2"
+    "@eterill/catpaw-common": "0.18.3"
   }
 }

@@ -1,4 +1,4 @@
-﻿import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 
 import { isShallowEqual } from "@eterill/catpaw-common";
 
@@ -88,7 +88,10 @@ const getRelevantAppStateProps = (appState: AppState): StaticCanvasAppState => {
     offsetTop: appState.offsetTop,
     theme: appState.theme,
     shouldCacheIgnoreZoom: appState.shouldCacheIgnoreZoom,
-    viewBackgroundColor: appState.viewBackgroundColor,
+    viewBackgroundColor: appState.viewBackgroundTransparent
+      ? "transparent"
+      : appState.viewBackgroundColor,
+    viewBackgroundTransparent: appState.viewBackgroundTransparent,
     exportScale: appState.exportScale,
     selectedElementsAreBeingDragged: appState.selectedElementsAreBeingDragged,
     gridSize: appState.gridSize,

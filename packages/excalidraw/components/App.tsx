@@ -1,4 +1,4 @@
-﻿import clsx from "clsx";
+import clsx from "clsx";
 import throttle from "lodash.throttle";
 import React, { useContext } from "react";
 import { flushSync } from "react-dom";
@@ -2039,7 +2039,9 @@ class App extends React.Component<AppProps, AppState> {
             }}
             style={{
               background: applyDarkModeFilter(
-                this.state.viewBackgroundColor,
+                this.state.viewBackgroundTransparent
+                  ? "transparent"
+                  : this.state.viewBackgroundColor,
                 isDarkTheme,
               ),
               zIndex: 2,
@@ -2387,8 +2389,10 @@ class App extends React.Component<AppProps, AppState> {
                               imageCache: this.imageCache,
                               isExporting: false,
                               renderGrid: isGridModeEnabled(this),
-                              canvasBackgroundColor:
-                                this.state.viewBackgroundColor,
+                              canvasBackgroundColor: this.state
+                                .viewBackgroundTransparent
+                                ? "transparent"
+                                : this.state.viewBackgroundColor,
                               embedsValidationStatus:
                                 this.embedsValidationStatus,
                               elementsPendingErasure:
@@ -2410,8 +2414,10 @@ class App extends React.Component<AppProps, AppState> {
                                 imageCache: this.imageCache,
                                 isExporting: false,
                                 renderGrid: false,
-                                canvasBackgroundColor:
-                                  this.state.viewBackgroundColor,
+                                canvasBackgroundColor: this.state
+                                  .viewBackgroundTransparent
+                                  ? "transparent"
+                                  : this.state.viewBackgroundColor,
                                 embedsValidationStatus:
                                   this.embedsValidationStatus,
                                 elementsPendingErasure:

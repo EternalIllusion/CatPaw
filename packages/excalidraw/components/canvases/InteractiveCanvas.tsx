@@ -1,4 +1,4 @@
-﻿import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 
 import {
   CURSOR_TYPE,
@@ -270,6 +270,7 @@ const getRelevantAppStateProps = (
   shouldCacheIgnoreZoom: appState.shouldCacheIgnoreZoom,
   exportScale: appState.exportScale,
   currentItemArrowType: appState.currentItemArrowType,
+  viewBackgroundTransparent: appState.viewBackgroundTransparent,
 });
 
 const areEqual = (

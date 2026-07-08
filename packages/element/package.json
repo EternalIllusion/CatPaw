@@ -1,6 +1,6 @@
 {
   "name": "@eterill/catpaw-element",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "type": "module",
   "types": "./dist/types/element/src/index.d.ts",
   "main": "./dist/prod/index.js",
@@ -63,8 +63,8 @@
     "build:esm": "rimraf dist && node ../../scripts/buildBase.js && yarn gen:types"
   },
   "dependencies": {
-    "@eterill/catpaw-common": "0.18.2",
-    "@eterill/catpaw-math": "0.18.2",
-    "@eterill/catpaw-fractional-indexing": "3.3.2"
+    "@eterill/catpaw-common": "0.18.3",
+    "@eterill/catpaw-math": "0.18.3",
+    "@eterill/catpaw-fractional-indexing": "3.3.3"
   }
 }

@@ -1,4 +1,4 @@
-﻿import clsx from "clsx";
+import clsx from "clsx";
 
 import { THEME } from "@eterill/catpaw-common";
 
@@ -59,6 +59,8 @@ import {
   SunIcon,
   TrashIcon,
   usersIcon,
+  eyeIcon,
+  eyeClosedIcon,
 } from "../icons";
 
 import "./DefaultItems.scss";
@@ -315,6 +317,29 @@ export const ToggleTheme = (
   );
 };
 ToggleTheme.displayName = "ToggleTheme";
+
+export const ToggleBackgroundTransparent = () => {
+  const { t } = useI18n();
+  const appState = useUIAppState();
+  const setAppState = useExcalidrawSetAppState();
+
+  return (
+    <DropdownMenuItem
+      icon={appState.viewBackgroundTransparent ? eyeClosedIcon : eyeIcon}
+      onSelect={(event) => {
+        event.preventDefault();
+        setAppState({
+          viewBackgroundTransparent: !appState.viewBackgroundTransparent,
+        });
+      }}
+      data-testid="toggle-background-transparent"
+      aria-label={t("toolBar.toggleBackground")}
+    >
+      {t("toolBar.toggleBackground")}
+    </DropdownMenuItem>
+  );
+};
+ToggleBackgroundTransparent.displayName = "ToggleBackgroundTransparent";
 
 export const ChangeCanvasBackground = () => {
   const { t } = useI18n();

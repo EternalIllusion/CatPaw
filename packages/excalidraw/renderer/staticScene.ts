@@ -1,4 +1,4 @@
-﻿import {
+import {
   applyDarkModeFilter,
   COLOR_WHITE,
   FRAME_STYLE,
@@ -206,13 +206,15 @@ const renderLinkIcon = (
         window.devicePixelRatio * appState.zoom.value,
       );
 
-      // Seed a sane default so a corrupted color (silently rejected by the
-      // canvas) falls back to white instead of a stale fillStyle.
-      linkCanvasCacheContext.fillStyle = COLOR_WHITE;
-      linkCanvasCacheContext.fillStyle =
-        appState.viewBackgroundColor || COLOR_WHITE;
+      if (!appState.viewBackgroundTransparent) {
+        // Seed a sane default so a corrupted color (silently rejected by the
+        // canvas) falls back to white instead of a stale fillStyle.
+        linkCanvasCacheContext.fillStyle = COLOR_WHITE;
+        linkCanvasCacheContext.fillStyle =
+          appState.viewBackgroundColor || COLOR_WHITE;
 
-      linkCanvasCacheContext.fillRect(0, 0, width, height);
+        linkCanvasCacheContext.fillRect(0, 0, width, height);
+      }
 
       if (canvasKey === "elementLink") {
         linkCanvasCacheContext.drawImage(ELEMENT_LINK_IMG, 0, 0, width, height);
@@ -262,6 +264,7 @@ const _renderStaticScene = ({
     theme: appState.theme,
     isExporting,
     viewBackgroundColor: appState.viewBackgroundColor,
+    viewBackgroundTransparent: appState.viewBackgroundTransparent,
   });
 
   // Apply zoom

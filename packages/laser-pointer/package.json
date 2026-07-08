@@ -1,6 +1,6 @@
 {
   "name": "@eterill/catpaw-laser-pointer",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "Generate outline for laser pointer tool",
   "type": "module",
   "types": "./dist/types/laser-pointer/src/index.d.ts",

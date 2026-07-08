@@ -202,6 +202,7 @@ export type StaticCanvasAppState = Readonly<
     shouldCacheIgnoreZoom: AppState["shouldCacheIgnoreZoom"];
     /** null indicates transparent bg */
     viewBackgroundColor: AppState["viewBackgroundColor"] | null;
+    viewBackgroundTransparent: AppState["viewBackgroundTransparent"];
     exportScale: AppState["exportScale"];
     selectedElementsAreBeingDragged: AppState["selectedElementsAreBeingDragged"];
     gridSize: AppState["gridSize"];
@@ -248,6 +249,7 @@ export type InteractiveCanvasAppState = Readonly<
     shouldCacheIgnoreZoom: AppState["shouldCacheIgnoreZoom"];
     exportScale: AppState["exportScale"];
     currentItemArrowType: AppState["currentItemArrowType"];
+    viewBackgroundTransparent: AppState["viewBackgroundTransparent"];
   }
 >;
 
