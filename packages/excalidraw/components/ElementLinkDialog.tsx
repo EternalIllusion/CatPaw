@@ -1,15 +1,15 @@
 ﻿import { useCallback, useEffect, useState } from "react";
 
-import { normalizeLink, KEYS } from "eterill-common";
+import { normalizeLink, KEYS } from "@eterill/catpaw-common";
 
 import {
   defaultGetElementLinkFromSelection,
   getLinkIdAndTypeFromSelection,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import type { ExcalidrawElement } from "eterill-element/types";
+import type { ExcalidrawElement } from "@eterill/catpaw-element/types";
 
-import type { Scene } from "eterill-element";
+import type { Scene } from "@eterill/catpaw-element";
 
 import { t } from "../i18n";
 import { getSelectedElements } from "../scene";

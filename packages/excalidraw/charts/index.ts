@@ -1,4 +1,4 @@
-﻿import type { ChartType } from "eterill-element/types";
+﻿import type { ChartType } from "@eterill/catpaw-element/types";
 
 import { renderBarChart } from "./charts.bar";
 import { renderLineChart } from "./charts.line";

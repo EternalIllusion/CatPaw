@@ -1,6 +1,6 @@
-﻿import { KEYS } from "eterill-common";
+﻿import { KEYS } from "@eterill/catpaw-common";
 
-import { CaptureUpdateAction } from "eterill-element";
+import { CaptureUpdateAction } from "@eterill/catpaw-element";
 
 import { HelpIconThin } from "../components/icons";
 

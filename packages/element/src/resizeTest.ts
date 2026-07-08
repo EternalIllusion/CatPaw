@@ -3,17 +3,17 @@
   pointOnLineSegment,
   pointRotateRads,
   type Radians,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
 import {
   SIDE_RESIZING_THRESHOLD,
   type EditorInterface,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import type { GlobalPoint, LineSegment, LocalPoint } from "eterill-math";
+import type { GlobalPoint, LineSegment, LocalPoint } from "@eterill/catpaw-math";
 
-import type { AppState, Zoom } from "eterill-excalidraw/types";
-import type { Bounds } from "eterill-common";
+import type { AppState, Zoom } from "@eterill/catpaw/types";
+import type { Bounds } from "@eterill/catpaw-common";
 
 import { getElementAbsoluteCoords } from "./bounds";
 import {

@@ -1,6 +1,6 @@
 ﻿import React from "react";
 
-import { resolvablePromise } from "eterill-common";
+import { resolvablePromise } from "@eterill/catpaw-common";
 
 import { Excalidraw } from "../index";
 

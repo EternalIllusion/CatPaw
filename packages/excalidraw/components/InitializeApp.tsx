@@ -1,6 +1,6 @@
 ﻿import React, { useEffect, useState } from "react";
 
-import type { Theme } from "eterill-element/types";
+import type { Theme } from "@eterill/catpaw-element/types";
 
 import { defaultLang, languages, setLanguage } from "../i18n";
 

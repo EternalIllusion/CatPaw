@@ -1,11 +1,11 @@
-﻿import { throttleRAF } from "eterill-common";
+﻿import { throttleRAF } from "@eterill/catpaw-common";
 
 import {
   getTargetFrame,
   isInvisiblySmallElement,
   renderElement,
   shouldApplyFrameClip,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
 import { bootstrapCanvas, getNormalizedCanvasDimensions } from "./helpers";
 

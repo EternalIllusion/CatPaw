@@ -1,4 +1,4 @@
-﻿import { pointFrom } from "eterill-math";
+﻿import { pointFrom } from "@eterill/catpaw-math";
 
 import {
   COLOR_PALETTE,
@@ -11,7 +11,7 @@ import {
   getFontString,
   getLineHeight,
   ROUGHNESS,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 import {
   getApproxMinLineWidth,
@@ -20,13 +20,13 @@ import {
   newLinearElement,
   newTextElement,
   wrapText,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
 import type {
   ChartType,
   ExcalidrawTextElement,
-} from "eterill-element/types";
-import type { NonDeletedExcalidrawElement } from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
+import type { NonDeletedExcalidrawElement } from "@eterill/catpaw-element/types";
 
 import {
   BAR_GAP,

@@ -5,20 +5,20 @@
   pointRotateRads,
   type Radians,
   type LocalPoint,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
 import {
   MIN_FONT_SIZE,
   SHIFT_LOCKING_ANGLE,
   rescalePoints,
   getFontString,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import type { GlobalPoint } from "eterill-math";
+import type { GlobalPoint } from "@eterill/catpaw-math";
 
-import type { PointerDownState } from "eterill-excalidraw/types";
+import type { PointerDownState } from "@eterill/catpaw/types";
 
-import type { Mutable } from "eterill-common/utility-types";
+import type { Mutable } from "@eterill/catpaw-common/utility-types";
 
 import {
   getArrowLocalFixedPoints,

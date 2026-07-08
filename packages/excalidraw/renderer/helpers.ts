@@ -1,4 +1,4 @@
-﻿import { COLOR_WHITE, THEME, applyDarkModeFilter } from "eterill-common";
+﻿import { COLOR_WHITE, THEME, applyDarkModeFilter } from "@eterill/catpaw-common";
 
 import type { StaticCanvasRenderConfig } from "../scene/types";
 import type { AppState, StaticCanvasAppState } from "../types";

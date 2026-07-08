@@ -7,19 +7,19 @@
   cloneJSON,
   SVG_DOCUMENT_PREAMBLE,
   arrayToMap,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { getNonDeletedElements } from "eterill-element";
+import { getNonDeletedElements } from "@eterill/catpaw-element";
 
-import { isFrameLikeElement } from "eterill-element";
+import { isFrameLikeElement } from "@eterill/catpaw-element";
 
-import { getElementsOverlappingFrame } from "eterill-element";
+import { getElementsOverlappingFrame } from "@eterill/catpaw-element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawFrameLikeElement,
   NonDeletedExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import {
   copyBlobToClipboardAsPng,

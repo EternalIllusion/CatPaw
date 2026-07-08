@@ -6,7 +6,7 @@ import {
   FREEDRAW_STROKE_WIDTH,
   FONT_FAMILY,
   STROKE_WIDTH,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 import { Excalidraw } from "../index";
 import { API } from "../tests/helpers/api";

@@ -1,8 +1,8 @@
 ﻿import React, { useLayoutEffect, useRef, useState } from "react";
 
-import { newTextElement } from "eterill-element";
+import { newTextElement } from "@eterill/catpaw-element";
 
-import type { ChartType } from "eterill-element/types";
+import type { ChartType } from "@eterill/catpaw-element/types";
 
 import { trackEvent } from "../analytics";
 import { isSpreadsheetValidForChartType, renderSpreadsheet } from "../charts";

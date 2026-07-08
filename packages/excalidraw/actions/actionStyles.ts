@@ -5,9 +5,9 @@
   CODES,
   KEYS,
   getLineHeight,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { newElementWith } from "eterill-element";
+import { newElementWith } from "@eterill/catpaw-element";
 
 import {
   hasBoundTextElement,
@@ -17,16 +17,16 @@ import {
   isArrowElement,
   isExcalidrawElement,
   isTextElement,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
 import {
   getBoundTextElement,
   redrawTextBoundingBox,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { CaptureUpdateAction } from "eterill-element";
+import { CaptureUpdateAction } from "@eterill/catpaw-element";
 
-import type { ExcalidrawTextElement } from "eterill-element/types";
+import type { ExcalidrawTextElement } from "@eterill/catpaw-element/types";
 
 import { paintIcon } from "../components/icons";
 

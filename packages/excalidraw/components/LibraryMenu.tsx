@@ -16,12 +16,12 @@ import {
   addEventListener,
   EVENT,
   CLASSES,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 import type {
   ExcalidrawElement,
   NonDeletedExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { trackEvent } from "../analytics";
 import { useUIAppState } from "../context/ui-appState";

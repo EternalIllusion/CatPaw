@@ -8,9 +8,9 @@ import {
   KEYS,
   capitalizeString,
   isWritableElement,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import type { MarkRequired } from "eterill-common/utility-types";
+import type { MarkRequired } from "@eterill/catpaw-common/utility-types";
 
 import { actionToggleShapeSwitch } from "../../actions/actionToggleShapeSwitch";
 import { getShortcutKey } from "../../shortcut";

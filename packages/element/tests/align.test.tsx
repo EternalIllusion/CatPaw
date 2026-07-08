@@ -1,4 +1,4 @@
-﻿import { KEYS } from "eterill-common";
+﻿import { KEYS } from "@eterill/catpaw-common";
 
 import {
   actionAlignVerticallyCentered,
@@ -8,17 +8,17 @@ import {
   actionAlignBottom,
   actionAlignLeft,
   actionAlignRight,
-} from "eterill-excalidraw/actions";
-import { defaultLang, setLanguage } from "eterill-excalidraw/i18n";
-import { Excalidraw } from "eterill-excalidraw";
+} from "@eterill/catpaw/actions";
+import { defaultLang, setLanguage } from "@eterill/catpaw/i18n";
+import { Excalidraw } from "@eterill/catpaw";
 
-import { API } from "eterill-excalidraw/tests/helpers/api";
-import { UI, Pointer, Keyboard } from "eterill-excalidraw/tests/helpers/ui";
+import { API } from "@eterill/catpaw/tests/helpers/api";
+import { UI, Pointer, Keyboard } from "@eterill/catpaw/tests/helpers/ui";
 import {
   act,
   unmountComponent,
   render,
-} from "eterill-excalidraw/tests/test-utils";
+} from "@eterill/catpaw/tests/test-utils";
 
 const mouse = new Pointer("mouse");
 

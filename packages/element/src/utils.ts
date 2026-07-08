@@ -4,7 +4,7 @@
   invariant,
   LINE_CONFIRM_THRESHOLD,
   ROUNDNESS,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 import {
   bezierEquation,
@@ -24,15 +24,15 @@ import {
   vectorNormalize,
   vectorScale,
   type GlobalPoint,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
-import type { Curve, LineSegment, LocalPoint } from "eterill-math";
+import type { Curve, LineSegment, LocalPoint } from "@eterill/catpaw-math";
 
 import type {
   AppState,
   NormalizedZoomValue,
   Zoom,
-} from "eterill-excalidraw/types";
+} from "@eterill/catpaw/types";
 
 import { elementCenterPoint, getDiamondPoints } from "./bounds";
 

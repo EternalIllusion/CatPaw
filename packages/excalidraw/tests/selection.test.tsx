@@ -1,13 +1,13 @@
 ﻿import React from "react";
 import { vi } from "vitest";
 
-import { KEYS, ROUNDNESS, arrayToMap, reseed } from "eterill-common";
+import { KEYS, ROUNDNESS, arrayToMap, reseed } from "@eterill/catpaw-common";
 import {
   getElementBounds,
   getElementLineSegments,
   getElementsWithinSelection,
-} from "eterill-element";
-import { pointFrom, pointRotateRads, type LocalPoint } from "eterill-math";
+} from "@eterill/catpaw-element";
+import { pointFrom, pointRotateRads, type LocalPoint } from "@eterill/catpaw-math";
 
 import { SHAPES } from "../components/shapes";
 

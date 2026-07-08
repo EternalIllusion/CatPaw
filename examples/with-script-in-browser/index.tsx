@@ -1,8 +1,8 @@
 ﻿import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
-import "eterill-excalidraw/index.css";
-import { Excalidraw } from "eterill-excalidraw";
+import "@eterill/catpaw/index.css";
+import { Excalidraw } from "@eterill/catpaw";
 
 const rootElement = document.getElementById("root")!;
 const root = createRoot(rootElement);

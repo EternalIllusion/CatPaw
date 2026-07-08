@@ -1,4 +1,4 @@
-﻿import { exportToCanvas, exportToSvg } from "eterill-utils/export";
+﻿import { exportToCanvas, exportToSvg } from "@eterill/catpaw-utils/export";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import {
@@ -8,7 +8,7 @@ import {
   VERSIONS,
   chunk,
   getExportSource,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 import { EditorLocalStorage } from "../data/EditorLocalStorage";
 import { canvasToBlob, resizeImageFile } from "../data/blob";

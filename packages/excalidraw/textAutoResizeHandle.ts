@@ -1,14 +1,14 @@
-﻿import { DEFAULT_TRANSFORM_HANDLE_SPACING } from "eterill-common";
+﻿import { DEFAULT_TRANSFORM_HANDLE_SPACING } from "@eterill/catpaw-common";
 import {
   pointFrom,
   pointRotateRads,
   type GlobalPoint,
   type Radians,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
-import type { EditorInterface } from "eterill-common";
+import type { EditorInterface } from "@eterill/catpaw-common";
 
-import type { ExcalidrawTextElement } from "eterill-element/types";
+import type { ExcalidrawTextElement } from "@eterill/catpaw-element/types";
 
 const TEXT_AUTO_RESIZE_HANDLE_GAP = 12;
 const TEXT_AUTO_RESIZE_HANDLE_LENGTH = 16;

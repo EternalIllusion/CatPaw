@@ -1,6 +1,6 @@
-﻿import { DEFAULT_LASER_COLOR, easeOut } from "eterill-common";
+﻿import { DEFAULT_LASER_COLOR, easeOut } from "@eterill/catpaw-common";
 
-import type { LaserPointerOptions } from "eterill-laser-pointer";
+import type { LaserPointerOptions } from "@eterill/catpaw-laser-pointer";
 
 import { AnimatedTrail } from "./animatedTrail";
 import { getClientColor } from "./clients";

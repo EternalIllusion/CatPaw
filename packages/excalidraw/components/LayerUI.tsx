@@ -8,15 +8,15 @@ import {
   arrayToMap,
   capitalizeString,
   isShallowEqual,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { mutateElement } from "eterill-element";
+import { mutateElement } from "@eterill/catpaw-element";
 
-import { showSelectedShapeActions } from "eterill-element";
+import { showSelectedShapeActions } from "@eterill/catpaw-element";
 
-import { ShapeCache } from "eterill-element";
+import { ShapeCache } from "@eterill/catpaw-element";
 
-import type { NonDeletedExcalidrawElement } from "eterill-element/types";
+import type { NonDeletedExcalidrawElement } from "@eterill/catpaw-element/types";
 
 import { actionToggleStats } from "../actions";
 import { trackEvent } from "../analytics";

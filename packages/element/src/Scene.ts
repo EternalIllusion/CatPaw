@@ -7,20 +7,20 @@ import {
   isDevEnv,
   isTestEnv,
   toArray,
-} from "eterill-common";
-import { isNonDeletedElement } from "eterill-element";
-import { isFrameLikeElement } from "eterill-element";
-import { getElementsInGroup } from "eterill-element";
+} from "@eterill/catpaw-common";
+import { isNonDeletedElement } from "@eterill/catpaw-element";
+import { isFrameLikeElement } from "@eterill/catpaw-element";
+import { getElementsInGroup } from "@eterill/catpaw-element";
 
 import {
   syncInvalidIndices,
   syncMovedIndices,
   validateFractionalIndices,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { getSelectedElements } from "eterill-element";
+import { getSelectedElements } from "@eterill/catpaw-element";
 
-import { mutateElement, type ElementUpdate } from "eterill-element";
+import { mutateElement, type ElementUpdate } from "@eterill/catpaw-element";
 
 import type {
   ExcalidrawElement,
@@ -32,13 +32,13 @@ import type {
   NonDeletedSceneElementsMap,
   OrderedExcalidrawElement,
   Ordered,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import type {
   Assert,
   Mutable,
   SameType,
-} from "eterill-common/utility-types";
+} from "@eterill/catpaw-common/utility-types";
 
 import type { AppState } from "../../excalidraw/types";
 

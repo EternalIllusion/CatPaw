@@ -1,33 +1,33 @@
 ﻿import {
   compressData,
   decompressData,
-} from "eterill-excalidraw/data/encode";
+} from "@eterill/catpaw/data/encode";
 import {
   decryptData,
   generateEncryptionKey,
   IV_LENGTH_BYTES,
-} from "eterill-excalidraw/data/encryption";
-import { serializeAsJSON } from "eterill-excalidraw/data/json";
-import { isInvisiblySmallElement } from "eterill-element";
-import { isInitializedImageElement } from "eterill-element";
-import { t } from "eterill-excalidraw/i18n";
-import { bytesToHexString } from "eterill-common";
+} from "@eterill/catpaw/data/encryption";
+import { serializeAsJSON } from "@eterill/catpaw/data/json";
+import { isInvisiblySmallElement } from "@eterill/catpaw-element";
+import { isInitializedImageElement } from "@eterill/catpaw-element";
+import { t } from "@eterill/catpaw/i18n";
+import { bytesToHexString } from "@eterill/catpaw-common";
 
-import type { UserIdleState } from "eterill-common";
-import type { ImportedDataState } from "eterill-excalidraw/data/types";
-import type { SceneBounds } from "eterill-element";
+import type { UserIdleState } from "@eterill/catpaw-common";
+import type { ImportedDataState } from "@eterill/catpaw/data/types";
+import type { SceneBounds } from "@eterill/catpaw-element";
 import type {
   ExcalidrawElement,
   FileId,
   OrderedExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 import type {
   AppState,
   BinaryFileData,
   BinaryFiles,
   SocketId,
-} from "eterill-excalidraw/types";
-import type { MakeBrand } from "eterill-common/utility-types";
+} from "@eterill/catpaw/types";
+import type { MakeBrand } from "@eterill/catpaw-common/utility-types";
 
 import {
   DELETED_ELEMENT_TIMEOUT,

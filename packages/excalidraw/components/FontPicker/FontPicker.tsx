@@ -2,9 +2,9 @@
 import clsx from "clsx";
 import React, { useCallback, useMemo } from "react";
 
-import { FONT_FAMILY } from "eterill-common";
+import { FONT_FAMILY } from "@eterill/catpaw-common";
 
-import type { FontFamilyValues } from "eterill-element/types";
+import type { FontFamilyValues } from "@eterill/catpaw-element/types";
 
 import { t } from "../../i18n";
 import { RadioSelection } from "../RadioSelection";

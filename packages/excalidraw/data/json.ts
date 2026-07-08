@@ -3,11 +3,11 @@
   getExportSource,
   MIME_TYPES,
   VERSIONS,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import type { ExcalidrawElement, NonDeleted } from "eterill-element/types";
+import type { ExcalidrawElement, NonDeleted } from "@eterill/catpaw-element/types";
 
-import type { MaybePromise } from "eterill-common/utility-types";
+import type { MaybePromise } from "@eterill/catpaw-common/utility-types";
 
 import { cleanAppStateForExport, clearAppStateForDatabase } from "../appState";
 

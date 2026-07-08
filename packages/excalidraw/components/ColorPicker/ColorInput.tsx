@@ -1,7 +1,7 @@
 ﻿import clsx from "clsx";
 import { useCallback, useEffect, useRef, useState } from "react";
 
-import { KEYS, normalizeInputColor } from "eterill-common";
+import { KEYS, normalizeInputColor } from "@eterill/catpaw-common";
 
 import { getShortcutKey } from "../..//shortcut";
 import { useAtom } from "../../editor-jotai";

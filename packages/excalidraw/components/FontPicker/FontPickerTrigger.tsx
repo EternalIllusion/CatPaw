@@ -1,8 +1,8 @@
 ﻿import { Popover } from "radix-ui";
 
-import { MOBILE_ACTION_BUTTON_BG } from "eterill-common";
+import { MOBILE_ACTION_BUTTON_BG } from "@eterill/catpaw-common";
 
-import type { FontFamilyValues } from "eterill-element/types";
+import type { FontFamilyValues } from "@eterill/catpaw-element/types";
 
 import { t } from "../../i18n";
 import { ButtonIcon } from "../ButtonIcon";

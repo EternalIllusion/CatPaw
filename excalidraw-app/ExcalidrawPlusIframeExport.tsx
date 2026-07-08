@@ -1,12 +1,12 @@
-﻿import { base64urlToString } from "eterill-excalidraw/data/encode";
-import { ExcalidrawError } from "eterill-excalidraw/errors";
+﻿import { base64urlToString } from "@eterill/catpaw/data/encode";
+import { ExcalidrawError } from "@eterill/catpaw/errors";
 import { useLayoutEffect, useRef } from "react";
 
 import type {
   FileId,
   OrderedExcalidrawElement,
-} from "eterill-element/types";
-import type { AppState, BinaryFileData } from "eterill-excalidraw/types";
+} from "@eterill/catpaw-element/types";
+import type { AppState, BinaryFileData } from "@eterill/catpaw/types";
 
 import { STORAGE_KEYS } from "./app_constants";
 import { LocalData } from "./data/LocalData";

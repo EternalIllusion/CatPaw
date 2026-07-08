@@ -6,9 +6,9 @@
   useState,
 } from "react";
 
-import { MIME_TYPES, arrayToMap, nextAnimationFrame } from "eterill-common";
+import { MIME_TYPES, arrayToMap, nextAnimationFrame } from "@eterill/catpaw-common";
 
-import { duplicateElements } from "eterill-element";
+import { duplicateElements } from "@eterill/catpaw-element";
 
 import clsx from "clsx";
 

@@ -1,19 +1,19 @@
-﻿import { clamp, round } from "eterill-math";
+﻿import { clamp, round } from "@eterill/catpaw-math";
 
-import { MIN_WIDTH_OR_HEIGHT } from "eterill-common";
+import { MIN_WIDTH_OR_HEIGHT } from "@eterill/catpaw-common";
 import {
   MINIMAL_CROP_SIZE,
   getUncroppedWidthAndHeight,
-} from "eterill-element";
-import { resizeSingleElement } from "eterill-element";
-import { isImageElement } from "eterill-element";
-import { isFrameLikeElement } from "eterill-element";
-import { getElementsInResizingFrame } from "eterill-element";
-import { replaceAllElementsInFrame } from "eterill-element";
+} from "@eterill/catpaw-element";
+import { resizeSingleElement } from "@eterill/catpaw-element";
+import { isImageElement } from "@eterill/catpaw-element";
+import { isFrameLikeElement } from "@eterill/catpaw-element";
+import { getElementsInResizingFrame } from "@eterill/catpaw-element";
+import { replaceAllElementsInFrame } from "@eterill/catpaw-element";
 
-import type { ExcalidrawElement } from "eterill-element/types";
+import type { ExcalidrawElement } from "@eterill/catpaw-element/types";
 
-import type { Scene } from "eterill-element";
+import type { Scene } from "@eterill/catpaw-element";
 
 import DragInput from "./DragInput";
 import { getStepSizedValue, isPropertyEditable } from "./utils";

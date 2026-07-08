@@ -1,8 +1,8 @@
-﻿import { trackEvent } from "eterill-excalidraw/analytics";
-import { copyTextToSystemClipboard } from "eterill-excalidraw/clipboard";
-import { Dialog } from "eterill-excalidraw/components/Dialog";
-import { FilledButton } from "eterill-excalidraw/components/FilledButton";
-import { TextField } from "eterill-excalidraw/components/TextField";
+﻿import { trackEvent } from "@eterill/catpaw/analytics";
+import { copyTextToSystemClipboard } from "@eterill/catpaw/clipboard";
+import { Dialog } from "@eterill/catpaw/components/Dialog";
+import { FilledButton } from "@eterill/catpaw/components/FilledButton";
+import { TextField } from "@eterill/catpaw/components/TextField";
 import {
   copyIcon,
   LinkIcon,
@@ -11,11 +11,11 @@ import {
   share,
   shareIOS,
   shareWindows,
-} from "eterill-excalidraw/components/icons";
-import { useUIAppState } from "eterill-excalidraw/context/ui-appState";
-import { useCopyStatus } from "eterill-excalidraw/hooks/useCopiedIndicator";
-import { useI18n } from "eterill-excalidraw/i18n";
-import { KEYS, getFrame } from "eterill-common";
+} from "@eterill/catpaw/components/icons";
+import { useUIAppState } from "@eterill/catpaw/context/ui-appState";
+import { useCopyStatus } from "@eterill/catpaw/hooks/useCopiedIndicator";
+import { useI18n } from "@eterill/catpaw/i18n";
+import { KEYS, getFrame } from "@eterill/catpaw-common";
 import { useEffect, useRef, useState } from "react";
 
 import { atom, useAtom, useAtomValue } from "../app-jotai";

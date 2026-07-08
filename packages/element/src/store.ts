@@ -6,13 +6,13 @@
   randomId,
   Emitter,
   toIterable,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import type App from "eterill-excalidraw/components/App";
+import type App from "@eterill/catpaw/components/App";
 
-import type { DTO, ValueOf } from "eterill-common/utility-types";
+import type { DTO, ValueOf } from "@eterill/catpaw-common/utility-types";
 
-import type { AppState, ObservedAppState } from "eterill-excalidraw/types";
+import type { AppState, ObservedAppState } from "@eterill/catpaw/types";
 
 import { deepCopyElement } from "./duplicate";
 import { newElementWith } from "./mutateElement";

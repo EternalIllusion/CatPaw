@@ -1,6 +1,6 @@
-﻿import { CODES, KEYS } from "eterill-common";
+﻿import { CODES, KEYS } from "@eterill/catpaw-common";
 
-import { CaptureUpdateAction } from "eterill-element";
+import { CaptureUpdateAction } from "@eterill/catpaw-element";
 
 import { abacusIcon } from "../components/icons";
 

@@ -1,6 +1,6 @@
 ﻿import React from "react";
 
-import { CURSOR_TYPE, KEYS } from "eterill-common";
+import { CURSOR_TYPE, KEYS } from "@eterill/catpaw-common";
 
 import { Excalidraw } from "../index";
 

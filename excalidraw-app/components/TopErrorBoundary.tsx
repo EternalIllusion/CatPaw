@@ -1,5 +1,5 @@
-﻿import Trans from "eterill-excalidraw/components/Trans";
-import { t } from "eterill-excalidraw/i18n";
+﻿import Trans from "@eterill/catpaw/components/Trans";
+import { t } from "@eterill/catpaw/i18n";
 import * as Sentry from "@sentry/browser";
 import React from "react";
 

@@ -1,7 +1,7 @@
 ﻿import clsx from "clsx";
 import React, { useCallback, useEffect, useRef } from "react";
 
-import { CLASSES, EVENT, KEYS } from "eterill-common";
+import { CLASSES, EVENT, KEYS } from "@eterill/catpaw-common";
 
 import { DropdownMenu as DropdownMenuPrimitive } from "radix-ui";
 

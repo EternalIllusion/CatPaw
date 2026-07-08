@@ -2,7 +2,7 @@
   applyDarkModeFilter,
   COLOR_PALETTE,
   rgbToHex,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 describe("COLOR_PALETTE", () => {
   it("color palette doesn't regress", () => {

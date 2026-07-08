@@ -1,7 +1,7 @@
-﻿import { exportToSvg } from "eterill-utils/export";
+﻿import { exportToSvg } from "@eterill/catpaw-utils/export";
 import { useEffect, useState } from "react";
 
-import { COLOR_PALETTE } from "eterill-common";
+import { COLOR_PALETTE } from "@eterill/catpaw-common";
 
 import { atom, useAtom } from "../editor-jotai";
 

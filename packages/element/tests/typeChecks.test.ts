@@ -1,4 +1,4 @@
-﻿import { API } from "eterill-excalidraw/tests/helpers/api";
+﻿import { API } from "@eterill/catpaw/tests/helpers/api";
 
 import { hasBoundTextElement } from "../src/typeChecks";
 

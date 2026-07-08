@@ -1,4 +1,4 @@
-﻿import { KEYS } from "eterill-common";
+﻿import { KEYS } from "@eterill/catpaw-common";
 
 import { actionSelectAll } from "../actions";
 import { t } from "../i18n";

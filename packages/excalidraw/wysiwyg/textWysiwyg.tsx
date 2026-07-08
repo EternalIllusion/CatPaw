@@ -11,18 +11,18 @@
   MIME_TYPES,
   applyDarkModeFilter,
   isRTL,
-} from "eterill-common";
-import { pointFrom, pointRotateRads, type Radians } from "eterill-math";
+} from "@eterill/catpaw-common";
+import { pointFrom, pointRotateRads, type Radians } from "@eterill/catpaw-math";
 
 import {
   getTextFromElements,
   originalContainerCache,
   updateBoundElements,
   updateOriginalContainerCache,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { LinearElementEditor } from "eterill-element";
-import { bumpVersion } from "eterill-element";
+import { LinearElementEditor } from "@eterill/catpaw-element";
+import { bumpVersion } from "@eterill/catpaw-element";
 import {
   getBoundTextElementId,
   getContainerElement,
@@ -33,25 +33,25 @@ import {
   computeContainerDimensionForBoundText,
   computeBoundTextPosition,
   getBoundTextElement,
-} from "eterill-element";
-import { getTextWidth } from "eterill-element";
-import { getLineHeightInPx } from "eterill-element";
-import { getLineWidth } from "eterill-element";
-import { normalizeText } from "eterill-element";
-import { wrapText } from "eterill-element";
-import { getWrappedTextLines } from "eterill-element";
+} from "@eterill/catpaw-element";
+import { getTextWidth } from "@eterill/catpaw-element";
+import { getLineHeightInPx } from "@eterill/catpaw-element";
+import { getLineWidth } from "@eterill/catpaw-element";
+import { normalizeText } from "@eterill/catpaw-element";
+import { wrapText } from "@eterill/catpaw-element";
+import { getWrappedTextLines } from "@eterill/catpaw-element";
 import {
   isArrowElement,
   isBoundToContainer,
   isTextElement,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawLinearElement,
   ExcalidrawTextElementWithContainer,
   ExcalidrawTextElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { actionSaveToActiveFile } from "../actions";
 

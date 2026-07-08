@@ -7,11 +7,11 @@ import {
   KEYS,
   reseed,
   MQ_MIN_WIDTH_DESKTOP,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { setDateTimeForTests } from "eterill-common";
+import { setDateTimeForTests } from "@eterill/catpaw-common";
 
-import type { ExcalidrawElement } from "eterill-element/types";
+import type { ExcalidrawElement } from "@eterill/catpaw-element/types";
 
 import { Excalidraw } from "../index";
 import * as StaticScene from "../renderer/staticScene";

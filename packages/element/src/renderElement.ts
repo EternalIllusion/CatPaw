@@ -7,7 +7,7 @@ import {
   pointFrom,
   pointRotateRads,
   type Radians,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
 import {
   BOUND_TEXT_PADDING,
@@ -24,7 +24,7 @@ import {
   invariant,
   applyDarkModeFilter,
   isSafari,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 import type {
   AppState,
@@ -34,13 +34,13 @@ import type {
   ElementsPendingErasure,
   PendingExcalidrawElements,
   NormalizedZoomValue,
-} from "eterill-excalidraw/types";
+} from "@eterill/catpaw/types";
 
 import type {
   StaticCanvasRenderConfig,
   RenderableElementsMap,
   InteractiveCanvasRenderConfig,
-} from "eterill-excalidraw/scene/types";
+} from "@eterill/catpaw/scene/types";
 
 import { getElementAbsoluteCoords, getElementBounds } from "./bounds";
 import { getUncroppedImageElement } from "./cropElement";

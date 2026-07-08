@@ -5,12 +5,12 @@ import {
   CLASSES,
   DEFAULT_SIDEBAR,
   KEYS,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 import type {
   ExcalidrawFrameLikeElement,
   ExcalidrawTextElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { Excalidraw } from "../index";
 

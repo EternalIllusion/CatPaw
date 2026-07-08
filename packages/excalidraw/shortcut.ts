@@ -1,4 +1,4 @@
-﻿import { isDarwin } from "eterill-common";
+﻿import { isDarwin } from "@eterill/catpaw-common";
 
 import { t } from "./i18n";
 

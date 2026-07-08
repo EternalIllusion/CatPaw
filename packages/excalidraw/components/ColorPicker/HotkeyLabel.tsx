@@ -1,5 +1,5 @@
 ﻿import React from "react";
-import { isColorDark } from "eterill-common";
+import { isColorDark } from "@eterill/catpaw-common";
 
 interface HotkeyLabelProps {
   color: string;

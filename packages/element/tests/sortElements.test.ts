@@ -1,6 +1,6 @@
-﻿import { API } from "eterill-excalidraw/tests/helpers/api";
+﻿import { API } from "@eterill/catpaw/tests/helpers/api";
 
-import { mutateElement } from "eterill-element";
+import { mutateElement } from "@eterill/catpaw-element";
 
 import { normalizeElementOrder } from "../src/sortElements";
 

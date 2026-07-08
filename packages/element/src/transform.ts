@@ -1,4 +1,4 @@
-﻿import { pointFrom, type LocalPoint } from "eterill-math";
+﻿import { pointFrom, type LocalPoint } from "@eterill/catpaw-math";
 
 import {
   DEFAULT_FONT_FAMILY,
@@ -14,9 +14,9 @@ import {
   isDevEnv,
   toBrandedType,
   getLineHeight,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import type { MarkOptional } from "eterill-common/utility-types";
+import type { MarkOptional } from "@eterill/catpaw-common/utility-types";
 
 import { bindBindingElement } from "./binding";
 import {

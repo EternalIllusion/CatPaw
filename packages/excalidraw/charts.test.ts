@@ -1,13 +1,13 @@
-﻿import { FONT_FAMILY } from "eterill-common";
+﻿import { FONT_FAMILY } from "@eterill/catpaw-common";
 import {
   DEFAULT_CHART_COLOR_INDEX,
   getAllColorsSpecificShade,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 import type {
   ExcalidrawLineElement,
   ExcalidrawTextElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import {
   isSpreadsheetValidForChartType,

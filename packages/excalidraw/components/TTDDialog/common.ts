@@ -2,16 +2,16 @@
   DEFAULT_EXPORT_PADDING,
   EDITOR_LS_KEYS,
   THEME,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { convertToExcalidrawElements } from "eterill-element";
+import { convertToExcalidrawElements } from "@eterill/catpaw-element";
 
-import { exportToCanvas } from "eterill-utils";
+import { exportToCanvas } from "@eterill/catpaw-utils";
 
 import type {
   NonDeletedExcalidrawElement,
   Theme,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { EditorLocalStorage } from "../../data/EditorLocalStorage";
 

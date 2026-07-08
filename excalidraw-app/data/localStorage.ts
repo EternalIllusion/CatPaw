@@ -1,10 +1,10 @@
 ﻿import {
   clearAppStateForLocalStorage,
   getDefaultAppState,
-} from "eterill-excalidraw/appState";
+} from "@eterill/catpaw/appState";
 
-import type { ExcalidrawElement } from "eterill-element/types";
-import type { AppState } from "eterill-excalidraw/types";
+import type { ExcalidrawElement } from "@eterill/catpaw-element/types";
+import type { AppState } from "@eterill/catpaw/types";
 
 import { STORAGE_KEYS } from "../app_constants";
 

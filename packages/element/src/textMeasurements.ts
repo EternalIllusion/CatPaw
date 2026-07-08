@@ -5,7 +5,7 @@
   getFontString,
   isTestEnv,
   normalizeEOL,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 import type { FontString, ExcalidrawTextElement } from "./types";
 

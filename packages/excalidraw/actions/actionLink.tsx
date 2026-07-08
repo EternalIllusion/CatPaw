@@ -1,8 +1,8 @@
-﻿import { isEmbeddableElement } from "eterill-element";
+﻿import { isEmbeddableElement } from "@eterill/catpaw-element";
 
-import { KEYS } from "eterill-common";
+import { KEYS } from "@eterill/catpaw-common";
 
-import { CaptureUpdateAction } from "eterill-element";
+import { CaptureUpdateAction } from "@eterill/catpaw-element";
 
 import { ToolButton } from "../components/ToolButton";
 import { getContextMenuLabel } from "../components/hyperlink/Hyperlink";

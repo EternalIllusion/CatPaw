@@ -1,4 +1,4 @@
-﻿import { VERSIONS } from "eterill-common";
+﻿import { VERSIONS } from "@eterill/catpaw-common";
 
 import {
   diamondFixture,

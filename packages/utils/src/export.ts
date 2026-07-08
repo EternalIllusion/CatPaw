@@ -1,27 +1,27 @@
-﻿import { MIME_TYPES } from "eterill-common";
-import { getDefaultAppState } from "eterill-excalidraw/appState";
+﻿import { MIME_TYPES } from "@eterill/catpaw-common";
+import { getDefaultAppState } from "@eterill/catpaw/appState";
 import {
   copyBlobToClipboardAsPng,
   copyTextToSystemClipboard,
   copyToClipboard,
-} from "eterill-excalidraw/clipboard";
-import { encodePngMetadata } from "eterill-excalidraw/data/image";
-import { serializeAsJSON } from "eterill-excalidraw/data/json";
+} from "@eterill/catpaw/clipboard";
+import { encodePngMetadata } from "@eterill/catpaw/data/image";
+import { serializeAsJSON } from "@eterill/catpaw/data/json";
 import {
   restoreAppState,
   restoreElements,
-} from "eterill-excalidraw/data/restore";
+} from "@eterill/catpaw/data/restore";
 import {
   exportToCanvas as _exportToCanvas,
   exportToSvg as _exportToSvg,
-} from "eterill-excalidraw/scene/export";
+} from "@eterill/catpaw/scene/export";
 
 import type {
   ExcalidrawElement,
   ExcalidrawFrameLikeElement,
   NonDeleted,
-} from "eterill-element/types";
-import type { AppState, BinaryFiles } from "eterill-excalidraw/types";
+} from "@eterill/catpaw-element/types";
+import type { AppState, BinaryFiles } from "@eterill/catpaw/types";
 
 export { MIME_TYPES };
 

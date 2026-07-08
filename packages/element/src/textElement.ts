@@ -8,13 +8,13 @@
   getFontString,
   isProdEnv,
   invariant,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { pointFrom, pointRotateRads, type Radians } from "eterill-math";
+import { pointFrom, pointRotateRads, type Radians } from "@eterill/catpaw-math";
 
-import type { AppState } from "eterill-excalidraw/types";
+import type { AppState } from "@eterill/catpaw/types";
 
-import type { ExtractSetType } from "eterill-common/utility-types";
+import type { ExtractSetType } from "@eterill/catpaw-common/utility-types";
 
 import {
   resetOriginalContainerCache,

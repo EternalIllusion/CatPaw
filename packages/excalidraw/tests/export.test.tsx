@@ -1,8 +1,8 @@
 ﻿import React from "react";
 
-import { SVG_NS } from "eterill-common";
+import { SVG_NS } from "@eterill/catpaw-common";
 
-import type { FileId } from "eterill-element/types";
+import type { FileId } from "@eterill/catpaw-element/types";
 
 import { getDefaultAppState } from "../appState";
 import { getDataURL } from "../data/blob";

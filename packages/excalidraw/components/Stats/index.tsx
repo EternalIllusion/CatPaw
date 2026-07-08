@@ -1,18 +1,18 @@
-﻿import { round } from "eterill-math";
+﻿import { round } from "@eterill/catpaw-math";
 import clsx from "clsx";
 import throttle from "lodash.throttle";
 import { useEffect, useMemo, useState, memo } from "react";
 
-import { STATS_PANELS } from "eterill-common";
-import { getCommonBounds } from "eterill-element";
-import { getUncroppedWidthAndHeight } from "eterill-element";
-import { isImageElement } from "eterill-element";
+import { STATS_PANELS } from "@eterill/catpaw-common";
+import { getCommonBounds } from "@eterill/catpaw-element";
+import { getUncroppedWidthAndHeight } from "@eterill/catpaw-element";
+import { isImageElement } from "@eterill/catpaw-element";
 
-import { frameAndChildrenSelectedTogether } from "eterill-element";
+import { frameAndChildrenSelectedTogether } from "@eterill/catpaw-element";
 
-import { elementsAreInSameGroup } from "eterill-element";
+import { elementsAreInSameGroup } from "@eterill/catpaw-element";
 
-import type { NonDeletedExcalidrawElement } from "eterill-element/types";
+import type { NonDeletedExcalidrawElement } from "@eterill/catpaw-element/types";
 
 import { t } from "../../i18n";
 import { isGridModeEnabled } from "../../snapping";

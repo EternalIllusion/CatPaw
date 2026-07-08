@@ -2,7 +2,7 @@
 import clsx from "clsx";
 import React, { type ReactNode } from "react";
 
-import { isInteractive } from "eterill-common";
+import { isInteractive } from "@eterill/catpaw-common";
 
 import { useEditorInterface } from "./App";
 import { Island } from "./Island";

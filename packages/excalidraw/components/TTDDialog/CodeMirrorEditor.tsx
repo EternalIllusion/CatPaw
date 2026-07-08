@@ -17,7 +17,7 @@ import {
 import { syntaxHighlighting, HighlightStyle } from "@codemirror/language";
 import { tags } from "@lezer/highlight";
 
-import type { Theme } from "eterill-element/types";
+import type { Theme } from "@eterill/catpaw-element/types";
 
 import { mermaidLite } from "./mermaid-lang-lite";
 

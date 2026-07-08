@@ -1,6 +1,6 @@
 ﻿import React, { useContext } from "react";
 
-import { composeEventHandlers } from "eterill-common";
+import { composeEventHandlers } from "@eterill/catpaw-common";
 
 export const DropdownMenuContentPropsContext = React.createContext<{
   onSelect?: (event: Event) => void;

@@ -1,4 +1,4 @@
-﻿import { pointFrom } from "eterill-math";
+﻿import { pointFrom } from "@eterill/catpaw-math";
 
 import { Excalidraw } from "../index";
 import { API } from "../tests/helpers/api";

@@ -2,28 +2,28 @@
   type GlobalPoint,
   type LineSegment,
   pointFrom,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
-import { getElementLineSegments } from "eterill-element";
-import { LinearElementEditor } from "eterill-element";
+import { getElementLineSegments } from "@eterill/catpaw-element";
+import { LinearElementEditor } from "@eterill/catpaw-element";
 import {
   isFrameLikeElement,
   isLinearElement,
   isTextElement,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { getFrameChildren } from "eterill-element";
-import { selectGroupsForSelectedElements } from "eterill-element";
+import { getFrameChildren } from "@eterill/catpaw-element";
+import { selectGroupsForSelectedElements } from "@eterill/catpaw-element";
 
-import { getContainerElement } from "eterill-element";
+import { getContainerElement } from "@eterill/catpaw-element";
 
-import { arrayToMap, easeOut, isShallowEqual } from "eterill-common";
+import { arrayToMap, easeOut, isShallowEqual } from "@eterill/catpaw-common";
 
 import type {
   ExcalidrawElement,
   ExcalidrawLinearElement,
   NonDeleted,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { AnimatedTrail } from "../animatedTrail";
 

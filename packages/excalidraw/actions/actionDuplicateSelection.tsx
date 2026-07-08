@@ -3,22 +3,22 @@
   KEYS,
   MOBILE_ACTION_BUTTON_BG,
   arrayToMap,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { getNonDeletedElements } from "eterill-element";
+import { getNonDeletedElements } from "@eterill/catpaw-element";
 
-import { LinearElementEditor } from "eterill-element";
+import { LinearElementEditor } from "@eterill/catpaw-element";
 
 import {
   getSelectedElements,
   getSelectionStateForElements,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { syncMovedIndices } from "eterill-element";
+import { syncMovedIndices } from "@eterill/catpaw-element";
 
-import { duplicateElements } from "eterill-element";
+import { duplicateElements } from "@eterill/catpaw-element";
 
-import { CaptureUpdateAction } from "eterill-element";
+import { CaptureUpdateAction } from "@eterill/catpaw-element";
 
 import { ToolButton } from "../components/ToolButton";
 import { DuplicateIcon } from "../components/icons";

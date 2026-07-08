@@ -1,6 +1,6 @@
 ﻿import React from "react";
 
-import { DEFAULT_SIDEBAR } from "eterill-common";
+import { DEFAULT_SIDEBAR } from "@eterill/catpaw-common";
 
 import { DefaultSidebar } from "../index";
 import {

@@ -3,9 +3,9 @@
   CANVAS_SEARCH_TAB,
   CLASSES,
   DEFAULT_SIDEBAR,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { CaptureUpdateAction } from "eterill-element";
+import { CaptureUpdateAction } from "@eterill/catpaw-element";
 
 import { searchIcon } from "../components/icons";
 

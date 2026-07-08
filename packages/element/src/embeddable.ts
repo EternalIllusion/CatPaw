@@ -3,10 +3,10 @@
   VERTICAL_ALIGN,
   escapeDoubleQuotes,
   getFontString,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import type { ExcalidrawProps } from "eterill-excalidraw/types";
-import type { MarkRequired } from "eterill-common/utility-types";
+import type { ExcalidrawProps } from "@eterill/catpaw/types";
+import type { MarkRequired } from "@eterill/catpaw-common/utility-types";
 
 import { newTextElement } from "./newElement";
 import { wrapText } from "./textWrapping";

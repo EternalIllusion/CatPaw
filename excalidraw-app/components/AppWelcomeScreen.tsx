@@ -1,7 +1,7 @@
-﻿import { loginIcon } from "eterill-excalidraw/components/icons";
-import { POINTER_EVENTS } from "eterill-common";
-import { useI18n } from "eterill-excalidraw/i18n";
-import { WelcomeScreen } from "eterill-excalidraw/index";
+﻿import { loginIcon } from "@eterill/catpaw/components/icons";
+import { POINTER_EVENTS } from "@eterill/catpaw-common";
+import { useI18n } from "@eterill/catpaw/i18n";
+import { WelcomeScreen } from "@eterill/catpaw/index";
 import React from "react";
 
 import { isExcalidrawPlusSignedUser } from "../app_constants";

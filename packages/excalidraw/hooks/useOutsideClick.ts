@@ -1,6 +1,6 @@
 ﻿import { useEffect } from "react";
 
-import { EVENT } from "eterill-common";
+import { EVENT } from "@eterill/catpaw-common";
 
 export function useOutsideClick<T extends HTMLElement>(
   ref: React.RefObject<T | null>,

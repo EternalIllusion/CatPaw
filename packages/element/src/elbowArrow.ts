@@ -11,7 +11,7 @@
   vectorScale,
   type GlobalPoint,
   type LocalPoint,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
 import {
   type Bounds,
@@ -21,9 +21,9 @@ import {
   getSizeFromPoints,
   isDevEnv,
   arrayToMap,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import type { AppState } from "eterill-excalidraw/types";
+import type { AppState } from "@eterill/catpaw/types";
 
 import {
   bindPointToSnapToElementOutline,

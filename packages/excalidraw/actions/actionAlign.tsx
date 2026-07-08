@@ -1,20 +1,20 @@
-﻿import { getNonDeletedElements } from "eterill-element";
+﻿import { getNonDeletedElements } from "@eterill/catpaw-element";
 
-import { isFrameLikeElement } from "eterill-element";
+import { isFrameLikeElement } from "@eterill/catpaw-element";
 
-import { updateFrameMembershipOfSelectedElements } from "eterill-element";
+import { updateFrameMembershipOfSelectedElements } from "@eterill/catpaw-element";
 
-import { KEYS, arrayToMap } from "eterill-common";
+import { KEYS, arrayToMap } from "@eterill/catpaw-common";
 
-import { alignElements } from "eterill-element";
+import { alignElements } from "@eterill/catpaw-element";
 
-import { CaptureUpdateAction } from "eterill-element";
+import { CaptureUpdateAction } from "@eterill/catpaw-element";
 
-import { getSelectedElementsByGroup } from "eterill-element";
+import { getSelectedElementsByGroup } from "@eterill/catpaw-element";
 
-import type { ExcalidrawElement } from "eterill-element/types";
+import type { ExcalidrawElement } from "@eterill/catpaw-element/types";
 
-import type { Alignment } from "eterill-element";
+import type { Alignment } from "@eterill/catpaw-element";
 
 import { ToolButton } from "../components/ToolButton";
 import {

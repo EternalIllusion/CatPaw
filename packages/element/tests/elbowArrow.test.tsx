@@ -1,21 +1,21 @@
-﻿import { ARROW_TYPE } from "eterill-common";
-import { pointFrom } from "eterill-math";
-import { Excalidraw } from "eterill-excalidraw";
-import { actionSelectAll } from "eterill-excalidraw/actions";
-import { actionDuplicateSelection } from "eterill-excalidraw/actions/actionDuplicateSelection";
-import { API } from "eterill-excalidraw/tests/helpers/api";
-import { Pointer, UI } from "eterill-excalidraw/tests/helpers/ui";
+﻿import { ARROW_TYPE } from "@eterill/catpaw-common";
+import { pointFrom } from "@eterill/catpaw-math";
+import { Excalidraw } from "@eterill/catpaw";
+import { actionSelectAll } from "@eterill/catpaw/actions";
+import { actionDuplicateSelection } from "@eterill/catpaw/actions/actionDuplicateSelection";
+import { API } from "@eterill/catpaw/tests/helpers/api";
+import { Pointer, UI } from "@eterill/catpaw/tests/helpers/ui";
 import {
   act,
   fireEvent,
   GlobalTestState,
   queryByTestId,
   render,
-} from "eterill-excalidraw/tests/test-utils";
-import "eterill-utils/test-utils";
-import { bindBindingElement } from "eterill-element";
+} from "@eterill/catpaw/tests/test-utils";
+import "@eterill/catpaw-utils/test-utils";
+import { bindBindingElement } from "@eterill/catpaw-element";
 
-import type { LocalPoint } from "eterill-math";
+import type { LocalPoint } from "@eterill/catpaw-math";
 
 import { Scene } from "../src/Scene";
 

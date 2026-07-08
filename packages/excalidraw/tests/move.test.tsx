@@ -1,13 +1,13 @@
 ﻿import React from "react";
 import { vi } from "vitest";
-import { KEYS, reseed } from "eterill-common";
-import { bindBindingElement } from "eterill-element";
-import "eterill-utils/test-utils";
+import { KEYS, reseed } from "@eterill/catpaw-common";
+import { bindBindingElement } from "@eterill/catpaw-element";
+import "@eterill/catpaw-utils/test-utils";
 
 import type {
   ExcalidrawArrowElement,
   NonDeleted,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { Excalidraw } from "../index";
 import * as InteractiveCanvas from "../renderer/interactiveScene";

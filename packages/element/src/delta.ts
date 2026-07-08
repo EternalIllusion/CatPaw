@@ -6,7 +6,7 @@
   isShallowEqual,
   isTestEnv,
   randomInteger,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 import type {
   ExcalidrawElement,
@@ -17,21 +17,21 @@ import type {
   Ordered,
   OrderedExcalidrawElement,
   SceneElementsMap,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import type {
   DTO,
   Mutable,
   SubtypeOf,
   ValueOf,
-} from "eterill-common/utility-types";
+} from "@eterill/catpaw-common/utility-types";
 
 import type {
   AppState,
   ObservedAppState,
   ObservedElementsAppState,
   ObservedStandaloneAppState,
-} from "eterill-excalidraw/types";
+} from "@eterill/catpaw/types";
 
 import { getObservedAppState } from "./store";
 

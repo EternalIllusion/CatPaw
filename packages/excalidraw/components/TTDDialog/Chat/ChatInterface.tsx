@@ -1,5 +1,5 @@
 ﻿import React, { useRef, useEffect, useLayoutEffect } from "react";
-import { KEYS } from "eterill-common";
+import { KEYS } from "@eterill/catpaw-common";
 
 import { ArrowRightIcon, stop as StopIcon } from "../../icons";
 import { InlineIcon } from "../../InlineIcon";

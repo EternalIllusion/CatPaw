@@ -1,18 +1,18 @@
-﻿import { reseed } from "eterill-common";
+﻿import { reseed } from "@eterill/catpaw-common";
 import {
   isElbowArrow,
   projectFixedPointOntoDiagonal,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { pointFrom } from "eterill-math";
+import { pointFrom } from "@eterill/catpaw-math";
 
-import type { GlobalPoint, LocalPoint } from "eterill-math";
+import type { GlobalPoint, LocalPoint } from "@eterill/catpaw-math";
 
 import type {
   ExcalidrawArrowElement,
   ExcalidrawBindableElement,
   ExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { actionToggleArrowBinding } from "../actions/actionToggleArrowBinding";
 import { Excalidraw, sceneCoordsToViewportCoords } from "../index";

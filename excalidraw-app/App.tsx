@@ -7,18 +7,18 @@
   useEditorInterface,
   ExcalidrawAPIProvider,
   useExcalidrawAPI,
-} from "eterill-excalidraw";
-import { trackEvent } from "eterill-excalidraw/analytics";
-import { getDefaultAppState } from "eterill-excalidraw/appState";
+} from "@eterill/catpaw";
+import { trackEvent } from "@eterill/catpaw/analytics";
+import { getDefaultAppState } from "@eterill/catpaw/appState";
 import {
   CommandPalette,
   DEFAULT_CATEGORIES,
-} from "eterill-excalidraw/components/CommandPalette/CommandPalette";
-import { ErrorDialog } from "eterill-excalidraw/components/ErrorDialog";
-import { OverwriteConfirmDialog } from "eterill-excalidraw/components/OverwriteConfirm/OverwriteConfirm";
-import { openConfirmModal } from "eterill-excalidraw/components/OverwriteConfirm/OverwriteConfirmState";
-import { ShareableLinkDialog } from "eterill-excalidraw/components/ShareableLinkDialog";
-import Trans from "eterill-excalidraw/components/Trans";
+} from "@eterill/catpaw/components/CommandPalette/CommandPalette";
+import { ErrorDialog } from "@eterill/catpaw/components/ErrorDialog";
+import { OverwriteConfirmDialog } from "@eterill/catpaw/components/OverwriteConfirm/OverwriteConfirm";
+import { openConfirmModal } from "@eterill/catpaw/components/OverwriteConfirm/OverwriteConfirmState";
+import { ShareableLinkDialog } from "@eterill/catpaw/components/ShareableLinkDialog";
+import Trans from "@eterill/catpaw/components/Trans";
 import {
   APP_NAME,
   EVENT,
@@ -31,11 +31,11 @@ import {
   resolvablePromise,
   isRunningInIframe,
   isDevEnv,
-} from "eterill-common";
-import polyfill from "eterill-excalidraw/polyfill";
+} from "@eterill/catpaw-common";
+import polyfill from "@eterill/catpaw/polyfill";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { loadFromBlob } from "eterill-excalidraw/data/blob";
-import { t } from "eterill-excalidraw/i18n";
+import { loadFromBlob } from "@eterill/catpaw/data/blob";
+import { t } from "@eterill/catpaw/i18n";
 
 import {
   GithubIcon,
@@ -46,28 +46,28 @@ import {
   exportToPlus,
   share,
   youtubeIcon,
-} from "eterill-excalidraw/components/icons";
-import { isElementLink } from "eterill-element";
+} from "@eterill/catpaw/components/icons";
+import { isElementLink } from "@eterill/catpaw-element";
 import {
   bumpElementVersions,
   restoreAppState,
   restoreElements,
-} from "eterill-excalidraw/data/restore";
-import { newElementWith } from "eterill-element";
-import { isInitializedImageElement } from "eterill-element";
+} from "@eterill/catpaw/data/restore";
+import { newElementWith } from "@eterill/catpaw-element";
+import { isInitializedImageElement } from "@eterill/catpaw-element";
 import clsx from "clsx";
 import {
   parseLibraryTokensFromUrl,
   useHandleLibrary,
-} from "eterill-excalidraw/data/library";
+} from "@eterill/catpaw/data/library";
 
-import type { RemoteExcalidrawElement } from "eterill-excalidraw/data/reconcile";
-import type { RestoredDataState } from "eterill-excalidraw/data/restore";
+import type { RemoteExcalidrawElement } from "@eterill/catpaw/data/reconcile";
+import type { RestoredDataState } from "@eterill/catpaw/data/restore";
 import type {
   FileId,
   NonDeletedExcalidrawElement,
   OrderedExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 import type {
   AppState,
   ExcalidrawImperativeAPI,
@@ -75,9 +75,9 @@ import type {
   ExcalidrawInitialDataState,
   UIAppState,
   ExcalidrawProps,
-} from "eterill-excalidraw/types";
-import type { ResolutionType } from "eterill-common/utility-types";
-import type { ResolvablePromise } from "eterill-common/utils";
+} from "@eterill/catpaw/types";
+import type { ResolutionType } from "@eterill/catpaw-common/utility-types";
+import type { ResolvablePromise } from "@eterill/catpaw-common/utils";
 
 import CustomStats from "./CustomStats";
 import {

@@ -5,32 +5,32 @@
   rangeIntersection,
   rangesOverlap,
   type GlobalPoint,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
-import { TOOL_TYPE, KEYS } from "eterill-common";
+import { TOOL_TYPE, KEYS } from "@eterill/catpaw-common";
 import {
   getCommonBounds,
   getDraggedElementsBounds,
   getElementAbsoluteCoords,
-} from "eterill-element";
-import { isBoundToContainer } from "eterill-element";
+} from "@eterill/catpaw-element";
+import { isBoundToContainer } from "@eterill/catpaw-element";
 
-import { getMaximumGroups } from "eterill-element";
+import { getMaximumGroups } from "@eterill/catpaw-element";
 
 import {
   getSelectedElements,
   getVisibleAndNonSelectedElements,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import type { InclusiveRange } from "eterill-math";
+import type { InclusiveRange } from "@eterill/catpaw-math";
 
-import type { Bounds } from "eterill-common";
-import type { MaybeTransformHandleType } from "eterill-element";
+import type { Bounds } from "@eterill/catpaw-common";
+import type { MaybeTransformHandleType } from "@eterill/catpaw-element";
 import type {
   ElementsMap,
   ExcalidrawElement,
   NonDeletedExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import type {
   AppClassProperties,

@@ -1,5 +1,5 @@
 ﻿import { useCallback, useEffect, useRef } from "react";
-import { randomId } from "eterill-common";
+import { randomId } from "@eterill/catpaw-common";
 
 import { atom, useAtom } from "../../editor-jotai";
 

@@ -1,21 +1,21 @@
-﻿import { degreesToRadians, pointFrom, pointRotateRads } from "eterill-math";
+﻿import { degreesToRadians, pointFrom, pointRotateRads } from "@eterill/catpaw-math";
 import { act, fireEvent, queryByTestId } from "@testing-library/react";
 import React from "react";
 import { vi } from "vitest";
 
-import { setDateTimeForTests, reseed } from "eterill-common";
+import { setDateTimeForTests, reseed } from "@eterill/catpaw-common";
 
-import { isInGroup } from "eterill-element";
+import { isInGroup } from "@eterill/catpaw-element";
 
-import { isTextElement } from "eterill-element";
+import { isTextElement } from "@eterill/catpaw-element";
 
-import type { Degrees } from "eterill-math";
+import type { Degrees } from "@eterill/catpaw-math";
 
 import type {
   ExcalidrawElement,
   ExcalidrawLinearElement,
   ExcalidrawTextElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { Excalidraw, getCommonBounds } from "../..";
 import { actionGroup } from "../../actions";

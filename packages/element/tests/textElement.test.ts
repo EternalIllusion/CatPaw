@@ -1,7 +1,7 @@
-﻿import { getLineHeight } from "eterill-common";
-import { API } from "eterill-excalidraw/tests/helpers/api";
+﻿import { getLineHeight } from "@eterill/catpaw-common";
+import { API } from "@eterill/catpaw/tests/helpers/api";
 
-import { FONT_FAMILY, TEXT_ALIGN, VERTICAL_ALIGN } from "eterill-common";
+import { FONT_FAMILY, TEXT_ALIGN, VERTICAL_ALIGN } from "@eterill/catpaw-common";
 
 import {
   computeContainerDimensionForBoundText,

@@ -3,7 +3,7 @@
   getElementsWithinSelection,
   getSelectedElements,
   getTargetElements,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 export { getScrollToContentState } from "../viewport";
 export {
   hasBackground,
@@ -12,7 +12,7 @@ export {
   hasFreedrawMode,
   canHaveArrowheads,
   canChangeRoundness,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 export {
   getNormalizedZoom,
   getNormalizedGridSize,

@@ -1,4 +1,4 @@
-﻿import { pointFrom, type GlobalPoint } from "eterill-math";
+﻿import { pointFrom, type GlobalPoint } from "@eterill/catpaw-math";
 import clsx from "clsx";
 import {
   useCallback,
@@ -8,15 +8,15 @@ import {
   useState,
 } from "react";
 
-import { EVENT, HYPERLINK_TOOLTIP_DELAY, KEYS } from "eterill-common";
+import { EVENT, HYPERLINK_TOOLTIP_DELAY, KEYS } from "@eterill/catpaw-common";
 
-import { getElementAbsoluteCoords } from "eterill-element";
+import { getElementAbsoluteCoords } from "@eterill/catpaw-element";
 
-import { hitElementBoundingBox } from "eterill-element";
+import { hitElementBoundingBox } from "@eterill/catpaw-element";
 
-import { isElementLink } from "eterill-element";
+import { isElementLink } from "@eterill/catpaw-element";
 
-import { getEmbedLink, embeddableURLValidator } from "eterill-element";
+import { getEmbedLink, embeddableURLValidator } from "@eterill/catpaw-element";
 
 import {
   sceneCoordsToViewportCoords,
@@ -24,17 +24,17 @@ import {
   wrapEvent,
   isLocalLink,
   normalizeLink,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { isEmbeddableElement } from "eterill-element";
+import { isEmbeddableElement } from "@eterill/catpaw-element";
 
-import type { Scene } from "eterill-element";
+import type { Scene } from "@eterill/catpaw-element";
 
 import type {
   ElementsMap,
   ExcalidrawEmbeddableElement,
   NonDeletedExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { trackEvent } from "../../analytics";
 import { getTooltipDiv, updateTooltipPosition } from "../../components/Tooltip";

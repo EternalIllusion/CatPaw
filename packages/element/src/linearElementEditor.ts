@@ -9,9 +9,9 @@
   vectorFromPoint,
   curveLength,
   curvePointAtLength,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
-import { getCurvePathOps } from "eterill-utils/shape";
+import { getCurvePathOps } from "@eterill/catpaw-utils/shape";
 
 import {
   DRAGGING_THRESHOLD,
@@ -21,7 +21,7 @@ import {
   invariant,
   isShallowEqual,
   getFeatureFlag,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 import {
   deconstructLinearOrFreeDrawElement,
@@ -30,9 +30,9 @@ import {
   moveArrowAboveBindable,
   projectFixedPointOntoDiagonal,
   type Store,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import type { Radians } from "eterill-math";
+import type { Radians } from "@eterill/catpaw-math";
 
 import type {
   AppState,
@@ -41,8 +41,8 @@ import type {
   AppClassProperties,
   NullableGridSize,
   Zoom,
-} from "eterill-excalidraw/types";
-import type { Bounds } from "eterill-common";
+} from "@eterill/catpaw/types";
+import type { Bounds } from "@eterill/catpaw-common";
 
 import {
   calculateFixedPointForNonElbowArrowBinding,

@@ -3,7 +3,7 @@
   getFeatureFlag,
   invariant,
   isTransparent,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 import {
   PRECISION,
@@ -19,12 +19,12 @@ import {
   vectorNormalize,
   vectorScale,
   type GlobalPoint,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
-import type { LineSegment, LocalPoint, Radians } from "eterill-math";
-import type { AppState } from "eterill-excalidraw/types";
-import type { MapEntry, Mutable } from "eterill-common/utility-types";
-import type { Bounds } from "eterill-common";
+import type { LineSegment, LocalPoint, Radians } from "@eterill/catpaw-math";
+import type { AppState } from "@eterill/catpaw/types";
+import type { MapEntry, Mutable } from "@eterill/catpaw-common/utility-types";
+import type { Bounds } from "@eterill/catpaw-common";
 
 import { getCenterForBounds } from "./bounds";
 import {

@@ -6,24 +6,24 @@
   isMemberOf,
   isPromiseLike,
   EVENT,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { mutateElement } from "eterill-element";
-import { deepCopyElement } from "eterill-element";
+import { mutateElement } from "@eterill/catpaw-element";
+import { deepCopyElement } from "@eterill/catpaw-element";
 import {
   isFrameLikeElement,
   isInitializedImageElement,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { getContainingFrame } from "eterill-element";
+import { getContainingFrame } from "@eterill/catpaw-element";
 
-import type { ValueOf } from "eterill-common/utility-types";
+import type { ValueOf } from "@eterill/catpaw-common/utility-types";
 
-import type { IMAGE_MIME_TYPES, STRING_MIME_TYPES } from "eterill-common";
+import type { IMAGE_MIME_TYPES, STRING_MIME_TYPES } from "@eterill/catpaw-common";
 import type {
   ExcalidrawElement,
   NonDeletedExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { ExcalidrawError } from "./errors";
 import {

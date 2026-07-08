@@ -1,7 +1,7 @@
-﻿import { pointDistance, pointFrom, type GlobalPoint } from "eterill-math";
-import { invariant } from "eterill-common";
+﻿import { pointDistance, pointFrom, type GlobalPoint } from "@eterill/catpaw-math";
+import { invariant } from "@eterill/catpaw-common";
 
-import type { AppState, NullableGridSize } from "eterill-excalidraw/types";
+import type { AppState, NullableGridSize } from "@eterill/catpaw/types";
 
 import {
   bindBindingElement,

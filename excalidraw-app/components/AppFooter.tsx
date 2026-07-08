@@ -1,4 +1,4 @@
-﻿import { Footer } from "eterill-excalidraw/index";
+﻿import { Footer } from "@eterill/catpaw/index";
 import React from "react";
 
 import { isExcalidrawPlusSignedUser } from "../app_constants";

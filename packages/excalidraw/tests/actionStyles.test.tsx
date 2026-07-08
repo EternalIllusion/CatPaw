@@ -1,6 +1,6 @@
 ﻿import React from "react";
 
-import { CODES, STROKE_WIDTH } from "eterill-common";
+import { CODES, STROKE_WIDTH } from "@eterill/catpaw-common";
 
 import { copiedStyles } from "../actions/actionStyles";
 import { Excalidraw } from "../index";

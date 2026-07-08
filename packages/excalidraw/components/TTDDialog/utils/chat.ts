@@ -1,4 +1,4 @@
-﻿import { findLastIndex, randomId } from "eterill-common";
+﻿import { findLastIndex, randomId } from "@eterill/catpaw-common";
 
 import type { LLMMessage, TChat } from "../types";
 

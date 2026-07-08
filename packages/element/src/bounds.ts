@@ -5,15 +5,15 @@ import {
   invariant,
   rescalePoints,
   sizeOf,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 import {
   degreesToRadians,
   lineSegment,
   pointFrom,
   pointFromArray,
   pointRotateRads,
-} from "eterill-math";
-import { getCurvePathOps } from "eterill-utils/shape";
+} from "@eterill/catpaw-math";
+import { getCurvePathOps } from "@eterill/catpaw-utils/shape";
 import { pointsOnBezierCurves } from "points-on-curve";
 
 import type {
@@ -23,9 +23,9 @@ import type {
   LineSegment,
   LocalPoint,
   Radians,
-} from "eterill-math";
-import type { AppState } from "eterill-excalidraw/types";
-import type { Mutable } from "eterill-common/utility-types";
+} from "@eterill/catpaw-math";
+import type { AppState } from "@eterill/catpaw/types";
+import type { Mutable } from "@eterill/catpaw-common/utility-types";
 
 import { generateRoughOptions } from "./shape";
 import { ShapeCache } from "./shape";

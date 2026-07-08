@@ -1,15 +1,15 @@
-﻿import { degreesToRadians, radiansToDegrees } from "eterill-math";
+﻿import { degreesToRadians, radiansToDegrees } from "@eterill/catpaw-math";
 
-import { getBoundTextElement } from "eterill-element";
-import { isArrowElement, isElbowArrow } from "eterill-element";
+import { getBoundTextElement } from "@eterill/catpaw-element";
+import { isArrowElement, isElbowArrow } from "@eterill/catpaw-element";
 
-import { updateBindings } from "eterill-element";
+import { updateBindings } from "@eterill/catpaw-element";
 
-import type { Degrees } from "eterill-math";
+import type { Degrees } from "@eterill/catpaw-math";
 
-import type { ExcalidrawElement } from "eterill-element/types";
+import type { ExcalidrawElement } from "@eterill/catpaw-element/types";
 
-import type { Scene } from "eterill-element";
+import type { Scene } from "@eterill/catpaw-element";
 
 import { angleIcon } from "../icons";
 

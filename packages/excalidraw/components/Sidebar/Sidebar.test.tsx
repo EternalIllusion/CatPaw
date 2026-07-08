@@ -1,7 +1,7 @@
 ﻿import React from "react";
 import { vi } from "vitest";
 
-import { DEFAULT_SIDEBAR } from "eterill-common";
+import { DEFAULT_SIDEBAR } from "@eterill/catpaw-common";
 
 import { Excalidraw, Sidebar } from "../../index";
 import {

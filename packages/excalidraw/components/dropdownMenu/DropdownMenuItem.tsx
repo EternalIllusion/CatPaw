@@ -1,10 +1,10 @@
 ﻿import React from "react";
 
-import { THEME } from "eterill-common";
+import { THEME } from "@eterill/catpaw-common";
 
 import { DropdownMenu as DropdownMenuPrimitive } from "radix-ui";
 
-import type { ValueOf } from "eterill-common/utility-types";
+import type { ValueOf } from "@eterill/catpaw-common/utility-types";
 
 import { useExcalidrawAppState } from "../App";
 

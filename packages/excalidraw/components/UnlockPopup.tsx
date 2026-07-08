@@ -2,8 +2,8 @@
   getCommonBounds,
   getElementsInGroup,
   selectGroupsFromGivenElements,
-} from "eterill-element";
-import { sceneCoordsToViewportCoords } from "eterill-common";
+} from "@eterill/catpaw-element";
+import { sceneCoordsToViewportCoords } from "@eterill/catpaw-common";
 
 import { flushSync } from "react-dom";
 

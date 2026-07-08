@@ -1,6 +1,6 @@
-﻿import { Tooltip } from "eterill-excalidraw/components/Tooltip";
-import { shield } from "eterill-excalidraw/components/icons";
-import { useI18n } from "eterill-excalidraw/i18n";
+﻿import { Tooltip } from "@eterill/catpaw/components/Tooltip";
+import { shield } from "@eterill/catpaw/components/icons";
+import { useI18n } from "@eterill/catpaw/i18n";
 
 export const EncryptedIcon = () => {
   const { t } = useI18n();

@@ -1,4 +1,4 @@
-﻿import { CaptureUpdateAction } from "eterill-element";
+﻿import { CaptureUpdateAction } from "@eterill/catpaw-element";
 
 import { register } from "./register";
 

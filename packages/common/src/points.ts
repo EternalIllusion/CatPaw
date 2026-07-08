@@ -2,9 +2,9 @@
   pointFromPair,
   type GlobalPoint,
   type LocalPoint,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
-import type { NullableGridSize } from "eterill-excalidraw/types";
+import type { NullableGridSize } from "@eterill/catpaw/types";
 
 export const getSizeFromPoints = (
   points: readonly (GlobalPoint | LocalPoint)[],

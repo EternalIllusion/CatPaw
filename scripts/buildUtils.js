@@ -14,15 +14,15 @@ const getConfig = (outdir) => ({
   entryNames: "[name]",
   assetNames: "[dir]/[name]",
   alias: {
-    "eterill-common": path.resolve(__dirname, "../packages/common/src"),
-    "eterill-element": path.resolve(__dirname, "../packages/element/src"),
-    "eterill-excalidraw": path.resolve(__dirname, "../packages/excalidraw"),
-    "eterill-math": path.resolve(__dirname, "../packages/math/src"),
-    "eterill-fractional-indexing": path.resolve(
+    "@eterill/catpaw-common": path.resolve(__dirname, "../packages/common/src"),
+    "@eterill/catpaw-element": path.resolve(__dirname, "../packages/element/src"),
+    "@eterill/catpaw": path.resolve(__dirname, "../packages/excalidraw"),
+    "@eterill/catpaw-math": path.resolve(__dirname, "../packages/math/src"),
+    "@eterill/catpaw-fractional-indexing": path.resolve(
       __dirname,
       "../packages/fractional-indexing/src",
     ),
-    "eterill-utils": path.resolve(__dirname, "../packages/utils/src"),
+    "@eterill/catpaw-utils": path.resolve(__dirname, "../packages/utils/src"),
   },
 });
 

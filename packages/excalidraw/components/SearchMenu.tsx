@@ -8,31 +8,31 @@ import {
   FONT_FAMILY,
   FRAME_STYLE,
   getLineHeight,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 import {
   getCommonBounds,
   isElementCompletelyInViewport,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { measureText } from "eterill-element";
+import { measureText } from "@eterill/catpaw-element";
 
 import {
   KEYS,
   randomInteger,
   addEventListener,
   getFontString,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { newTextElement } from "eterill-element";
-import { isTextElement, isFrameLikeElement } from "eterill-element";
+import { newTextElement } from "@eterill/catpaw-element";
+import { isTextElement, isFrameLikeElement } from "@eterill/catpaw-element";
 
-import { getDefaultFrameName } from "eterill-element/frame";
+import { getDefaultFrameName } from "@eterill/catpaw-element/frame";
 
 import type {
   ExcalidrawFrameLikeElement,
   ExcalidrawTextElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { atom, useAtom } from "../editor-jotai";
 

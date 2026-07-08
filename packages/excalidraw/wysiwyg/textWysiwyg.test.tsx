@@ -1,10 +1,10 @@
 ﻿import { queryByText } from "@testing-library/react";
 
-import { pointFrom } from "eterill-math";
+import { pointFrom } from "@eterill/catpaw-math";
 import {
   getLineHeightInPx,
   getOriginalContainerHeightFromCache,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
 import {
   CODES,
@@ -15,12 +15,12 @@ import {
   THEME,
   VERTICAL_ALIGN,
   applyDarkModeFilter,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 import type {
   ExcalidrawTextElement,
   ExcalidrawTextElementWithContainer,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { Excalidraw } from "../index";
 import { API } from "../tests/helpers/api";

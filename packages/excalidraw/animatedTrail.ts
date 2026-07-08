@@ -1,11 +1,11 @@
-﻿import { LaserPointer } from "eterill-laser-pointer";
+﻿import { LaserPointer } from "@eterill/catpaw-laser-pointer";
 import {
   SVG_NS,
   getSvgPathFromStroke,
   sceneCoordsToViewportCoords,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import type { LaserPointerOptions } from "eterill-laser-pointer";
+import type { LaserPointerOptions } from "@eterill/catpaw-laser-pointer";
 
 import { AnimationController } from "./renderer/animation";
 

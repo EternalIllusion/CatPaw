@@ -1,12 +1,12 @@
-﻿import { reconcileElements } from "eterill-excalidraw";
-import { MIME_TYPES, toBrandedType } from "eterill-common";
-import { decompressData } from "eterill-excalidraw/data/encode";
+﻿import { reconcileElements } from "@eterill/catpaw";
+import { MIME_TYPES, toBrandedType } from "@eterill/catpaw-common";
+import { decompressData } from "@eterill/catpaw/data/encode";
 import {
   encryptData,
   decryptData,
-} from "eterill-excalidraw/data/encryption";
-import { restoreElements } from "eterill-excalidraw/data/restore";
-import { getSceneVersion } from "eterill-element";
+} from "@eterill/catpaw/data/encryption";
+import { restoreElements } from "@eterill/catpaw/data/restore";
+import { getSceneVersion } from "@eterill/catpaw-element";
 import { initializeApp } from "firebase/app";
 import {
   getFirestore,
@@ -17,18 +17,18 @@ import {
 } from "firebase/firestore";
 import { getStorage, ref, uploadBytes } from "firebase/storage";
 
-import type { RemoteExcalidrawElement } from "eterill-excalidraw/data/reconcile";
+import type { RemoteExcalidrawElement } from "@eterill/catpaw/data/reconcile";
 import type {
   ExcalidrawElement,
   FileId,
   OrderedExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 import type {
   AppState,
   BinaryFileData,
   BinaryFileMetadata,
   DataURL,
-} from "eterill-excalidraw/types";
+} from "@eterill/catpaw/types";
 
 import { FILE_CACHE_MAX_AGE_SEC } from "../app_constants";
 

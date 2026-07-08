@@ -3,9 +3,9 @@
   DEFAULT_FONT_FAMILY,
   DEFAULT_FONT_SIZE,
   VERTICAL_ALIGN,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import type { Radians } from "eterill-math";
+import type { Radians } from "@eterill/catpaw-math";
 
 export const CARTESIAN_BASE_SLOT_WIDTH = 44;
 export const CARTESIAN_BAR_SLOT_EXTRA_PER_SERIES = 22;

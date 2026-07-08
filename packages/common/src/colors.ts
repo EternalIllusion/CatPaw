@@ -1,9 +1,9 @@
 ﻿import tinycolor from "tinycolor2";
 
-import { clamp } from "eterill-math";
-import { degreesToRadians } from "eterill-math";
+import { clamp } from "@eterill/catpaw-math";
+import { degreesToRadians } from "@eterill/catpaw-math";
 
-import type { Degrees } from "eterill-math";
+import type { Degrees } from "@eterill/catpaw-math";
 
 // ---------------------------------------------------------------------------
 // Dark mode color transformation

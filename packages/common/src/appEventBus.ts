@@ -1,4 +1,4 @@
-﻿import type { UnsubscribeCallback } from "eterill-excalidraw/types";
+﻿import type { UnsubscribeCallback } from "@eterill/catpaw/types";
 
 import { Emitter } from "./emitter";
 import { isProdEnv } from "./utils";

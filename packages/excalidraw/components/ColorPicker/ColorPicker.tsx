@@ -7,11 +7,11 @@ import {
   COLOR_PALETTE,
   isColorDark,
   isWritableElement,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import type { ColorTuple, ColorPaletteCustom } from "eterill-common";
+import type { ColorTuple, ColorPaletteCustom } from "@eterill/catpaw-common";
 
-import type { ExcalidrawElement } from "eterill-element/types";
+import type { ExcalidrawElement } from "@eterill/catpaw-element/types";
 
 import { useAtom } from "../../editor-jotai";
 import { t } from "../../i18n";

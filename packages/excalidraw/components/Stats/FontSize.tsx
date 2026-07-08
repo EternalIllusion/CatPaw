@@ -1,15 +1,15 @@
 ﻿import {
   getBoundTextElement,
   redrawTextBoundingBox,
-} from "eterill-element";
-import { hasBoundTextElement, isTextElement } from "eterill-element";
+} from "@eterill/catpaw-element";
+import { hasBoundTextElement, isTextElement } from "@eterill/catpaw-element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawTextElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
-import type { Scene } from "eterill-element";
+import type { Scene } from "@eterill/catpaw-element";
 
 import { fontSizeIcon } from "../icons";
 

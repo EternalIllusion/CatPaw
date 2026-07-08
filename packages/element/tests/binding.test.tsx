@@ -1,20 +1,20 @@
-﻿import { KEYS, arrayToMap } from "eterill-common";
+﻿import { KEYS, arrayToMap } from "@eterill/catpaw-common";
 
-import { pointFrom } from "eterill-math";
+import { pointFrom } from "@eterill/catpaw-math";
 
-import { actionWrapTextInContainer } from "eterill-excalidraw/actions/actionBoundText";
+import { actionWrapTextInContainer } from "@eterill/catpaw/actions/actionBoundText";
 
-import { Excalidraw, isLinearElement } from "eterill-excalidraw";
+import { Excalidraw, isLinearElement } from "@eterill/catpaw";
 
-import { API } from "eterill-excalidraw/tests/helpers/api";
-import { UI, Pointer, Keyboard } from "eterill-excalidraw/tests/helpers/ui";
+import { API } from "@eterill/catpaw/tests/helpers/api";
+import { UI, Pointer, Keyboard } from "@eterill/catpaw/tests/helpers/ui";
 import {
   act,
   fireEvent,
   render,
-} from "eterill-excalidraw/tests/test-utils";
+} from "@eterill/catpaw/tests/test-utils";
 
-import { defaultLang, setLanguage } from "eterill-excalidraw/i18n";
+import { defaultLang, setLanguage } from "@eterill/catpaw/i18n";
 
 import { getTransformHandles } from "../src/transformHandles";
 import {

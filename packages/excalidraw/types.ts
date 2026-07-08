@@ -5,11 +5,11 @@
   MIME_TYPES,
   EditorInterface,
   StrokeWidthKey,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import type { LinearElementEditor } from "eterill-element";
+import type { LinearElementEditor } from "@eterill/catpaw-element";
 
-import type { MaybeTransformHandleType } from "eterill-element";
+import type { MaybeTransformHandleType } from "@eterill/catpaw-element";
 
 import type {
   PointerType,
@@ -35,21 +35,21 @@ import type {
   BindMode,
   ExcalidrawTextElement,
   StrokeVariability,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import type {
   Merge,
   MaybePromise,
   ValueOf,
   MakeBrand,
-} from "eterill-common/utility-types";
+} from "@eterill/catpaw-common/utility-types";
 
 import type {
   CaptureUpdateActionType,
   DurableIncrement,
   EphemeralIncrement,
-} from "eterill-element";
-import type { GlobalPoint } from "eterill-math";
+} from "@eterill/catpaw-element";
+import type { GlobalPoint } from "@eterill/catpaw-math";
 
 import type { Action } from "./actions/types";
 import type { Spreadsheet } from "./charts";

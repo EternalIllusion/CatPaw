@@ -1,6 +1,6 @@
-﻿import { isDevEnv } from "eterill-common";
+﻿import { isDevEnv } from "@eterill/catpaw-common";
 
-import type { NestedKeyOf } from "eterill-common/utility-types";
+import type { NestedKeyOf } from "@eterill/catpaw-common/utility-types";
 
 import { useAtomValue, editorJotaiStore, atom } from "./editor-jotai";
 import fallbackLangData from "./locales/en.json";

@@ -1,21 +1,21 @@
-﻿import { CaptureUpdateAction } from "eterill-excalidraw";
-import { compressData } from "eterill-excalidraw/data/encode";
-import { newElementWith } from "eterill-element";
-import { isInitializedImageElement } from "eterill-element";
-import { t } from "eterill-excalidraw/i18n";
+﻿import { CaptureUpdateAction } from "@eterill/catpaw";
+import { compressData } from "@eterill/catpaw/data/encode";
+import { newElementWith } from "@eterill/catpaw-element";
+import { isInitializedImageElement } from "@eterill/catpaw-element";
+import { t } from "@eterill/catpaw/i18n";
 
 import type {
   ExcalidrawElement,
   ExcalidrawImageElement,
   FileId,
   InitializedExcalidrawImageElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 import type {
   BinaryFileData,
   BinaryFileMetadata,
   ExcalidrawImperativeAPI,
   BinaryFiles,
-} from "eterill-excalidraw/types";
+} from "@eterill/catpaw/types";
 
 type FileVersion = Required<BinaryFileData>["version"];
 

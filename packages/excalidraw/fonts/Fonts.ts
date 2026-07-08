@@ -5,10 +5,10 @@
   WINDOWS_EMOJI_FALLBACK_FONT,
   getFontFamilyFallbacks,
   FONT_SIZES,
-} from "eterill-common";
-import { getContainerElement } from "eterill-element";
-import { charWidth } from "eterill-element";
-import { containsCJK } from "eterill-element";
+} from "@eterill/catpaw-common";
+import { getContainerElement } from "@eterill/catpaw-element";
+import { charWidth } from "@eterill/catpaw-element";
+import { containsCJK } from "@eterill/catpaw-element";
 
 import {
   FONT_METADATA,
@@ -16,20 +16,20 @@ import {
   getFontString,
   PromisePool,
   promiseTry,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { ShapeCache } from "eterill-element";
+import { ShapeCache } from "@eterill/catpaw-element";
 
-import { isTextElement } from "eterill-element";
+import { isTextElement } from "@eterill/catpaw-element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawTextElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
-import type { ValueOf } from "eterill-common/utility-types";
+import type { ValueOf } from "@eterill/catpaw-common/utility-types";
 
-import type { Scene } from "eterill-element";
+import type { Scene } from "@eterill/catpaw-element";
 
 import { CascadiaFontFaces } from "./Cascadia";
 import { ComicShannsFontFaces } from "./ComicShanns";

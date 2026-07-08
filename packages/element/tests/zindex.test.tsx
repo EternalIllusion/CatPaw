@@ -1,4 +1,4 @@
-﻿import { reseed } from "eterill-common";
+﻿import { reseed } from "@eterill/catpaw-common";
 
 import {
   actionSendBackward,
@@ -6,19 +6,19 @@ import {
   actionBringToFront,
   actionSendToBack,
   actionDuplicateSelection,
-} from "eterill-excalidraw/actions";
+} from "@eterill/catpaw/actions";
 
-import { Excalidraw } from "eterill-excalidraw";
+import { Excalidraw } from "@eterill/catpaw";
 
-import { API } from "eterill-excalidraw/tests/helpers/api";
+import { API } from "@eterill/catpaw/tests/helpers/api";
 import {
   act,
   getCloneByOrigId,
   render,
   unmountComponent,
-} from "eterill-excalidraw/tests/test-utils";
+} from "@eterill/catpaw/tests/test-utils";
 
-import type { AppState } from "eterill-excalidraw/types";
+import type { AppState } from "@eterill/catpaw/types";
 
 import { selectGroupsForSelectedElements } from "../src/groups";
 

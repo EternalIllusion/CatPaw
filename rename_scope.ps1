@@ -1,10 +1,10 @@
-﻿# 将所有 eterill- 替换为 eterill-
+﻿﻿# 将所有 @eterill/catpaw- 替换为 @eterill/catpaw-
 # 影响范围：package.json、.ts、.tsx、.js、.md、CHANGELOG.md 等
 
 $root = $PSScriptRoot
 $ErrorActionPreference = "Stop"
 
-Write-Host "开始替换 eterill- -> eterill- ..." -ForegroundColor Green
+Write-Host "开始替换 @eterill/catpaw- -> @eterill/catpaw- ..." -ForegroundColor Green
 
 # 收集所有需要处理的文件
 $extensions = @("*.json", "*.ts", "*.tsx", "*.js", "*.md", "*.ps1")
@@ -20,8 +20,8 @@ $files = Get-ChildItem -Path $root -Recurse -Include $extensions `
 $count = 0
 foreach ($file in $files) {
     $content = Get-Content -Path $file.FullName -Raw -Encoding UTF8
-    if ($content -match "eterill-") {
-        $newContent = $content -replace "eterill-", "eterill-"
+    if ($content -match "@eterill/catpaw-") {
+        $newContent = $content -replace "@eterill/catpaw-", "@eterill/catpaw-"
         Set-Content -Path $file.FullName -Value $newContent -Encoding UTF8 -NoNewline
         Write-Host "  ✓ $($file.FullName.Substring($root.Length))" -ForegroundColor Gray
         $count++

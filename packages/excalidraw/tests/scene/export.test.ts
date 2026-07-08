@@ -1,20 +1,20 @@
-﻿import { exportToCanvas, exportToSvg } from "eterill-utils";
+﻿import { exportToCanvas, exportToSvg } from "@eterill/catpaw-utils";
 
 import {
   applyDarkModeFilter,
   FONT_FAMILY,
   FRAME_STYLE,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { pointFrom } from "eterill-math";
+import { pointFrom } from "@eterill/catpaw-math";
 
 import type {
   ExcalidrawTextElement,
   FractionalIndex,
   NonDeletedExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
-import type { LocalPoint } from "eterill-math";
+import type { LocalPoint } from "@eterill/catpaw-math";
 
 import { prepareElementsForExport } from "../../data";
 import * as exportUtils from "../../scene/export";

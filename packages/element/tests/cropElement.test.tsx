@@ -1,28 +1,28 @@
 ﻿import React from "react";
 import { vi } from "vitest";
 
-import { KEYS, cloneJSON } from "eterill-common";
+import { KEYS, cloneJSON } from "@eterill/catpaw-common";
 
 import {
   Excalidraw,
   exportToCanvas,
   exportToSvg,
-} from "eterill-excalidraw";
+} from "@eterill/catpaw";
 import {
   actionFlipHorizontal,
   actionFlipVertical,
-} from "eterill-excalidraw/actions";
+} from "@eterill/catpaw/actions";
 
-import { API } from "eterill-excalidraw/tests/helpers/api";
-import { Keyboard, Pointer, UI } from "eterill-excalidraw/tests/helpers/ui";
+import { API } from "@eterill/catpaw/tests/helpers/api";
+import { Keyboard, Pointer, UI } from "@eterill/catpaw/tests/helpers/ui";
 import {
   act,
   GlobalTestState,
   render,
   unmountComponent,
-} from "eterill-excalidraw/tests/test-utils";
+} from "@eterill/catpaw/tests/test-utils";
 
-import type { NormalizedZoomValue } from "eterill-excalidraw/types";
+import type { NormalizedZoomValue } from "@eterill/catpaw/types";
 
 import { duplicateElement } from "../src/duplicate";
 

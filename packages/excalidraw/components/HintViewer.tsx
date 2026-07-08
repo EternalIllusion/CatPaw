@@ -1,4 +1,4 @@
-﻿import { CANVAS_SEARCH_TAB, DEFAULT_SIDEBAR } from "eterill-common";
+﻿import { CANVAS_SEARCH_TAB, DEFAULT_SIDEBAR } from "@eterill/catpaw-common";
 
 import {
   isFlowchartNodeElement,
@@ -7,11 +7,11 @@ import {
   isLineElement,
   isTextBindableContainer,
   isTextElement,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { isNodeInFlowchart } from "eterill-element";
+import { isNodeInFlowchart } from "@eterill/catpaw-element";
 
-import type { EditorInterface } from "eterill-common";
+import type { EditorInterface } from "@eterill/catpaw-common";
 
 import { t } from "../i18n";
 import { getShortcutKey } from "../shortcut";

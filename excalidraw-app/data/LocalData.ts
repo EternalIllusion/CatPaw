@@ -10,12 +10,12 @@
  *   (localStorage, indexedDB).
  */
 
-import { clearAppStateForLocalStorage } from "eterill-excalidraw/appState";
+import { clearAppStateForLocalStorage } from "@eterill/catpaw/appState";
 import {
   CANVAS_SEARCH_TAB,
   DEFAULT_SIDEBAR,
   debounce,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 import {
   createStore,
   entries,
@@ -26,17 +26,17 @@ import {
   get,
 } from "idb-keyval";
 
-import { getNonDeletedElements } from "eterill-element";
+import { getNonDeletedElements } from "@eterill/catpaw-element";
 
-import type { LibraryPersistedData } from "eterill-excalidraw/data/library";
-import type { ImportedDataState } from "eterill-excalidraw/data/types";
-import type { ExcalidrawElement, FileId } from "eterill-element/types";
+import type { LibraryPersistedData } from "@eterill/catpaw/data/library";
+import type { ImportedDataState } from "@eterill/catpaw/data/types";
+import type { ExcalidrawElement, FileId } from "@eterill/catpaw-element/types";
 import type {
   AppState,
   BinaryFileData,
   BinaryFiles,
-} from "eterill-excalidraw/types";
-import type { MaybePromise } from "eterill-common/utility-types";
+} from "@eterill/catpaw/types";
+import type { MaybePromise } from "@eterill/catpaw-common/utility-types";
 
 import { appJotaiStore, atom } from "../app-jotai";
 import { SAVE_TO_LOCAL_STORAGE_TIMEOUT, STORAGE_KEYS } from "../app_constants";

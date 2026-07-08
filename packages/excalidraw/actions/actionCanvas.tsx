@@ -8,13 +8,13 @@
   updateActiveTool,
   CODES,
   KEYS,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { getNonDeletedElements } from "eterill-element";
-import { newElementWith } from "eterill-element";
-import { getCommonBounds } from "eterill-element";
+import { getNonDeletedElements } from "@eterill/catpaw-element";
+import { newElementWith } from "@eterill/catpaw-element";
+import { getCommonBounds } from "@eterill/catpaw-element";
 
-import { CaptureUpdateAction } from "eterill-element";
+import { CaptureUpdateAction } from "@eterill/catpaw-element";
 
 import {
   getDefaultAppState,

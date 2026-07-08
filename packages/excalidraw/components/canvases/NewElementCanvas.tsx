@@ -1,6 +1,6 @@
 ﻿import { useEffect, useRef } from "react";
 
-import type { NonDeletedSceneElementsMap } from "eterill-element/types";
+import type { NonDeletedSceneElementsMap } from "@eterill/catpaw-element/types";
 
 import { isRenderThrottlingEnabled } from "../../reactUtils";
 import { renderNewElementScene } from "../../renderer/renderNewElementScene";

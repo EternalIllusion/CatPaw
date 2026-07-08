@@ -1,14 +1,14 @@
-﻿import { KEYS, arrayToMap, randomId } from "eterill-common";
+﻿import { KEYS, arrayToMap, randomId } from "@eterill/catpaw-common";
 
 import {
   elementsAreInSameGroup,
   newElementWith,
   selectGroupsFromGivenElements,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { CaptureUpdateAction } from "eterill-element";
+import { CaptureUpdateAction } from "@eterill/catpaw-element";
 
-import type { ExcalidrawElement } from "eterill-element/types";
+import type { ExcalidrawElement } from "@eterill/catpaw-element/types";
 
 import { LockedIcon, UnlockedIcon } from "../components/icons";
 

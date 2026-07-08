@@ -1,10 +1,10 @@
-﻿import { arrayToMap, isShallowEqual, type Bounds } from "eterill-common";
+﻿import { arrayToMap, isShallowEqual, type Bounds } from "@eterill/catpaw-common";
 
 import type {
   AppState,
   BoxSelectionMode,
   InteractiveCanvasAppState,
-} from "eterill-excalidraw/types";
+} from "@eterill/catpaw/types";
 
 import { elementsOverlappingBBox, getElementAbsoluteCoords } from "./bounds";
 import { isElementInViewport } from "./sizeHelpers";

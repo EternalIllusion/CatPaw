@@ -1,7 +1,7 @@
 ﻿import clsx from "clsx";
 import React from "react";
 
-import { composeEventHandlers } from "eterill-common";
+import { composeEventHandlers } from "@eterill/catpaw-common";
 
 import "./Button.scss";
 

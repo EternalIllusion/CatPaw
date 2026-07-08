@@ -1,4 +1,4 @@
-﻿import type { Scene } from "eterill-element";
+﻿import type { Scene } from "@eterill/catpaw-element";
 
 import { getNormalizedGridStep } from "../../scene";
 

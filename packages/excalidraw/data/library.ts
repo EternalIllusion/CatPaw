@@ -15,15 +15,15 @@ import {
   toValidURL,
   Queue,
   Emitter,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { hashElementsVersion, hashString } from "eterill-element";
+import { hashElementsVersion, hashString } from "@eterill/catpaw-element";
 
-import { getCommonBoundingBox } from "eterill-element";
+import { getCommonBoundingBox } from "@eterill/catpaw-element";
 
-import type { ExcalidrawElement } from "eterill-element/types";
+import type { ExcalidrawElement } from "@eterill/catpaw-element/types";
 
-import type { MaybePromise } from "eterill-common/utility-types";
+import type { MaybePromise } from "@eterill/catpaw-common/utility-types";
 
 import { atom, editorJotaiStore } from "../editor-jotai";
 

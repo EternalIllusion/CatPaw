@@ -1,8 +1,8 @@
-﻿import { getNonDeletedElements } from "eterill-element";
+﻿import { getNonDeletedElements } from "@eterill/catpaw-element";
 
-import { newElementWith } from "eterill-element";
+import { newElementWith } from "@eterill/catpaw-element";
 
-import { isBoundToContainer } from "eterill-element";
+import { isBoundToContainer } from "@eterill/catpaw-element";
 
 import {
   frameAndChildrenSelectedTogether,
@@ -12,9 +12,9 @@ import {
   groupByFrameLikes,
   removeElementsFromFrame,
   replaceAllElementsInFrame,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { KEYS, randomId, arrayToMap } from "eterill-common";
+import { KEYS, randomId, arrayToMap } from "@eterill/catpaw-common";
 
 import {
   getSelectedGroupIds,
@@ -24,17 +24,17 @@ import {
   addToGroup,
   removeFromSelectedGroups,
   isElementInGroup,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { syncMovedIndices } from "eterill-element";
+import { syncMovedIndices } from "@eterill/catpaw-element";
 
-import { CaptureUpdateAction } from "eterill-element";
+import { CaptureUpdateAction } from "@eterill/catpaw-element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawTextElement,
   OrderedExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { ToolButton } from "../components/ToolButton";
 import { UngroupIcon, GroupIcon } from "../components/icons";

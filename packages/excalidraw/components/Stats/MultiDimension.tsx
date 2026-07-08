@@ -1,30 +1,30 @@
-﻿import { pointFrom, type GlobalPoint } from "eterill-math";
+﻿import { pointFrom, type GlobalPoint } from "@eterill/catpaw-math";
 import { useMemo } from "react";
 
-import { MIN_WIDTH_OR_HEIGHT } from "eterill-common";
+import { MIN_WIDTH_OR_HEIGHT } from "@eterill/catpaw-common";
 import {
   getElementsInResizingFrame,
   isFrameLikeElement,
   replaceAllElementsInFrame,
   updateBoundElements,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 import {
   rescalePointsInElement,
   resizeSingleElement,
-} from "eterill-element";
-import { getBoundTextElement, handleBindTextResize } from "eterill-element";
+} from "@eterill/catpaw-element";
+import { getBoundTextElement, handleBindTextResize } from "@eterill/catpaw-element";
 
-import { isTextElement } from "eterill-element";
+import { isTextElement } from "@eterill/catpaw-element";
 
-import { getCommonBounds } from "eterill-utils";
+import { getCommonBounds } from "@eterill/catpaw-utils";
 
 import type {
   ElementsMap,
   ExcalidrawElement,
   NonDeletedSceneElementsMap,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
-import type { Scene } from "eterill-element";
+import type { Scene } from "@eterill/catpaw-element";
 
 import DragInput from "./DragInput";
 import { getAtomicUnits, getStepSizedValue, isPropertyEditable } from "./utils";

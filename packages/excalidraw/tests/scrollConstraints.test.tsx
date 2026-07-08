@@ -1,7 +1,7 @@
 ﻿import React from "react";
 import { vi } from "vitest";
 
-import { KEYS, MAX_ZOOM } from "eterill-common";
+import { KEYS, MAX_ZOOM } from "@eterill/catpaw-common";
 
 import { Excalidraw } from "../index";
 import {

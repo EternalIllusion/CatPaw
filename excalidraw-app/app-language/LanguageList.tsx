@@ -1,4 +1,4 @@
-﻿import { useI18n, languages } from "eterill-excalidraw/i18n";
+﻿import { useI18n, languages } from "@eterill/catpaw/i18n";
 import React from "react";
 
 import { useSetAtom } from "../app-jotai";

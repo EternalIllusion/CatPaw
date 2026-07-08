@@ -2,7 +2,7 @@
 import { useRef } from "react";
 import { createPortal } from "react-dom";
 
-import { KEYS } from "eterill-common";
+import { KEYS } from "@eterill/catpaw-common";
 
 import { useCreatePortalContainer } from "../hooks/useCreatePortalContainer";
 

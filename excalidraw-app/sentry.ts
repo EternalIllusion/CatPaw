@@ -1,4 +1,4 @@
-﻿import { getFeatureFlag } from "eterill-common";
+﻿import { getFeatureFlag } from "@eterill/catpaw-common";
 import * as Sentry from "@sentry/browser";
 import callsites from "callsites";
 

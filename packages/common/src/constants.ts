@@ -1,8 +1,8 @@
 ﻿import type {
   ExcalidrawElement,
   FontFamilyValues,
-} from "eterill-element/types";
-import type { AppProps, AppState } from "eterill-excalidraw/types";
+} from "@eterill/catpaw-element/types";
+import type { AppProps, AppState } from "@eterill/catpaw/types";
 
 import { COLOR_PALETTE } from "./colors";
 

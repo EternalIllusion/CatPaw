@@ -1,16 +1,16 @@
-﻿import { pointFrom, pointRotateRads } from "eterill-math";
+﻿import { pointFrom, pointRotateRads } from "@eterill/catpaw-math";
 
-import { MIME_TYPES } from "eterill-common";
-import { getElementAbsoluteCoords } from "eterill-element";
-import { hitElementBoundingBox } from "eterill-element";
+import { MIME_TYPES } from "@eterill/catpaw-common";
+import { getElementAbsoluteCoords } from "@eterill/catpaw-element";
+import { hitElementBoundingBox } from "@eterill/catpaw-element";
 
-import type { GlobalPoint, Radians } from "eterill-math";
+import type { GlobalPoint, Radians } from "@eterill/catpaw-math";
 
-import type { Bounds } from "eterill-common";
+import type { Bounds } from "@eterill/catpaw-common";
 import type {
   ElementsMap,
   NonDeletedExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import type { AppState } from "../../types";
 

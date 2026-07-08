@@ -11,11 +11,11 @@
   getFontString,
   getUpdatedTimestamp,
   getLineHeight,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import type { Radians } from "eterill-math";
+import type { Radians } from "@eterill/catpaw-math";
 
-import type { MarkOptional, Merge } from "eterill-common/utility-types";
+import type { MarkOptional, Merge } from "@eterill/catpaw-common/utility-types";
 
 import {
   getElementAbsoluteCoords,

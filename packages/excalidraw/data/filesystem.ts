@@ -4,7 +4,7 @@
   supported as nativeFileSystemSupported,
 } from "browser-fs-access";
 
-import { MIME_TYPES } from "eterill-common";
+import { MIME_TYPES } from "@eterill/catpaw-common";
 
 import { normalizeFile } from "./blob";
 

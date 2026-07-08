@@ -1,8 +1,8 @@
 ﻿import React from "react";
 
-import { isDarwin, isFirefox, isWindows } from "eterill-common";
+import { isDarwin, isFirefox, isWindows } from "@eterill/catpaw-common";
 
-import { KEYS } from "eterill-common";
+import { KEYS } from "@eterill/catpaw-common";
 
 import { actionToggleTheme } from "../actions";
 import { getShortcutFromShortcutName } from "../actions/shortcuts";

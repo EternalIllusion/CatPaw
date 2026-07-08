@@ -1,10 +1,10 @@
-﻿import { pointFrom } from "eterill-math";
+﻿import { pointFrom } from "@eterill/catpaw-math";
 
-import { isDevEnv } from "eterill-common";
+import { isDevEnv } from "@eterill/catpaw-common";
 
-import { newElement, newLinearElement } from "eterill-element";
+import { newElement, newLinearElement } from "@eterill/catpaw-element";
 
-import type { LocalPoint } from "eterill-math";
+import type { LocalPoint } from "@eterill/catpaw-math";
 
 import { GRID_OPACITY, commonProps } from "./charts.constants";
 import {

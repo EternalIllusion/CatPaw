@@ -1,11 +1,11 @@
 ﻿import React from "react";
 import { vi } from "vitest";
 
-import { getLineHeightInPx } from "eterill-element";
+import { getLineHeightInPx } from "@eterill/catpaw-element";
 
-import { KEYS, arrayToMap, getLineHeight } from "eterill-common";
+import { KEYS, arrayToMap, getLineHeight } from "@eterill/catpaw-common";
 
-import { getElementBounds } from "eterill-element";
+import { getElementBounds } from "@eterill/catpaw-element";
 
 import { createPasteEvent, serializeAsClipboardJSON } from "../clipboard";
 
@@ -27,8 +27,8 @@ const { h } = window;
 
 const mouse = new Pointer("mouse");
 
-vi.mock("eterill-common", async (importOriginal) => {
-  const module = await importOriginal<typeof import("eterill-common")>();
+vi.mock("@eterill/catpaw-common", async (importOriginal) => {
+  const module = await importOriginal<typeof import("@eterill/catpaw-common")>();
   const { mockThrottleRAF } = await import("./helpers/mocks");
 
   return {

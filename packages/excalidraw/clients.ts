@@ -4,7 +4,7 @@
   COLOR_WHITE,
   THEME,
   UserIdleState,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 import { roundRect } from "./renderer/roundRect";
 

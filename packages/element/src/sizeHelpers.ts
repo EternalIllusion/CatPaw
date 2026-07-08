@@ -1,17 +1,17 @@
 ﻿import {
   SHIFT_LOCKING_ANGLE,
   viewportCoordsToSceneCoords,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 import {
   normalizeRadians,
   radiansBetweenAngles,
   radiansDifference,
   type Radians,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
-import { pointsEqual } from "eterill-math";
+import { pointsEqual } from "@eterill/catpaw-math";
 
-import type { AppState, Offsets, Zoom } from "eterill-excalidraw/types";
+import type { AppState, Offsets, Zoom } from "@eterill/catpaw/types";
 
 import { getCommonBounds, getElementBounds } from "./bounds";
 import {

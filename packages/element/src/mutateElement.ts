@@ -2,11 +2,11 @@
   getSizeFromPoints,
   randomInteger,
   getUpdatedTimestamp,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import type { Radians } from "eterill-math";
+import type { Radians } from "@eterill/catpaw-math";
 
-import type { Mutable } from "eterill-common/utility-types";
+import type { Mutable } from "@eterill/catpaw-common/utility-types";
 
 import { ShapeCache } from "./shape";
 

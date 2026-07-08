@@ -1,12 +1,12 @@
-﻿import { pointFrom } from "eterill-math";
+﻿import { pointFrom } from "@eterill/catpaw-math";
 import { vi } from "vitest";
 
-import { DEFAULT_SIDEBAR, FONT_FAMILY, ROUNDNESS } from "eterill-common";
+import { DEFAULT_SIDEBAR, FONT_FAMILY, ROUNDNESS } from "@eterill/catpaw-common";
 
-import { newElementWith } from "eterill-element";
-import * as sizeHelpers from "eterill-element";
+import { newElementWith } from "@eterill/catpaw-element";
+import * as sizeHelpers from "@eterill/catpaw-element";
 
-import type { LocalPoint } from "eterill-math";
+import type { LocalPoint } from "@eterill/catpaw-math";
 
 import type {
   ExcalidrawArrowElement,
@@ -14,8 +14,8 @@ import type {
   ExcalidrawFreeDrawElement,
   ExcalidrawLinearElement,
   ExcalidrawTextElement,
-} from "eterill-element/types";
-import type { NormalizedZoomValue } from "eterill-excalidraw/types";
+} from "@eterill/catpaw-element/types";
+import type { NormalizedZoomValue } from "@eterill/catpaw/types";
 
 import { API } from "../helpers/api";
 import * as restore from "../../data/restore";

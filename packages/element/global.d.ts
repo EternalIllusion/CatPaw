@@ -1,3 +1,3 @@
 ﻿/// <reference types="vite/client" />
-import "eterill-excalidraw/global";
-import "eterill-excalidraw/css";
+import "@eterill/catpaw/global";
+import "@eterill/catpaw/css";

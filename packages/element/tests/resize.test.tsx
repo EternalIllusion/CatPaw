@@ -1,22 +1,22 @@
-﻿import { pointFrom } from "eterill-math";
+﻿import { pointFrom } from "@eterill/catpaw-math";
 
-import { Excalidraw } from "eterill-excalidraw";
+import { Excalidraw } from "@eterill/catpaw";
 import {
   type Bounds,
   KEYS,
   getSizeFromPoints,
   reseed,
   arrayToMap,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { API } from "eterill-excalidraw/tests/helpers/api";
-import { UI, Keyboard, Pointer } from "eterill-excalidraw/tests/helpers/ui";
+import { API } from "@eterill/catpaw/tests/helpers/api";
+import { UI, Keyboard, Pointer } from "@eterill/catpaw/tests/helpers/ui";
 import {
   render,
   unmountComponent,
-} from "eterill-excalidraw/tests/test-utils";
+} from "@eterill/catpaw/tests/test-utils";
 
-import type { LocalPoint } from "eterill-math";
+import type { LocalPoint } from "@eterill/catpaw-math";
 
 import { isLinearElement } from "../src/typeChecks";
 import { resizeSingleElement } from "../src/resizeElements";

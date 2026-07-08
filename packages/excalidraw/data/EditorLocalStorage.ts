@@ -1,4 +1,4 @@
-﻿import type { EDITOR_LS_KEYS } from "eterill-common";
+﻿import type { EDITOR_LS_KEYS } from "@eterill/catpaw-common";
 
 import type { JSONValue } from "../types";
 

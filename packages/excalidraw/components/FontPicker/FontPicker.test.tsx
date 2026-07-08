@@ -1,4 +1,4 @@
-﻿import { KEYS } from "eterill-common";
+﻿import { KEYS } from "@eterill/catpaw-common";
 
 import { Excalidraw } from "../..";
 import { Keyboard } from "../../tests/helpers/ui";

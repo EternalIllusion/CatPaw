@@ -2,9 +2,9 @@
   getCommonFrameId,
   getFrameChildrenInsertionIndex,
   isElementInViewport,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { arrayToMap, memoize, toBrandedType } from "eterill-common";
+import { arrayToMap, memoize, toBrandedType } from "@eterill/catpaw-common";
 
 import type {
   ExcalidrawElement,
@@ -12,9 +12,9 @@ import type {
   NonDeleted,
   NonDeletedElementsMap,
   NonDeletedExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
-import type { Scene } from "eterill-element";
+import type { Scene } from "@eterill/catpaw-element";
 
 import { renderStaticSceneThrottled } from "../renderer/staticScene";
 

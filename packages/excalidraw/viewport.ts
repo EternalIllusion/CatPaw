@@ -6,8 +6,8 @@
   MIN_ZOOM,
   viewportCoordsToSceneCoords,
   ZOOM_STEP,
-} from "eterill-common";
-import { clamp, pointDistance, pointFrom, roundToStep } from "eterill-math";
+} from "@eterill/catpaw-common";
+import { clamp, pointDistance, pointFrom, roundToStep } from "@eterill/catpaw-math";
 
 import {
   CaptureUpdateAction,
@@ -18,16 +18,16 @@ import {
   isElementLink,
   isExcalidrawElement,
   parseElementLinkFromURL,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import type { SceneBounds } from "eterill-element";
+import type { SceneBounds } from "@eterill/catpaw-element";
 
-import type { Bounds } from "eterill-common";
+import type { Bounds } from "@eterill/catpaw-common";
 import type {
   ExcalidrawElement,
   NonDeleted,
   NonDeletedSceneElementsMap,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { AnimationController } from "./renderer/animation";
 import { getNormalizedZoom } from "./scene";

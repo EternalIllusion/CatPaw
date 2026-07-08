@@ -1,4 +1,4 @@
-﻿import { invariant, isTransparent, type Bounds } from "eterill-common";
+﻿import { invariant, isTransparent, type Bounds } from "@eterill/catpaw-common";
 import {
   curveIntersectLineSegment,
   isPointWithinBounds,
@@ -11,21 +11,21 @@ import {
   vectorFromPoint,
   vectorNormalize,
   vectorScale,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
 import {
   ellipse,
   ellipseSegmentInterceptPoints,
-} from "eterill-math/ellipse";
+} from "@eterill/catpaw-math/ellipse";
 
 import type {
   Curve,
   GlobalPoint,
   LineSegment,
   Radians,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
-import type { FrameNameBounds } from "eterill-excalidraw/types";
+import type { FrameNameBounds } from "@eterill/catpaw/types";
 
 import { isPathALoop } from "./utils";
 import {

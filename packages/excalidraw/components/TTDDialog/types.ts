@@ -1,6 +1,6 @@
-﻿import type { RequestError } from "eterill-excalidraw/errors";
+﻿import type { RequestError } from "@eterill/catpaw/errors";
 
-import type { NonDeletedExcalidrawElement } from "eterill-element/types";
+import type { NonDeletedExcalidrawElement } from "@eterill/catpaw-element/types";
 
 import type { MermaidConfig } from "@excalidraw/mermaid-to-excalidraw";
 

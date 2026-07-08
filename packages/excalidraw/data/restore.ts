@@ -1,4 +1,4 @@
-﻿import { isFiniteNumber, isValidPoint, pointFrom } from "eterill-math";
+﻿import { isFiniteNumber, isValidPoint, pointFrom } from "@eterill/catpaw-math";
 
 import {
   type CombineBrandsIfNeeded,
@@ -22,7 +22,7 @@ import {
   STROKE_WIDTH,
   STROKE_WIDTH_KEYS,
   type StrokeWidthKey,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 import {
   calculateFixedPointForNonElbowArrowBinding,
   getNonDeletedElements,
@@ -30,16 +30,16 @@ import {
   isPointInElement,
   isValidPolygon,
   projectFixedPointOntoDiagonal,
-} from "eterill-element";
-import { normalizeFixedPoint } from "eterill-element";
+} from "@eterill/catpaw-element";
+import { normalizeFixedPoint } from "@eterill/catpaw-element";
 import {
   updateElbowArrowPoints,
   validateElbowPoints,
-} from "eterill-element";
-import { LinearElementEditor } from "eterill-element";
-import { bumpVersion } from "eterill-element";
-import { getContainerElement } from "eterill-element";
-import { detectLineHeight } from "eterill-element";
+} from "@eterill/catpaw-element";
+import { LinearElementEditor } from "@eterill/catpaw-element";
+import { bumpVersion } from "@eterill/catpaw-element";
+import { getContainerElement } from "@eterill/catpaw-element";
+import { detectLineHeight } from "@eterill/catpaw-element";
 import {
   isArrowBoundToElement,
   isArrowElement,
@@ -48,17 +48,17 @@ import {
   isLineElement,
   isTextElement,
   isUsingAdaptiveRadius,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { syncInvalidIndices } from "eterill-element";
+import { syncInvalidIndices } from "@eterill/catpaw-element";
 
-import { refreshTextDimensions } from "eterill-element";
+import { refreshTextDimensions } from "@eterill/catpaw-element";
 
-import { getNormalizedDimensions } from "eterill-element";
+import { getNormalizedDimensions } from "@eterill/catpaw-element";
 
-import { isInvisiblySmallElement } from "eterill-element";
+import { isInvisiblySmallElement } from "@eterill/catpaw-element";
 
-import type { LocalPoint, Radians } from "eterill-math";
+import type { LocalPoint, Radians } from "@eterill/catpaw-math";
 
 import type {
   ElementsMap,
@@ -76,9 +76,9 @@ import type {
   OrderedExcalidrawElement,
   StrokeVariability,
   StrokeRoundness,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
-import type { MarkOptional, Mutable } from "eterill-common/utility-types";
+import type { MarkOptional, Mutable } from "@eterill/catpaw-common/utility-types";
 
 import { getDefaultAppState } from "../appState";
 

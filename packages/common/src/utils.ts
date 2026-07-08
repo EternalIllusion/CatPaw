@@ -1,8 +1,8 @@
-﻿import { average } from "eterill-math";
+﻿import { average } from "@eterill/catpaw-math";
 
-import type { GlobalCoord } from "eterill-math";
+import type { GlobalCoord } from "@eterill/catpaw-math";
 
-import type { FontFamilyValues, FontString } from "eterill-element/types";
+import type { FontFamilyValues, FontString } from "@eterill/catpaw-element/types";
 
 import type {
   ActiveTool,
@@ -10,7 +10,7 @@ import type {
   ToolType,
   UnsubscribeCallback,
   Zoom,
-} from "eterill-excalidraw/types";
+} from "@eterill/catpaw/types";
 
 import {
   DEFAULT_VERSION,

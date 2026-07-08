@@ -1,9 +1,9 @@
 ﻿import React from "react";
 import { vi } from "vitest";
 
-import { KEYS, reseed } from "eterill-common";
+import { KEYS, reseed } from "@eterill/catpaw-common";
 
-import type { ExcalidrawLinearElement } from "eterill-element/types";
+import type { ExcalidrawLinearElement } from "@eterill/catpaw-element/types";
 
 import { Excalidraw } from "../index";
 

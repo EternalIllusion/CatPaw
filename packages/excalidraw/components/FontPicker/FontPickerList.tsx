@@ -7,16 +7,16 @@
   type KeyboardEventHandler,
 } from "react";
 
-import { type FontFamilyValues } from "eterill-element/types";
+import { type FontFamilyValues } from "@eterill/catpaw-element/types";
 
 import {
   arrayToList,
   debounce,
   FONT_FAMILY,
   getFontFamilyString,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import type { ValueOf } from "eterill-common/utility-types";
+import type { ValueOf } from "@eterill/catpaw-common/utility-types";
 
 import { Fonts } from "../../fonts";
 import { t } from "../../i18n";

@@ -1,10 +1,10 @@
-﻿import { sceneCoordsToViewportCoords } from "eterill-common";
-import { getElementAbsoluteCoords } from "eterill-element";
+﻿import { sceneCoordsToViewportCoords } from "@eterill/catpaw-common";
+import { getElementAbsoluteCoords } from "@eterill/catpaw-element";
 
 import type {
   ElementsMap,
   NonDeletedExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { useExcalidrawAppState } from "../components/App";
 

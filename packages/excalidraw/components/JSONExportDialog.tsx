@@ -1,8 +1,8 @@
 ﻿import React from "react";
 
-import { getFrame } from "eterill-common";
+import { getFrame } from "@eterill/catpaw-common";
 
-import type { NonDeletedExcalidrawElement } from "eterill-element/types";
+import type { NonDeletedExcalidrawElement } from "@eterill/catpaw-element/types";
 
 import { actionSaveFileToDisk } from "../actions/actionExport";
 

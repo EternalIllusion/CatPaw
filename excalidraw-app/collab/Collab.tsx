@@ -4,9 +4,9 @@
   restoreElements,
   zoomToFitBounds,
   reconcileElements,
-} from "eterill-excalidraw";
-import { ErrorDialog } from "eterill-excalidraw/components/ErrorDialog";
-import { APP_NAME, cloneJSON, EVENT, toBrandedType } from "eterill-common";
+} from "@eterill/catpaw";
+import { ErrorDialog } from "@eterill/catpaw/components/ErrorDialog";
+import { APP_NAME, cloneJSON, EVENT, toBrandedType } from "@eterill/catpaw-common";
 import {
   IDLE_THRESHOLD,
   ACTIVE_THRESHOLD,
@@ -17,39 +17,39 @@ import {
   preventUnload,
   resolvablePromise,
   throttleRAF,
-} from "eterill-common";
-import { decryptData } from "eterill-excalidraw/data/encryption";
-import { getVisibleSceneBounds } from "eterill-element";
-import { newElementWith } from "eterill-element";
-import { isImageElement, isInitializedImageElement } from "eterill-element";
-import { AbortError } from "eterill-excalidraw/errors";
-import { t } from "eterill-excalidraw/i18n";
-import { withBatchedUpdates } from "eterill-excalidraw/reactUtils";
+} from "@eterill/catpaw-common";
+import { decryptData } from "@eterill/catpaw/data/encryption";
+import { getVisibleSceneBounds } from "@eterill/catpaw-element";
+import { newElementWith } from "@eterill/catpaw-element";
+import { isImageElement, isInitializedImageElement } from "@eterill/catpaw-element";
+import { AbortError } from "@eterill/catpaw/errors";
+import { t } from "@eterill/catpaw/i18n";
+import { withBatchedUpdates } from "@eterill/catpaw/reactUtils";
 
 import throttle from "lodash.throttle";
 import { PureComponent } from "react";
 
-import { bumpElementVersions } from "eterill-excalidraw/data/restore";
+import { bumpElementVersions } from "@eterill/catpaw/data/restore";
 
 import type {
   ReconciledExcalidrawElement,
   RemoteExcalidrawElement,
-} from "eterill-excalidraw/data/reconcile";
-import type { ImportedDataState } from "eterill-excalidraw/data/types";
+} from "@eterill/catpaw/data/reconcile";
+import type { ImportedDataState } from "@eterill/catpaw/data/types";
 import type {
   ExcalidrawElement,
   FileId,
   InitializedExcalidrawImageElement,
   OrderedExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 import type {
   BinaryFileData,
   ExcalidrawImperativeAPI,
   SocketId,
   Collaborator,
   Gesture,
-} from "eterill-excalidraw/types";
-import type { Mutable, ValueOf } from "eterill-common/utility-types";
+} from "@eterill/catpaw/types";
+import type { Mutable, ValueOf } from "@eterill/catpaw-common/utility-types";
 
 import { appJotaiStore, atom } from "../app-jotai";
 import {

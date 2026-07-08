@@ -1,16 +1,16 @@
 ﻿import throttle from "lodash.throttle";
 
-import { arrayToMap, isDevEnv, isTestEnv } from "eterill-common";
+import { arrayToMap, isDevEnv, isTestEnv } from "@eterill/catpaw-common";
 
 import {
   orderByFractionalIndex,
   syncInvalidIndices,
   validateFractionalIndices,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import type { OrderedExcalidrawElement } from "eterill-element/types";
+import type { OrderedExcalidrawElement } from "@eterill/catpaw-element/types";
 
-import type { MakeBrand } from "eterill-common/utility-types";
+import type { MakeBrand } from "@eterill/catpaw-common/utility-types";
 
 import type { AppState } from "../types";
 

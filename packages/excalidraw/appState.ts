@@ -12,7 +12,7 @@
   THEME,
   DEFAULT_GRID_STEP,
   isTestEnv,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 import type { AppState, NormalizedZoomValue } from "./types";
 

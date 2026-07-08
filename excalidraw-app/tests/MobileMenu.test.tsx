@@ -1,9 +1,9 @@
-﻿import { UI } from "eterill-excalidraw/tests/helpers/ui";
+﻿import { UI } from "@eterill/catpaw/tests/helpers/ui";
 import {
   mockBoundingClientRect,
   render,
   restoreOriginalGetBoundingClientRect,
-} from "eterill-excalidraw/tests/test-utils";
+} from "@eterill/catpaw/tests/test-utils";
 
 import ExcalidrawApp from "../App";
 

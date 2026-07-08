@@ -1,6 +1,6 @@
-﻿import { updateActiveTool } from "eterill-common";
+﻿import { updateActiveTool } from "@eterill/catpaw-common";
 
-import { CaptureUpdateAction } from "eterill-element";
+import { CaptureUpdateAction } from "@eterill/catpaw-element";
 
 import { setCursorForShape } from "../cursor";
 

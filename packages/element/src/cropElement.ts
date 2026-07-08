@@ -11,7 +11,7 @@
   pointFromVector,
   clamp,
   isCloseTo,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 import { type Point } from "points-on-curve";
 
 import {

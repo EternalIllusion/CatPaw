@@ -1,4 +1,4 @@
-﻿import { COLOR_WHITE } from "eterill-common";
+﻿import { COLOR_WHITE } from "@eterill/catpaw-common";
 
 import { bootstrapCanvas } from "./helpers";
 

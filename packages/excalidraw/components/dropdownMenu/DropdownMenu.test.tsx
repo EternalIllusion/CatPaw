@@ -1,6 +1,6 @@
 ﻿import React from "react";
 
-import { KEYS } from "eterill-common";
+import { KEYS } from "@eterill/catpaw-common";
 
 import { Excalidraw } from "../../index";
 import { Keyboard } from "../../tests/helpers/ui";

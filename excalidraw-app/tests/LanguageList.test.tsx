@@ -1,11 +1,11 @@
-﻿import { defaultLang } from "eterill-excalidraw/i18n";
-import { UI } from "eterill-excalidraw/tests/helpers/ui";
+﻿import { defaultLang } from "@eterill/catpaw/i18n";
+import { UI } from "@eterill/catpaw/tests/helpers/ui";
 import {
   screen,
   fireEvent,
   waitFor,
   render,
-} from "eterill-excalidraw/tests/test-utils";
+} from "@eterill/catpaw/tests/test-utils";
 
 import ExcalidrawApp from "../App";
 

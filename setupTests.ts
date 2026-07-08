@@ -32,8 +32,8 @@ if (!debugDom) {
   });
 }
 
-vi.mock("eterill-common", async (importOriginal) => {
-  const module = await importOriginal<typeof import("eterill-common")>();
+vi.mock("@eterill/catpaw-common", async (importOriginal) => {
+  const module = await importOriginal<typeof import("@eterill/catpaw-common")>();
 
   return {
     ...module,

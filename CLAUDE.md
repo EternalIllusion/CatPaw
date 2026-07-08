@@ -4,9 +4,9 @@
 
 Excalidraw is a **monorepo** with a clear separation between the core library and the application:
 
-- **`packages/excalidraw/`** - Main React component library published to npm as `eterill-excalidraw`
+- **`packages/excalidraw/`** - Main React component library published to npm as `@eterill/catpaw`
 - **`excalidraw-app/`** - Full-featured web application (excalidraw.com) that uses the library
-- **`packages/`** - Core packages: `eterill-common`, `eterill-element`, `eterill-math`, `eterill-utils`
+- **`packages/`** - Core packages: `@eterill/catpaw-common`, `@eterill/catpaw-element`, `@eterill/catpaw-math`, `@eterill/catpaw-utils`
 - **`examples/`** - Integration examples (NextJS, browser script)
 
 ## Development Workflow

@@ -1,6 +1,6 @@
 ﻿import { useEffect, useRef, useState } from "react";
 
-import { EVENT, KEYS } from "eterill-common";
+import { EVENT, KEYS } from "@eterill/catpaw-common";
 
 import Spinner from "../Spinner";
 

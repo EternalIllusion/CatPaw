@@ -4,9 +4,9 @@ import {
   polygonFromPoints,
   lineSegment,
   polygonIncludesPointNonZero,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
-import { type Bounds } from "eterill-common";
+import { type Bounds } from "@eterill/catpaw-common";
 
 import {
   computeBoundTextPosition,
@@ -14,10 +14,10 @@ import {
   getBoundTextElement,
   getElementBounds,
   intersectElementWithLineSegment,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import type { ElementsSegmentsMap, GlobalPoint } from "eterill-math/types";
-import type { ElementsMap, ExcalidrawElement } from "eterill-element/types";
+import type { ElementsSegmentsMap, GlobalPoint } from "@eterill/catpaw-math/types";
+import type { ElementsMap, ExcalidrawElement } from "@eterill/catpaw-element/types";
 
 export const getLassoSelectedElementIds = (input: {
   lassoPath: GlobalPoint[];

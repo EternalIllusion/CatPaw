@@ -1,9 +1,9 @@
 ﻿import clsx from "clsx";
 import { useState, useEffect } from "react";
 
-import { THEME } from "eterill-common";
+import { THEME } from "@eterill/catpaw-common";
 
-import type { Theme } from "eterill-element/types";
+import type { Theme } from "@eterill/catpaw-element/types";
 
 import { t } from "../i18n";
 

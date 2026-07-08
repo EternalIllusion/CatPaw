@@ -1,4 +1,4 @@
-﻿import type { NonDeletedExcalidrawElement } from "eterill-element/types";
+﻿import type { NonDeletedExcalidrawElement } from "@eterill/catpaw-element/types";
 
 export type ChartElements = readonly NonDeletedExcalidrawElement[];
 

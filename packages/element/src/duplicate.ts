@@ -7,11 +7,11 @@
   findLastIndex,
   getUpdatedTimestamp,
   isTestEnv,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import type { Mutable } from "eterill-common/utility-types";
+import type { Mutable } from "@eterill/catpaw-common/utility-types";
 
-import type { AppState } from "eterill-excalidraw/types";
+import type { AppState } from "@eterill/catpaw/types";
 
 import {
   getElementsInGroup,

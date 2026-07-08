@@ -1,6 +1,6 @@
-﻿import { CaptureUpdateAction } from "eterill-element";
+﻿import { CaptureUpdateAction } from "@eterill/catpaw-element";
 
-import type { ExcalidrawElement } from "eterill-element/types";
+import type { ExcalidrawElement } from "@eterill/catpaw-element/types";
 
 import {
   getConversionTypeFromElements,

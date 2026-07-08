@@ -1,6 +1,6 @@
-﻿import { MAX_ZOOM, MIN_ZOOM } from "eterill-common";
+﻿import { MAX_ZOOM, MIN_ZOOM } from "@eterill/catpaw-common";
 
-import { clamp, round } from "eterill-math";
+import { clamp, round } from "@eterill/catpaw-math";
 
 import type { NormalizedZoomValue } from "../types";
 

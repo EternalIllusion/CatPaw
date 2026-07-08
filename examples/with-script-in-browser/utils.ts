@@ -1,4 +1,4 @@
-﻿import { MIME_TYPES } from "eterill-excalidraw";
+﻿import { MIME_TYPES } from "@eterill/catpaw";
 import { fileOpen as _fileOpen } from "browser-fs-access";
 import { unstable_batchedUpdates } from "react-dom";
 

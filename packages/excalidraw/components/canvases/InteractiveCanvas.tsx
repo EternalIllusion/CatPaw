@@ -5,7 +5,7 @@ import {
   isShallowEqual,
   sceneCoordsToViewportCoords,
   type EditorInterface,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 import type {
   InteractiveCanvasRenderConfig,
@@ -13,12 +13,12 @@ import type {
   InteractiveSceneRenderConfig,
   RenderableElementsMap,
   RenderInteractiveSceneCallback,
-} from "eterill-excalidraw/scene/types";
+} from "@eterill/catpaw/scene/types";
 
 import type {
   NonDeletedExcalidrawElement,
   NonDeletedSceneElementsMap,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { t } from "../../i18n";
 import { renderInteractiveScene } from "../../renderer/interactiveScene";

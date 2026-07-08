@@ -1,6 +1,6 @@
 ﻿import React, { useState } from "react";
 
-import { focusNearestParent, KEYS } from "eterill-common";
+import { focusNearestParent, KEYS } from "@eterill/catpaw-common";
 
 import { useExcalidrawContainer } from "./App";
 

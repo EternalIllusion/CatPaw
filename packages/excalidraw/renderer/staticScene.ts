@@ -4,30 +4,30 @@
   FRAME_STYLE,
   THEME,
   throttleRAF,
-} from "eterill-common";
-import { isElementLink } from "eterill-element";
-import { createPlaceholderEmbeddableLabel } from "eterill-element";
-import { getBoundTextElement } from "eterill-element";
+} from "@eterill/catpaw-common";
+import { isElementLink } from "@eterill/catpaw-element";
+import { createPlaceholderEmbeddableLabel } from "@eterill/catpaw-element";
+import { getBoundTextElement } from "@eterill/catpaw-element";
 import {
   isEmbeddableElement,
   isIframeLikeElement,
   isTextElement,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 import {
   elementOverlapsWithFrame,
   getTargetFrame,
   shouldApplyFrameClip,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { renderElement } from "eterill-element";
+import { renderElement } from "@eterill/catpaw-element";
 
-import { getElementAbsoluteCoords } from "eterill-element";
+import { getElementAbsoluteCoords } from "@eterill/catpaw-element";
 
 import type {
   ElementsMap,
   ExcalidrawFrameLikeElement,
   NonDeletedExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import {
   EXTERNAL_LINK_IMG,

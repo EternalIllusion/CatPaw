@@ -1,6 +1,6 @@
-﻿import { isDevEnv } from "eterill-common";
+﻿import { isDevEnv } from "@eterill/catpaw-common";
 
-import { newElement } from "eterill-element";
+import { newElement } from "@eterill/catpaw-element";
 
 import { commonProps } from "./charts.constants";
 import {

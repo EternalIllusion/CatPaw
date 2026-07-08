@@ -2,7 +2,7 @@
 
 ## Usage
 
-    import { LaserPointer } from 'eterill-laser-pointer'
+    import { LaserPointer } from '@eterill/catpaw-laser-pointer'
 
     const stroke = new LaserPointer(options)
 

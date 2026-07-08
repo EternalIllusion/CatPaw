@@ -1,11 +1,11 @@
-﻿import { syncInvalidIndices } from "eterill-element";
+﻿import { syncInvalidIndices } from "@eterill/catpaw-element";
 
-import { randomInteger, cloneJSON } from "eterill-common";
+import { randomInteger, cloneJSON } from "@eterill/catpaw-common";
 
 import type {
   ExcalidrawElement,
   OrderedExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { reconcileElements } from "../../data/reconcile";
 

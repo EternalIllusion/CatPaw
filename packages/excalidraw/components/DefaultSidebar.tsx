@@ -5,9 +5,9 @@ import {
   DEFAULT_SIDEBAR,
   LIBRARY_SIDEBAR_TAB,
   composeEventHandlers,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import type { MarkOptional, Merge } from "eterill-common/utility-types";
+import type { MarkOptional, Merge } from "@eterill/catpaw-common/utility-types";
 
 import { useTunnels } from "../context/tunnels";
 import { useUIAppState } from "../context/ui-appState";

@@ -9,9 +9,9 @@
 import clsx from "clsx";
 import React from "react";
 
-import { THEME } from "eterill-common";
+import { THEME } from "@eterill/catpaw-common";
 
-import type { Theme } from "eterill-element/types";
+import type { Theme } from "@eterill/catpaw-element/types";
 
 export const iconFillColor = (theme: Theme) => "var(--icon-fill-color)";
 

@@ -13,7 +13,7 @@
  */
 import { pointsOnBezierCurves } from "points-on-curve";
 
-import { invariant } from "eterill-common";
+import { invariant } from "@eterill/catpaw-common";
 import {
   curve,
   lineSegment,
@@ -32,9 +32,9 @@ import {
   vectorScale,
   type GlobalPoint,
   type LocalPoint,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
-import { getElementAbsoluteCoords } from "eterill-element";
+import { getElementAbsoluteCoords } from "@eterill/catpaw-element";
 
 import type {
   ElementsMap,
@@ -51,8 +51,8 @@ import type {
   ExcalidrawRectangleElement,
   ExcalidrawSelectionElement,
   ExcalidrawTextElement,
-} from "eterill-element/types";
-import type { Curve, LineSegment, Polygon, Radians } from "eterill-math";
+} from "@eterill/catpaw-element/types";
+import type { Curve, LineSegment, Polygon, Radians } from "@eterill/catpaw-math";
 
 import type { Drawable, Op } from "roughjs/bin/core";
 

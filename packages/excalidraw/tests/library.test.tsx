@@ -2,11 +2,11 @@
 import React from "react";
 import { vi } from "vitest";
 
-import { MIME_TYPES, ORIG_ID } from "eterill-common";
+import { MIME_TYPES, ORIG_ID } from "@eterill/catpaw-common";
 
-import { getCommonBoundingBox } from "eterill-element";
+import { getCommonBoundingBox } from "@eterill/catpaw-element";
 
-import type { ExcalidrawGenericElement } from "eterill-element/types";
+import type { ExcalidrawGenericElement } from "@eterill/catpaw-element/types";
 
 import { parseLibraryJSON } from "../data/blob";
 import { serializeLibraryAsJSON } from "../data/json";

@@ -20,11 +20,11 @@ import {
   pointFrom,
   type Radians,
   type ElementsSegmentsMap,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
-import { getElementLineSegments } from "eterill-element";
+import { getElementLineSegments } from "@eterill/catpaw-element";
 
-import type { ExcalidrawElement } from "eterill-element/types";
+import type { ExcalidrawElement } from "@eterill/catpaw-element/types";
 
 import { Excalidraw } from "../index";
 

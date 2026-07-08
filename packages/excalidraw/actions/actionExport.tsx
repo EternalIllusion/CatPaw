@@ -3,13 +3,13 @@
   DEFAULT_EXPORT_PADDING,
   EXPORT_SCALES,
   THEME,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { getNonDeletedElements } from "eterill-element";
+import { getNonDeletedElements } from "@eterill/catpaw-element";
 
-import { CaptureUpdateAction } from "eterill-element";
+import { CaptureUpdateAction } from "@eterill/catpaw-element";
 
-import type { ExcalidrawElement, Theme } from "eterill-element/types";
+import type { ExcalidrawElement, Theme } from "@eterill/catpaw-element/types";
 
 import { useEditorInterface } from "../components/App";
 import { CheckboxItem } from "../components/CheckboxItem";

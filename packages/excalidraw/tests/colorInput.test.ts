@@ -1,4 +1,4 @@
-﻿import { normalizeInputColor } from "eterill-common";
+﻿import { normalizeInputColor } from "@eterill/catpaw-common";
 
 describe("normalizeInputColor", () => {
   describe("hex colors", () => {

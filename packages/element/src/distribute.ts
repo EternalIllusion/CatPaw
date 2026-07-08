@@ -1,4 +1,4 @@
-﻿import type { AppState } from "eterill-excalidraw/types";
+﻿import type { AppState } from "@eterill/catpaw/types";
 
 import { updateBoundElements } from "./binding";
 import { getCommonBoundingBox } from "./bounds";

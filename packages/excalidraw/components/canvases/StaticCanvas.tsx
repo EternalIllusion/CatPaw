@@ -1,11 +1,11 @@
 ﻿import React, { useEffect, useRef } from "react";
 
-import { isShallowEqual } from "eterill-common";
+import { isShallowEqual } from "@eterill/catpaw-common";
 
 import type {
   NonDeletedExcalidrawElement,
   NonDeletedSceneElementsMap,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { isRenderThrottlingEnabled } from "../../reactUtils";
 import { renderStaticScene } from "../../renderer/staticScene";

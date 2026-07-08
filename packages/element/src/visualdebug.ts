@@ -6,18 +6,18 @@
   type GlobalPoint,
   type LocalPoint,
   type LineSegment,
-} from "eterill-math";
-import { type Bounds, isBounds } from "eterill-common";
+} from "@eterill/catpaw-math";
+import { type Bounds, isBounds } from "@eterill/catpaw-common";
 import {
   getElementBounds,
   intersectElementWithLineSegment,
   isFreeDrawElement,
   isLinearElement,
   isPathALoop,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import type { ElementsMap, ExcalidrawElement } from "eterill-element/types";
-import type { Curve } from "eterill-math";
+import type { ElementsMap, ExcalidrawElement } from "@eterill/catpaw-element/types";
+import type { Curve } from "@eterill/catpaw-math";
 
 // The global data holder to collect the debug operations
 declare global {

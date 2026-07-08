@@ -6,20 +6,20 @@
   arrayToMap,
   getFontString,
   getStrokeWidthByKey,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 import {
   getOriginalContainerHeightFromCache,
   isBoundToContainer,
   resetOriginalContainerCache,
   updateOriginalContainerCache,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
 import {
   computeBoundTextPosition,
   computeContainerDimensionForBoundText,
   getBoundTextElement,
   redrawTextBoundingBox,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
 import {
   hasBoundTextElement,
@@ -27,26 +27,26 @@ import {
   isTextBindableContainer,
   isTextElement,
   isUsingAdaptiveRadius,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { measureText } from "eterill-element";
+import { measureText } from "@eterill/catpaw-element";
 
-import { syncMovedIndices } from "eterill-element";
+import { syncMovedIndices } from "@eterill/catpaw-element";
 
-import { newElement } from "eterill-element";
+import { newElement } from "@eterill/catpaw-element";
 
-import { CaptureUpdateAction } from "eterill-element";
+import { CaptureUpdateAction } from "@eterill/catpaw-element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawLinearElement,
   ExcalidrawTextContainer,
   ExcalidrawTextElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
-import type { Mutable } from "eterill-common/utility-types";
+import type { Mutable } from "@eterill/catpaw-common/utility-types";
 
-import type { Radians } from "eterill-math";
+import type { Radians } from "@eterill/catpaw-math";
 
 import { register } from "./register";
 

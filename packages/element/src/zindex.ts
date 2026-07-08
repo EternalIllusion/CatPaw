@@ -1,9 +1,9 @@
-﻿import { arrayToMap, findIndex, findLastIndex } from "eterill-common";
+﻿import { arrayToMap, findIndex, findLastIndex } from "@eterill/catpaw-common";
 
-import { isFiniteNumber } from "eterill-math";
+import { isFiniteNumber } from "@eterill/catpaw-math";
 
-import type { AppState } from "eterill-excalidraw/types";
-import type { GlobalPoint } from "eterill-math";
+import type { AppState } from "@eterill/catpaw/types";
+import type { GlobalPoint } from "@eterill/catpaw-math";
 
 import { isFrameLikeElement, isTextElement } from "./typeChecks";
 import { getElementsInGroup } from "./groups";

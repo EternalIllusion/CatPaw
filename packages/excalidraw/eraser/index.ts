@@ -1,4 +1,4 @@
-﻿import { arrayToMap, easeOut, THEME } from "eterill-common";
+﻿import { arrayToMap, easeOut, THEME } from "@eterill/catpaw-common";
 
 import {
   computeBoundTextPosition,
@@ -13,25 +13,25 @@ import {
   isFreeDrawElement,
   isLineElement,
   isPointInElement,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 import {
   lineSegment,
   lineSegmentsDistance,
   pointFrom,
   polygon,
   polygonIncludesPointNonZero,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
-import { getElementsInGroup } from "eterill-element";
+import { getElementsInGroup } from "@eterill/catpaw-element";
 
-import { shouldTestInside } from "eterill-element";
-import { hasBoundTextElement, isBoundToContainer } from "eterill-element";
-import { getBoundTextElementId } from "eterill-element";
+import { shouldTestInside } from "@eterill/catpaw-element";
+import { hasBoundTextElement, isBoundToContainer } from "@eterill/catpaw-element";
+import { getBoundTextElementId } from "@eterill/catpaw-element";
 
-import type { Bounds } from "eterill-common";
+import type { Bounds } from "@eterill/catpaw-common";
 
-import type { GlobalPoint, LineSegment } from "eterill-math/types";
-import type { ElementsMap, ExcalidrawElement } from "eterill-element/types";
+import type { GlobalPoint, LineSegment } from "@eterill/catpaw-math/types";
+import type { ElementsMap, ExcalidrawElement } from "@eterill/catpaw-element/types";
 
 import { AnimatedTrail } from "../animatedTrail";
 

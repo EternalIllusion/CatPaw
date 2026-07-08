@@ -2,11 +2,11 @@
   curvePointDistance,
   distanceToLineSegment,
   pointRotateRads,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
-import { ellipse, ellipseDistanceFromPoint } from "eterill-math/ellipse";
+import { ellipse, ellipseDistanceFromPoint } from "@eterill/catpaw-math/ellipse";
 
-import type { GlobalPoint, Radians } from "eterill-math";
+import type { GlobalPoint, Radians } from "@eterill/catpaw-math";
 
 import {
   deconstructDiamondElement,

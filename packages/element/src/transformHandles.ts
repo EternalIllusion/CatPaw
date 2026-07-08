@@ -1,17 +1,17 @@
 ﻿import {
   DEFAULT_TRANSFORM_HANDLE_SPACING,
   type EditorInterface,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { pointFrom, pointRotateRads } from "eterill-math";
+import { pointFrom, pointRotateRads } from "@eterill/catpaw-math";
 
-import type { Radians } from "eterill-math";
+import type { Radians } from "@eterill/catpaw-math";
 
 import type {
   InteractiveCanvasAppState,
   Zoom,
-} from "eterill-excalidraw/types";
-import type { Bounds } from "eterill-common";
+} from "@eterill/catpaw/types";
+import type { Bounds } from "@eterill/catpaw-common";
 
 import { getElementAbsoluteCoords } from "./bounds";
 import {

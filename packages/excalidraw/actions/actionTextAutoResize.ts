@@ -1,13 +1,13 @@
-﻿import { getFontString } from "eterill-common";
+﻿import { getFontString } from "@eterill/catpaw-common";
 
-import { isExcalidrawElement, newElementWith } from "eterill-element";
-import { measureText } from "eterill-element";
+import { isExcalidrawElement, newElementWith } from "@eterill/catpaw-element";
+import { measureText } from "@eterill/catpaw-element";
 
-import { isTextElement } from "eterill-element";
+import { isTextElement } from "@eterill/catpaw-element";
 
-import { CaptureUpdateAction } from "eterill-element";
+import { CaptureUpdateAction } from "@eterill/catpaw-element";
 
-import type { ExcalidrawElement } from "eterill-element/types";
+import type { ExcalidrawElement } from "@eterill/catpaw-element/types";
 
 import { getSelectedElements } from "../scene";
 

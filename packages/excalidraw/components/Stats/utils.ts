@@ -1,32 +1,32 @@
-﻿import { pointFrom, pointRotateRads } from "eterill-math";
+﻿import { pointFrom, pointRotateRads } from "@eterill/catpaw-math";
 
 import {
   getBoundTextElement,
   isBindingElement,
   unbindBindingElement,
-} from "eterill-element";
-import { isFrameLikeElement } from "eterill-element";
+} from "@eterill/catpaw-element";
+import { isFrameLikeElement } from "@eterill/catpaw-element";
 
 import {
   getSelectedGroupIds,
   getElementsInGroup,
   isInGroup,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { getFrameChildren } from "eterill-element";
+import { getFrameChildren } from "@eterill/catpaw-element";
 
-import { updateBindings } from "eterill-element";
-import { DRAGGING_THRESHOLD } from "eterill-common";
+import { updateBindings } from "@eterill/catpaw-element";
+import { DRAGGING_THRESHOLD } from "@eterill/catpaw-common";
 
-import type { Radians } from "eterill-math";
+import type { Radians } from "@eterill/catpaw-math";
 
 import type {
   ElementsMap,
   ExcalidrawElement,
   NonDeletedExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
-import type { Scene } from "eterill-element";
+import type { Scene } from "@eterill/catpaw-element";
 
 import type { AppState } from "../../types";
 

@@ -2,28 +2,28 @@
 import { uploadBytes, ref } from "firebase/storage";
 import { nanoid } from "nanoid";
 
-import { trackEvent } from "eterill-excalidraw/analytics";
-import { Card } from "eterill-excalidraw/components/Card";
-import { ExcalidrawLogo } from "eterill-excalidraw/components/ExcalidrawLogo";
-import { ToolButton } from "eterill-excalidraw/components/ToolButton";
-import { MIME_TYPES, getFrame } from "eterill-common";
+import { trackEvent } from "@eterill/catpaw/analytics";
+import { Card } from "@eterill/catpaw/components/Card";
+import { ExcalidrawLogo } from "@eterill/catpaw/components/ExcalidrawLogo";
+import { ToolButton } from "@eterill/catpaw/components/ToolButton";
+import { MIME_TYPES, getFrame } from "@eterill/catpaw-common";
 import {
   encryptData,
   generateEncryptionKey,
-} from "eterill-excalidraw/data/encryption";
-import { serializeAsJSON } from "eterill-excalidraw/data/json";
-import { isInitializedImageElement } from "eterill-element";
-import { useI18n } from "eterill-excalidraw/i18n";
+} from "@eterill/catpaw/data/encryption";
+import { serializeAsJSON } from "@eterill/catpaw/data/json";
+import { isInitializedImageElement } from "@eterill/catpaw-element";
+import { useI18n } from "@eterill/catpaw/i18n";
 
 import type {
   FileId,
   NonDeletedExcalidrawElement,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 import type {
   AppState,
   BinaryFileData,
   BinaryFiles,
-} from "eterill-excalidraw/types";
+} from "@eterill/catpaw/types";
 
 import { FILE_UPLOAD_MAX_BYTES } from "../app_constants";
 import { encodeFilesForUpload } from "../data/FileManager";

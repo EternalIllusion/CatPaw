@@ -1,28 +1,28 @@
-﻿import { pointFrom } from "eterill-math";
+﻿import { pointFrom } from "@eterill/catpaw-math";
 
 import {
   FONT_FAMILY,
   ORIG_ID,
   ROUNDNESS,
   isPrimitive,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
-import { Excalidraw, mutateElement } from "eterill-excalidraw";
+import { Excalidraw, mutateElement } from "@eterill/catpaw";
 
-import { actionDuplicateSelection } from "eterill-excalidraw/actions";
+import { actionDuplicateSelection } from "@eterill/catpaw/actions";
 
-import { API } from "eterill-excalidraw/tests/helpers/api";
+import { API } from "@eterill/catpaw/tests/helpers/api";
 
-import { UI, Keyboard, Pointer } from "eterill-excalidraw/tests/helpers/ui";
+import { UI, Keyboard, Pointer } from "@eterill/catpaw/tests/helpers/ui";
 
 import {
   act,
   assertElements,
   getCloneByOrigId,
   render,
-} from "eterill-excalidraw/tests/test-utils";
+} from "@eterill/catpaw/tests/test-utils";
 
-import type { LocalPoint } from "eterill-math";
+import type { LocalPoint } from "@eterill/catpaw-math";
 
 import { duplicateElement, duplicateElements } from "../src/duplicate";
 

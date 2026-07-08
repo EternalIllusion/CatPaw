@@ -1,7 +1,7 @@
 ﻿import React, { useLayoutEffect, useRef, useEffect } from "react";
 import { unstable_batchedUpdates } from "react-dom";
 
-import { KEYS, queryFocusableElements } from "eterill-common";
+import { KEYS, queryFocusableElements } from "@eterill/catpaw-common";
 
 import clsx from "clsx";
 

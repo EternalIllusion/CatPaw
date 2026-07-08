@@ -6,14 +6,14 @@
   pointOnPolygon,
   polygonIncludesPoint,
   segmentsIntersectAt,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
 import type {
   GlobalPoint,
   LineSegment,
   Polygon,
   Radians,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
 import { pointInEllipse, pointOnEllipse, type Ellipse } from "../src/shape";
 

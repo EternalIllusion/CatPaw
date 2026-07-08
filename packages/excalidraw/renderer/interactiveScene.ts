@@ -8,7 +8,7 @@
   bezierEquation,
   pointRotateRads,
   pointDistance,
-} from "eterill-math";
+} from "@eterill/catpaw-math";
 
 import {
   arrayToMap,
@@ -18,7 +18,7 @@ import {
   getFeatureFlag,
   invariant,
   THEME,
-} from "eterill-common";
+} from "@eterill/catpaw-common";
 
 import {
   deconstructDiamondElement,
@@ -42,29 +42,29 @@ import {
   isTextElement,
   LinearElementEditor,
   getActiveTextElement,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { renderSelectionElement } from "eterill-element";
+import { renderSelectionElement } from "@eterill/catpaw-element";
 
 import {
   getElementsInGroup,
   getSelectedGroupIds,
   isSelectedViaGroup,
   selectGroupsFromGivenElements,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import { getCommonBounds, getElementAbsoluteCoords } from "eterill-element";
+import { getCommonBounds, getElementAbsoluteCoords } from "@eterill/catpaw-element";
 import {
   getGlobalFixedPointForBindableElement,
   isFocusPointVisible,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import type { EditorInterface } from "eterill-common";
+import type { EditorInterface } from "@eterill/catpaw-common";
 
 import type {
   TransformHandles,
   TransformHandleType,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
 import type {
   ElementsMap,
@@ -78,7 +78,7 @@ import type {
   GroupId,
   NonDeleted,
   NonDeletedSceneElementsMap,
-} from "eterill-element/types";
+} from "@eterill/catpaw-element/types";
 
 import { renderSnaps } from "../renderer/renderSnaps";
 import { roundRect } from "../renderer/roundRect";

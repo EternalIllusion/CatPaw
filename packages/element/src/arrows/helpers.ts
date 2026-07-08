@@ -1,4 +1,4 @@
-﻿import type { App } from "eterill-excalidraw/types";
+﻿import type { App } from "@eterill/catpaw/types";
 
 import { LinearElementEditor } from "../linearElementEditor";
 

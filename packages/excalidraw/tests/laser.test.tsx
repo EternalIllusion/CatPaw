@@ -1,7 +1,7 @@
 ﻿import { vi } from "vitest";
 
-import { CURSOR_TYPE } from "eterill-common";
-import { getElementAbsoluteCoords } from "eterill-element";
+import { CURSOR_TYPE } from "@eterill/catpaw-common";
+import { getElementAbsoluteCoords } from "@eterill/catpaw-element";
 
 import { Excalidraw } from "../index";
 import { getLinkHandleFromCoords } from "../components/hyperlink/helpers";

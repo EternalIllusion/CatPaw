@@ -1,14 +1,14 @@
-﻿import { Emitter } from "eterill-common";
+﻿import { Emitter } from "@eterill/catpaw-common";
 
 import {
   CaptureUpdateAction,
   StoreChange,
   StoreDelta,
-} from "eterill-element";
+} from "@eterill/catpaw-element";
 
-import type { StoreSnapshot, Store } from "eterill-element";
+import type { StoreSnapshot, Store } from "@eterill/catpaw-element";
 
-import type { SceneElementsMap } from "eterill-element/types";
+import type { SceneElementsMap } from "@eterill/catpaw-element/types";
 
 import type { AppState } from "./types";
 

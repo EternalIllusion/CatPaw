@@ -11,13 +11,13 @@ const getConfig = (outdir) => ({
   entryNames: "[name]",
   assetNames: "[dir]/[name]",
   alias: {
-    "eterill-utils": path.resolve(__dirname, "../packages/utils/src"),
+    "@eterill/catpaw-utils": path.resolve(__dirname, "../packages/utils/src"),
   },
   external: [
-    "eterill-common",
-    "eterill-element",
-    "eterill-math",
-    "eterill-fractional-indexing",
+    "@eterill/catpaw-common",
+    "@eterill/catpaw-element",
+    "@eterill/catpaw-math",
+    "@eterill/catpaw-fractional-indexing",
   ],
 });
 

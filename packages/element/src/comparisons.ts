@@ -1,4 +1,4 @@
-﻿import type { ElementOrToolType } from "eterill-excalidraw/types";
+﻿import type { ElementOrToolType } from "@eterill/catpaw/types";
 
 export const hasBackground = (type: ElementOrToolType) =>
   type === "rectangle" ||

@@ -1,9 +1,9 @@
-﻿import { isTextElement } from "eterill-element";
-import { getTextFromElements } from "eterill-element";
+﻿import { isTextElement } from "@eterill/catpaw-element";
+import { getTextFromElements } from "@eterill/catpaw-element";
 
-import { CODES, KEYS, isFirefox } from "eterill-common";
+import { CODES, KEYS, isFirefox } from "@eterill/catpaw-common";
 
-import { CaptureUpdateAction } from "eterill-element";
+import { CaptureUpdateAction } from "@eterill/catpaw-element";
 
 import {
   copyTextToSystemClipboard,

@@ -1,8 +1,8 @@
 ﻿"use client";
-import * as excalidrawLib from "eterill-excalidraw";
-import { Excalidraw } from "eterill-excalidraw";
+import * as excalidrawLib from "@eterill/catpaw";
+import { Excalidraw } from "@eterill/catpaw";
 
-import "eterill-excalidraw/index.css";
+import "@eterill/catpaw/index.css";
 
 import App from "../../with-script-in-browser/components/ExampleApp";
 
