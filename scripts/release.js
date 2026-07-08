@@ -9,6 +9,7 @@ const updateChangelog = require("./updateChangelog");
 const PACKAGES = [
   "common",
   "fractional-indexing",
+  "laser-pointer",
   "math",
   "element",
   "excalidraw",
@@ -116,11 +117,12 @@ const updatePackageJsons = (nextVersion) => {
 
     if (pkg.dependencies) {
       for (const dependencyName of PACKAGES) {
-        if (!pkg.dependencies[`@excalidraw/${dependencyName}`]) {
+        const depKey = `@eterill/catpaw-${dependencyName}`;
+        if (!pkg.dependencies[depKey]) {
           continue;
         }
 
-        pkg.dependencies[`@excalidraw/${dependencyName}`] = nextVersion;
+        pkg.dependencies[depKey] = nextVersion;
       }
     }
 
@@ -130,7 +132,8 @@ const updatePackageJsons = (nextVersion) => {
   // modify once, to avoid inconsistent state
   for (const packageName of PACKAGES) {
     const content = packageJsons.get(packageName);
-    fs.writeFileSync(getPackageJsonPath(packageName), content, "utf-8");
+    // Use utf8 without BOM to prevent Windows from adding BOM
+    fs.writeFileSync(getPackageJsonPath(packageName), content, { encoding: "utf8" });
   }
 };
 

@@ -8,6 +8,7 @@ import {
   arrayToMap,
   capitalizeString,
   isShallowEqual,
+  COLOR_PALETTE,
 } from "@eterill/catpaw-common";
 
 import { mutateElement } from "@eterill/catpaw-element";
@@ -34,6 +35,7 @@ import {
 } from "./Actions";
 import { LoadingMessage } from "./LoadingMessage";
 import { LockButton } from "./LockButton";
+import { BackgroundToggleButton } from "./BackgroundToggleButton";
 import { MobileMenu } from "./MobileMenu";
 import { PasteChartDialog } from "./PasteChartDialog";
 import { Section } from "./Section";
@@ -46,11 +48,12 @@ import MainMenu from "./main-menu/MainMenu";
 import { ActiveConfirmDialog } from "./ActiveConfirmDialog";
 import { useEditorInterface, useStylesPanelMode } from "./App";
 import { OverwriteConfirmDialog } from "./OverwriteConfirm/OverwriteConfirm";
-import { sidebarRightIcon } from "./icons";
+import { sidebarRightIcon, eyeIcon, eyeClosedIcon } from "./icons";
 import { DefaultSidebar } from "./DefaultSidebar";
 import { TTDDialog } from "./TTDDialog/TTDDialog";
 import { Stats } from "./Stats";
 import ElementLinkDialog from "./ElementLinkDialog";
+import { ToolButton } from "./ToolButton";
 import { ErrorDialog } from "./ErrorDialog";
 import { EyeDropper, activeEyeDropperAtom } from "./EyeDropper";
 import { FixedSideContainer } from "./FixedSideContainer";
@@ -375,6 +378,22 @@ const LayerUI = ({
                               checked={appState.activeTool.locked}
                               onChange={onLockToggle}
                               title={t("toolBar.lock")}
+                            />
+                            <BackgroundToggleButton
+                              checked={
+                                appState.viewBackgroundColor ===
+                                COLOR_PALETTE.transparent
+                              }
+                              onChange={() => {
+                                setAppState({
+                                  viewBackgroundColor:
+                                    appState.viewBackgroundColor ===
+                                    COLOR_PALETTE.transparent
+                                      ? COLOR_PALETTE.white
+                                      : COLOR_PALETTE.transparent,
+                                });
+                              }}
+                              title={t("toolBar.toggleBackground")}
                             />
 
                             <div className="App-toolbar__divider" />

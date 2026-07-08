@@ -1,7 +1,7 @@
 # 发布所有 @eterill/catpaw-* 包到 npm
 Write-Host "Publishing @eterill/catpaw-* packages to npm..." -ForegroundColor Green
 
-$NPM_TOKEN = "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"
+$NPM_TOKEN = "npm_x"
 $NPM_REGISTRY = "//registry.npmjs.org/"
 
 # 设置 npm token

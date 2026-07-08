@@ -1,4 +1,4 @@
-﻿import type {
+import type {
   IMAGE_MIME_TYPES,
   UserIdleState,
   throttleRAF,
@@ -415,6 +415,7 @@ export interface AppState {
   currentItemRoundness: StrokeRoundness;
   currentItemArrowType: "sharp" | "round" | "elbow";
   viewBackgroundColor: string;
+  viewBackgroundTransparent: boolean;
   scrollX: number;
   scrollY: number;
   scrollConstraints: ScrollConstraints | null;

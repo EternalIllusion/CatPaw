@@ -1,6 +1,6 @@
-﻿{
+{
   "name": "@eterill/catpaw-fractional-indexing",
-  "version": "3.3.0",
+  "version": "3.3.2",
   "description": "Provides functions for generating ordering strings",
   "type": "module",
   "types": "./dist/types/fractional-indexing/src/index.d.ts",
